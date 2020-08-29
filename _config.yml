@@ -11,7 +11,7 @@ minimal_mistakes_skin: "contrast"  # "air", "aqua", "contrast", "dark", "dirt", 
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Professionally Social"
+title                    : "Welcome"
 title_separator          : "-"
 name                     : &name "Eashan Adhikarla"
 description              : &description "Ph.D. Student at Lehigh"
@@ -150,6 +150,7 @@ exclude:
   - package.json
   - tmp
   - vendor
+  - assets
 keep_files:
   - .git
   - .svn
