@@ -7,7 +7,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+minimal_mistakes_skin: "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -77,9 +77,9 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google" # false (default), "google", "google-universal", "custom"
+  provider               :  "google-universal" # "google" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :  "UA-171821969-1"
+    tracking_id          :
 
 
 # Site Author
