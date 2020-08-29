@@ -1,12 +1,12 @@
 ---
-title: "Mechanical Engineer, XCEL Fence Inc"
+title: ""
 collection: work
-permalink: /work/work_1
+permalink: /work/work_2
 github:
 doi: 
-time: May.2018-Aug.2018
+time: Jun.2016-Sep.2016
 cv: true
 ---
 
-- Design self-assembly and durable fence
-- Product & Marketing Research
+-
+-
