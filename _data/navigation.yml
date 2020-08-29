@@ -2,18 +2,18 @@
 main:
   - title: "RESUME"
     url: /cv/
-  
+
   - title: "PROJECTS"
     url: /projects/
+
+  - title: "PUBLICATIONS"
+  url: /publications/  
 
   - title: "TALKS"
     url: /talks/ 
 
   - title: "TEACHING"
-    url: /teaching/
-
-  - title: "PUBLICATIONS"
-  url: /publications/    
+    url: /teaching/  
     
   # - title: "Portfolio"
   #   url: /portfolio/
