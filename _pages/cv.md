@@ -77,13 +77,13 @@ Skills
 
 Achievements and Honors
 ======
-* Awarded by Cognizant, for the Outstanding Project Award in Facial Recognition with Deep Neural Network (2016-17) 
-* Awarded for the best project by the Department of Computer Science in RGPV university for ’Secure Internet of Things’ (2015-16) 
-* Ranked among top 1 percentile in TESTimony’16 organised by Tata Consultancy Services. (2015) 
-* Awarded by H.C.Verma (Experimental Physicist): Winner of the National Level SCEECS’16: Quiz Competition organised by National Institute of Technology, Bhopal (MANIT). (2015) 
-* Awarded a Trophy from Central Board of Secondary Education (CBSE) for performance in English subject (2013)
-* Presented a Abstract Paper on Shell-shock Vulnerability at National level technical symposium in Bhopal: Which explained about how the attack vector works, the risks involved and how to mitigate them. This explanation of the Shell-Shock CVE was published in the National conference Magazine published by LNCT Group of College Bhopal. (2014)
-* All India Rank 598 in International Maths-Science Olympiads (2007) 
+* Awarded by Cognizant, for the <b>Outstanding Project Award</b> in Facial Recognition with Deep Neural Network (2016-17) 
+* <b>Best Project Award</b> by the Department of Computer Science in RGPV university for ’Physical Intrusion Detection System’ (2015-16) 
+* Ranked among <b>top 1 percentile</b> in TESTimony’16 organised by Tata Consultancy Services. (2015) 
+* Awarded by H.C.Verma (Experimental Physicist): Winner of the <b>National Level SCEECS’16</b>: Quiz Competition organised by National Institute of Technology, Bhopal (MANIT). (2015) 
+* Awarded a Trophy from <b>Central Board of Secondary Education</b> (CBSE) for performance in English subject (2013)
+* Presented a Abstract Paper on Shell-shock Vulnerability at <b>National level technical symposium</b> in Bhopal: Which explained about how the attack vector works, the risks involved and how to mitigate them. This explanation of the Shell-Shock CVE was published in the National conference Magazine published by LNCT Group of College Bhopal. (2014)
+* <b>All India Rank 598</b> in International Maths-Science Olympiads (2007) 
 
 Certifications
 ======
