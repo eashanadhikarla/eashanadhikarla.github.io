@@ -1,15 +1,15 @@
 ---
-title: "Auto-encoder with Memory Defense"
+title: "Astro-Turfing Review System"
 collection: projects
-permalink: /projects/project_1
-github: "https://github.com/eashanadhikarla/memory_masking"
+permalink: /projects/project_4_cv
+github: "https://github.com/eashanadhikarla/Astroturfing-Review-System"
 doi:
-time:
+time: 
 cv: false
 excerpt_separator: <!--more-->
 ---
 
-{% capture my_include %}{% include_relative project_1_cv.md %}{% endcapture %}
+{% capture my_include %}{% include_relative project_4_cv.md %}{% endcapture %}
 {{ my_include | split: "---" | last | markdownify }}
 
 <!--more-->
