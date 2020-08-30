@@ -88,10 +88,10 @@ Achievements and Honors
 Certifications
 ======
 * Deep Learning School 2019 at <b>Lawrence Berkeley National Laboratory</b>
-* Introduction in Data Structure Programming: IIT Madras - NPTEL National Programme on Technology Enhanced Learning
+* Introduction in Data Structure Programming: <b>IIT Madras - NPTEL National Programme on Technology Enhanced Learning</b>
 * Linux FoundationX: edX - 93%  <a href="https://verify.edx.org/cert/3e017788d8214d68831eb2b76e6ea699">Verify</a>
-* Introduction to Programming Using Python: Massachusetts Institute of Technology (MIT) <a href="https://verify.edx.org/cert/e0d7c1ef5a084f37a95c094e2b056457">Verify</a> 
-* Introduction to C++: Microsoft - 98% <a href="https://courses.edx.org/certificates/a63e9a2057e44639a4f03aba08fd7a04">Verify</a> 
+* Introduction to Programming Using Python: <b>Massachusetts Institute of Technology (MIT)</b><a href="https://verify.edx.org/cert/e0d7c1ef5a084f37a95c094e2b056457">Verify</a> 
+* Introduction to C++: <b>Microsoft</b> - 98% <a href="https://courses.edx.org/certificates/a63e9a2057e44639a4f03aba08fd7a04">Verify</a> 
 
 Coursework
 ======
