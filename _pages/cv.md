@@ -13,8 +13,13 @@ Download - [Resume.pdf](https://eashanadhikarla.github.io/files/Resume.pdf)
 
 Education
 ======
-* <b>Ph.D.</b> in Machine Learning, Lehigh University, Aug 2020 - May 2025 (expected)
+* <b>Ph.D.</b> in Computer Science, Lehigh University, Aug 2020 - May 2025 (expected)
+  * Doctor of philosophy: I enable machines that can expand their visual knowledge by interacting with and learning directly from people.
+  * Advisor:  <a href="http://www.cse.lehigh.edu/~brian/">Dr. Brian D. Davison</a>
+  * Focus area: Adversarial Machine Learning, Data Science, Information Retrieval, Knowledge Discovery
 * <b>M.S.</b> in Computer Science, Lehigh University, Aug 2018 - May 2020
+  * Advisor: <a href="http://www.cse.lehigh.edu/~brian/">Dr. Brian D. Davison</a>, <a href="http://www.cse.lehigh.edu/~sxie/">Dr. Xie Sihong</a>
+  * Focus area: Artificial Intelligence
 * <b>B.E.</b> in Computer Science, Rajiv Gandhi Proudyogiki Vishwavidyalaya, Aug 2013 - June 2018
 
 Work experience
