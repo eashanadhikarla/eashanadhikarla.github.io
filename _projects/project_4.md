@@ -1,10 +1,10 @@
 ---
-title: "Astro-Turfing Review System"
+title: "Auto-encoder with Memory Defense"
 collection: projects
 permalink: /projects/project_4_cv
-github: "https://github.com/eashanadhikarla/Astroturfing-Review-System"
+github: "https://github.com/eashanadhikarla/memory_masking"
 doi:
-time: 
+time:
 cv: false
 excerpt_separator: <!--more-->
 ---

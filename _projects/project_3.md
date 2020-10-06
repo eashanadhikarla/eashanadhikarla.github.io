@@ -1,9 +1,9 @@
 ---
-title: "Facial Recognition and Verification System"
+title: "Sequence Generative Adversarial Nets with Policy Gradient with Improvements"
 collection: projects
 permalink: /projects/project_3_cv
-github: "https://github.com/eashanadhikarla/Facial-Recognition-with-DNN"
-doi:
+github: "https://github.com/eashanadhikarla/seqGAN"
+doi: 
 time:
 cv: false
 excerpt_separator: <!--more-->
