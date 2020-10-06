@@ -1,7 +1,7 @@
 ---
 title: "Astro-Turfing Review System"
 collection: projects
-permalink: /projects/project_4_cv
+permalink: /projects/project_1_cv
 github: "https://github.com/eashanadhikarla/Astroturfing-Review-System"
 doi:
 time: 

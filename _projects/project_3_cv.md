@@ -1,7 +1,7 @@
 ---
 title: "Sequence Generative Adversarial Nets with Policy Gradient with Improvements"
 collection: projects
-permalink: /projects/project_2_cv
+permalink: /projects/project_3_cv
 github: "https://github.com/eashanadhikarla/seqGAN"
 doi: 
 time: 
