@@ -1,12 +1,12 @@
 ---
-title: "Facial Recognition and Verification System"
+title: "Sequence Generative Adversarial Nets with Policy Gradient with Improvements"
 collection: projects
 permalink: /projects/project_2_cv
-github: "https://github.com/eashanadhikarla/Facial-Recognition-with-DNN"
-doi:
-time: Aug.2018-May.2020
+github: "https://github.com/eashanadhikarla/seqGAN"
+doi: 
+time: 
 cv: true
 ---
 
-- Working with the accuracies and flaw removal strategies with re-implementation of Open-Face/Googles Face-Net, for improving the range of applications in the domain of Security.
-- Resolved the false positive 2-D inputs by introducing more features in Stage 1 (face detection) as a.) Orientation Normalization b.) 3D surface representation.
+- Seq-GAN is a unique approach which models the data generator as a stochastic policy in reinforcement learning to solve the problem.
+- The RL reward signal comes from the GAN discriminator judged on a complete sequence, and is passed back to the intermediate state-action steps using Monte Carlo search.

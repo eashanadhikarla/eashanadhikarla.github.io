@@ -1,13 +1,11 @@
 ---
-title: "Auto-encoder with Memory Defense"
+title: "Astro-Turfing Review System"
 collection: projects
 permalink: /projects/project_4_cv
-github: /memory-defense
-doi: 
-time:
+github: "https://github.com/eashanadhikarla/Astroturfing-Review-System"
+doi:
+time: 
 cv: true
 ---
 
-- Currently designing a robust auto-encoder and GAN for detecting adversarial images.
-- Developed a close proximity approximation model which is also known as on manifold adversarial detectors.
-- Enhanced the vanilla auto-encoder to a deep architecture with enforced learning from memory elements.
+- The search for applying machine learning to real world problems led me to work in the area of Astro-turfing. This is a filtering model with machine learning algorithm to filter-out the fake reviews and hence the fake reviewers from committing review frauds. I used amazon reviews data sets to built a stochastic model on top of it.
