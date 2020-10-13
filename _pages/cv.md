@@ -49,7 +49,7 @@ Work experience
 
 Projects
 ========
-* <b>Robust Adversarial Filter</b> (Python, PyTorch) (<a href="https://github.com/eashanadhikarla/seqGAN">link</a>)
+* <b>Robust Adversarial Filter</b> (Python, PyTorch) (<a href="https://github.com/eashanadhikarla/">link</a>)
   * Currently designing a robust auto-encoder and GAN for detecting adversarial images. Developed a close proximity approximation model which is also known as on manifold adversarial detectors. Enhanced the vanilla auto-encoder to a deep architecture with enforced learning from memory elements.
 
 * <b>Sequence Generative Adversarial Nets with Policy Gradient</b> (Python, PyTorch) (<a href="https://github.com/eashanadhikarla/seqGAN">link</a>)
@@ -76,9 +76,9 @@ Small Academic Projects
 
 Skills
 ======
-* <b>Languages</b>        - Python, C, C++, Java, Bash, Scala
-* <b>Framework</b>        - MySQL, HTML, NoSQL, Javascript
-* <b>Tools & Lbraries</b> - Pytorch, Tensorflow, OpenCV, dlib, Boost-C++, Cmake, scikit-learn, git, Latex
+* <b>Languages</b>        - Python, C++, Bash, Scala
+* <b>Framework</b>        - MySQL, HTML, NoSQL, Javascript, Apache Spark
+* <b>Tools & Lbraries</b> - Pytorch, Tensorflow, OpenCV, dlib, Boost-C++, Cmake, scikit-learn, git, Latex,    Pyspark
 
 Achievements and Honors
 ======
