@@ -29,18 +29,18 @@ Work experience
   * Duties included: Weekly one-on-one discussions with each intern, understanding their fallouts and helping them out with their codes and other low level academic issues.
 
 * Research Assistant, <b>Resilience Research Group for SARS-CoV-2</b> (<a href="https://converge.colorado.edu/resources/covid-19/working-groups/issues-impacts-recovery/cultural-perceptions-of-risk-behavioral-responses-and-community-resilience-in-covid-19">NSF Award 1841338</a>)
+  * Supervisor: <a href="http://www.cse.lehigh.edu/~brian/">Dr. Brian D. Davison</a>
   * Image Gathering for face-masks in United States.
   * Designing a novel face-mask detection algorithm for a survey research on SARS-CoV-2.
-  * Supervisor: <a href="http://www.cse.lehigh.edu/~brian/">Dr. Brian D. Davison</a>
 
 * Research Intern, <b>Lawrence Berkeley National Lab, NERSC</b> (<a href="https://cs.lbl.gov/news-media/news/2019/summer-student-researchers-wrap-up/"><i>link</i></a>) <!-- Embedded Link: https://cdn.cp.adobe.io/content/2/video/3d0f97fc-0135-492b-b4f0-6c0d269cc2d7/embed?api_key=MarvelCP1 -->
+  * Supervisor: <a href="https://www.nersc.gov/about/nersc-staff/advanced-technologies-group/brian-austin/">Dr. Brian Austin</a>
   * Developed scripts to fetch and analyze terabytes of data from the SLURM scheduler.
   * Analyzed & estimated real-time queues in the scheduler for optimizing the policies for incoming jobs.
   * Developed three real-time policies that potentially improved the allocation procedure.
     * Draining
     * Job Cancellation
     * Job Pausing
-  * Supervisor: <a href="https://www.nersc.gov/about/nersc-staff/advanced-technologies-group/brian-austin/">Dr. Brian Austin</a>
 
 * Machine Learning Intern, <b>Persistent Systems ltd</b> (<a href="https://github.com/eashanadhikarla/Facial-Recognition-with-DNN"><i>link</i></a>)
   * Developed a facial recognition and verification system using Google's FaceNET research as the baseline.
