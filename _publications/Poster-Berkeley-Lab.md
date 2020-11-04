@@ -1,5 +1,5 @@
 ---
-title: "Estimating an HPC Facility’s Capacity For Accommodating Real-time Workflows"
+title: "Estimating an HPC Facility’s Capacity For Accommodating Real-time Workflows (Thesis)"
 collection: publications
 permalink: /publication/Poster-Berkeley-Lab
 excerpt: ''
