@@ -6,7 +6,8 @@ author_profile: true
 ---
 
 <!-- You can also find my articles on [my Google Scholar profile](https://scholar.google.co.uk/citations?user=NG6WOPQAAAAJ&hl=en). -->
-Manuscript in preparation.
+
+## _Manuscripts in preparation._
 
 {% include base_path %}
 
