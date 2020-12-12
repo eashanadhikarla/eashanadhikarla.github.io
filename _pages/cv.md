@@ -16,7 +16,7 @@ Education
 * <b>Ph.D.</b> in Computer Science, Lehigh University, Aug 2020 - May 2025 (expected)
   * Doctor of philosophy: I enable machines that can expand their visual knowledge by interacting with and learning directly from people.
   * Advisor:  <a href="http://www.cse.lehigh.edu/~brian/">Dr. Brian D. Davison</a>
-  * Focus area: Adversarial Machine Learning, Data Science, Information Retrieval, Knowledge Discovery
+  * Focus area: Machine Learning, Data Science, Information Retrieval
 * <b>M.S.</b> in Computer Science, Lehigh University, Aug 2018 - May 2020
   * Advisor: <a href="http://www.cse.lehigh.edu/~brian/">Dr. Brian D. Davison</a>, <a href="http://www.cse.lehigh.edu/~sxie/">Dr. Xie Sihong</a>
   * Focus area: Artificial Intelligence
@@ -24,14 +24,15 @@ Education
 
 Work experience
 ======
-* Peer Mentor, <b>National Science Foundation (NSF-REU) 2020</b> (<a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1757787">CNS-1757787</a>)
+* Peer Mentor, <b>Lehigh University (NSF-REU) 2020</b> (<a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1757787">CNS-1757787</a>)
   * Mentoring and closely guiding 15 NSF-REU Interns on their respective site projects.
   * Duties included: Weekly one-on-one discussions with each intern, understanding their fallouts and helping them out with their codes and other low level academic issues.
 
-* Research Assistant, <b>Resilience Research Group for SARS-CoV-2</b> (<a href="https://converge.colorado.edu/resources/covid-19/working-groups/issues-impacts-recovery/cultural-perceptions-of-risk-behavioral-responses-and-community-resilience-in-covid-19">NSF Award 1841338</a>)
+* Research Assistant, <b>Resilience Research Group for SARS-CoV-2</b>
   * Supervisor: <a href="http://www.cse.lehigh.edu/~brian/">Dr. Brian D. Davison</a>
   * Image Gathering for face-masks in United States.
   * Designing a novel face-mask detection algorithm for a survey research on SARS-CoV-2.
+  * Funded by Lehigh Research Grants and partially funded by (<a href="https://converge.colorado.edu/resources/covid-19/working-groups/issues-impacts-recovery/cultural-perceptions-of-risk-behavioral-responses-and-community-resilience-in-covid-19">NSF-1841338</a>)
 
 * Research Intern, <b>Lawrence Berkeley National Lab, NERSC</b> (<a href="https://cs.lbl.gov/news-media/news/2019/summer-student-researchers-wrap-up/"><i>link</i></a>) <!-- Embedded Link: https://cdn.cp.adobe.io/content/2/video/3d0f97fc-0135-492b-b4f0-6c0d269cc2d7/embed?api_key=MarvelCP1 -->
   * Supervisor: <a href="https://www.nersc.gov/about/nersc-staff/advanced-technologies-group/brian-austin/">Dr. Brian Austin</a>
@@ -49,8 +50,9 @@ Work experience
 
 Projects
 ========
-* <b>Robust Adversarial Filter</b> (Python, PyTorch) (<a href="https://github.com/eashanadhikarla/">link</a>)
-  * Currently designing a robust auto-encoder and GAN for detecting adversarial images. Developed a close proximity approximation model which is also known as on manifold adversarial detectors. Enhanced the vanilla auto-encoder to a deep architecture with enforced learning from memory elements.
+* <b>Auto-encoder with Memory Defense for White-box Adversarial Attacks</b> (Python, PyTorch) (<a href="https://github.com/eashanadhikarla/">link</a>)
+  * Designed a robust auto-encoder for detecting adversarial images to mitigate adversarial attacks ina machine learning model.
+  * Designed  a  close  proximity  approximation  estimator  which  can  distinguish  between  distinct  anddistance manifold from different classes.
 
 * <b>Sequence Generative Adversarial Nets with Policy Gradient</b> (Python, PyTorch) (<a href="https://github.com/eashanadhikarla/seqGAN">link</a>)
   * Seq-GAN is a unique approach which models the data generator as a stochastic policy in reinforcement learning to solve the problem.
@@ -100,7 +102,7 @@ Certifications
 
 Coursework
 ======
-Advance Programming Techniques, Introduction to Data Mining, Machine Learning MOOC, Introduction to Artificial Intelligence, Analysis and Algorithm Design, Data Structures, Object Or Computation, Discrete Mathematics, Computer System Organization, Database Management System, Computer Graphics and Multimedia, Computer Network, Software Engineering, Compiler Design, Soft-Computing.
+Big Data Analytics, Advance Programming Techniques, Introduction to Data Mining, Machine Learning MOOC, Introduction to Artificial Intelligence, Analysis and Algorithm Design, Data Structures, Object Or Computation, Discrete Mathematics, Computer System Organization, Database Management System, Computer Graphics and Multimedia, Computer Network, Software Engineering, Compiler Design, Soft-Computing.
 
 Co-curricular
 ======
