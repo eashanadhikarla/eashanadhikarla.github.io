@@ -1,5 +1,5 @@
 ---
-title: "Auto-encoder with Memory Defense"
+title: "Memory Defense: Autoencoder with Memory Masking Defense"
 collection: projects
 permalink: /projects/project_4_cv
 github: "https://github.com/eashanadhikarla/memory_masking"
@@ -8,6 +8,6 @@ time:
 cv: true
 ---
 
-- Currently designing a robust auto-encoder and GAN for detecting adversarial images.
-- Developed a close proximity approximation model which is also known as on manifold adversarial detectors.
-- Enhanced the vanilla auto-encoder to a deep architecture with enforced learning from memory elements.
+- Develpoed a robust autoencoder with one-hot memory masking for detecting adversarial attacks.
+- The model is a close proximity approximation model that can retreive the relevant memory features of an image and reconstruct it with a repaired label.
+- The enhanced deep neural architecture significantly improved the robustness of DNN for image classification task. 
