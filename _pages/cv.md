@@ -51,8 +51,9 @@ Work experience
 Projects
 ========
 * <b>Auto-encoder with Memory Defense for White-box Adversarial Attacks</b> (Python, PyTorch) (<a href="https://github.com/eashanadhikarla/">link</a>)
-  * Designed a robust auto-encoder for detecting adversarial images to mitigate adversarial attacks ina machine learning model.
-  * Designed  a  close  proximity  approximation  estimator  which  can  distinguish  between  distinct  anddistance manifold from different classes.
+  * Develpoed a robust autoencoder with one-hot memory masking for detecting adversarial attacks.
+  * The model is a close proximity approximation model that can retreive the relevant memory features of an image and reconstruct it with a repaired label.
+  * The enhanced deep neural architecture significantly improved the robustness of DNN for image classification task. 
 
 * <b>Sequence Generative Adversarial Nets with Policy Gradient</b> (Python, PyTorch) (<a href="https://github.com/eashanadhikarla/seqGAN">link</a>)
   * Seq-GAN is a unique approach which models the data generator as a stochastic policy in reinforcement learning to solve the problem.
