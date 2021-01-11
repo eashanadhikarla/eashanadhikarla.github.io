@@ -8,6 +8,6 @@ time:
 cv: true
 ---
 
-- Develpoed a robust autoencoder with one-hot memory masking for detecting adversarial attacks.
-- The model is a close proximity approximation model that can retreive the relevant memory features of an image and reconstruct it with a repaired label.
-- The enhanced deep neural architecture significantly improved the robustness of DNN for image classification task. 
+- We developed a robust autoencoder with one-hot memory masking to mitigate adversarial attacks.
+- The proximity approximation model can retrieve an image's relevant memory features and reconstruct it with a repaired label.
+- The enhanced deep neural architecture significantly improved the robustness of DNN for an image classification task.
