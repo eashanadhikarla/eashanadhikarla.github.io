@@ -1,5 +1,5 @@
 ---
-title: "Auto-encoder with Memory Defense"
+title: "Memory Defense: Autoencoder with Memory Masking Defense"
 collection: projects
 permalink: /projects/project_4_cv
 github: "https://github.com/eashanadhikarla/memory_masking"
