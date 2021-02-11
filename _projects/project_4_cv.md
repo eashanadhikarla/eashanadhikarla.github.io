@@ -1,5 +1,5 @@
 ---
-title: "Memory Defense: Autoencoder with Memory Masking Defense"
+title: "Memory Defense: More Robust Classification via a Memory-Masking Autoencoder"
 collection: projects
 permalink: /projects/project_4_cv
 github: "https://github.com/eashanadhikarla/memory_masking"
