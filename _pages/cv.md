@@ -24,6 +24,8 @@ Education
 
 Work experience
 ======
+* Incomming Ph.D. Summer Intern, <b>Lawrence Berkeley National Lab, ESnet</b>
+
 * Peer Mentor, <b>Lehigh University (NSF-REU) 2020</b> (<a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1757787">CNS-1757787</a>)
   * Mentoring and closely guiding 15 NSF-REU Interns on their respective site projects.
   * Duties included: Weekly one-on-one discussions with each intern, understanding their fallouts and helping them out with their codes and other low level academic issues.
@@ -50,10 +52,16 @@ Work experience
 
 Projects
 ========
-* <b>Memory Defense: Autoencoder with Memory Masking Defense</b> (Python, PyTorch) (<a href="https://github.com/eashanadhikarla/">link</a>)
+* <b>Memory Defense: More Robust Classification via a Memory-Masking Autoencoder</b> (Python, PyTorch, Advertorch) (<a href="https://github.com/eashanadhikarla/">link</a>)
   * We developed a robust autoencoder with one-hot memory masking to mitigate adversarial attacks.
   * The proximity approximation model can retrieve an image's relevant memory features and reconstruct it with a repaired label.
   * The enhanced deep neural architecture significantly improved the robustness of DNN for an image classification task.
+
+* <b>Face-Mask Detection on real-world Webcam dataset</b> (Python, Bash, ffmpeg, Pytorch, COCO Annotator)
+  * Successfully collected more than 900 Gb of public webcam data, by capturing image frames periodically from over 80 webcams across United States.
+  * Applied Coco-annotation semi-automated labelling to develop ground-truth labels.
+  * Re-implemented 4 state-of-the-art face detection algorithms for face mask detection to analyze their effectiveness in real-world dataset.
+  * Reported face mask usage across United States from Jun 23' 2020 to Feb 10' 2020.
 
 * <b>Sequence Generative Adversarial Nets with Policy Gradient</b> (Python, PyTorch) (<a href="https://github.com/eashanadhikarla/seqGAN">link</a>)
   * Seq-GAN is a unique approach which models the data generator as a stochastic policy in reinforcement learning to solve the problem.
