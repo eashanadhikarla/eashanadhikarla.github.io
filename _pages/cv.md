@@ -8,7 +8,6 @@ redirect_from:
 ---
 
 {% include base_path %}
-
 <!-- Download - [Resume.pdf](https://eashanadhikarla.github.io/files/resume.pdf) -->
 
 Education
@@ -103,7 +102,7 @@ Achievements and Honors
 
 Certifications
 ======
-* Deep Learning School 2019 at <b>Lawrence Berkeley National Laboratory</b>
+* Deep Learning School 2019 & 2020 at <b>Lawrence Berkeley National Laboratory</b>
 * Introduction in Data Structure Programming: <b>IIT Madras - NPTEL National Programme on Technology Enhanced Learning</b>
 * Linux FoundationX: edX - 93%  <a href="https://verify.edx.org/cert/3e017788d8214d68831eb2b76e6ea699">Verify</a>
 * Introduction to Programming Using Python: <b>Massachusetts Institute of Technology (MIT)</b><a href="https://verify.edx.org/cert/e0d7c1ef5a084f37a95c094e2b056457">Verify</a> 
@@ -111,7 +110,7 @@ Certifications
 
 Coursework
 ======
-Big Data Analytics, Advance Programming Techniques, Introduction to Data Mining, Machine Learning MOOC, Introduction to Artificial Intelligence, Analysis and Algorithm Design, Data Structures, Object Or Computation, Discrete Mathematics, Computer System Organization, Database Management System, Computer Graphics and Multimedia, Computer Network, Software Engineering, Compiler Design, Soft-Computing.
+Computer Vision, Media Forensics, Adversarial Machine Learning, Big Data Analytics, Advance Programming Techniques, Introduction to Data Mining, Machine Learning MOOC, Introduction to Artificial Intelligence, Analysis and Algorithm Design, Data Structures, Object Or Computation, Discrete Mathematics, Computer System Organization, Database Management System, Computer Graphics and Multimedia, Computer Network, Software Engineering, Compiler Design, Soft-Computing.
 
 Co-curricular
 ======
