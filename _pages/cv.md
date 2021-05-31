@@ -15,10 +15,10 @@ Education
 * <b>Ph.D.</b> in Computer Science, Lehigh University, Aug 2020 - May 2025 (expected)
   * Doctor of philosophy: I enable machines that can expand their visual knowledge by interacting with and learning directly from people.
   * Advisor:  <a href="http://www.cse.lehigh.edu/~brian/">Dr. Brian D. Davison</a>
-  * Focus area: Machine Learning, Data Science, Information Retrieval
+  * Focus area: Data Science, Machine Learning, Computer Vision
 * <b>M.S.</b> in Computer Science, Lehigh University, Aug 2018 - May 2020
   * Advisor: <a href="http://www.cse.lehigh.edu/~brian/">Dr. Brian D. Davison</a>, <a href="http://www.cse.lehigh.edu/~sxie/">Dr. Xie Sihong</a>
-  * Focus area: Artificial Intelligence
+  * Focus area: Artificial Intelligence (A.I.)
 * <b>B.E.</b> in Computer Science, Rajiv Gandhi Proudyogiki Vishwavidyalaya, Aug 2013 - June 2018
 
 Work experience
@@ -102,7 +102,7 @@ Achievements and Honors
 
 Certifications
 ======
-* Deep Learning School for Science at <b>Lawrence Berkeley National Laboratory</b>, (2019 & 2020)
+* Deep Learning School for Science at <b>Lawrence Berkeley National Laboratory</b>, (2019, 2020)
 * Introduction in Data Structure Programming: <b>IIT Madras - NPTEL National Programme on Technology Enhanced Learning</b>
 * Linux FoundationX: edX - 93%  <a href="https://verify.edx.org/cert/3e017788d8214d68831eb2b76e6ea699">Verify</a>
 * Introduction to Programming Using Python: <b>Massachusetts Institute of Technology (MIT)</b><a href="https://verify.edx.org/cert/e0d7c1ef5a084f37a95c094e2b056457">Verify</a> 
