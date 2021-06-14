@@ -20,3 +20,12 @@ Basic commands when you have the 'Dockerfile' in the repository.
     ~~~
     docker run -it -rm --name test --privileged <container-name>:<tag> bash
     ~~~
+
+Python Virtual Environment
+======
+On maxOS and Linux:
+~~~
+python3 -m venv <path-to-env/env-name>
+source env/bin/activate # To activate the environment
+deactivate # To deactivate the environment
+~~~
