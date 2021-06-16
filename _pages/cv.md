@@ -19,7 +19,7 @@ Education
 * <b>M.S.</b> in Computer Science, Lehigh University, Aug 2018 - May 2020
   * Advisor: <a href="http://www.cse.lehigh.edu/~brian/">Dr. Brian D. Davison</a>, <a href="http://www.cse.lehigh.edu/~sxie/">Dr. Xie Sihong</a>
   * Focus area: Artificial Intelligence (A.I.)
-* <b>B.E.</b> in Computer Science, Rajiv Gandhi Proudyogiki Vishwavidyalaya, Aug 2013 - June 2018
+* <b>B.E.</b> in Computer Science, Rajiv Gandhi Proudyogiki Vishwavidyalaya, Aug 2013 - June 2017
 
 Work experience
 ======
@@ -88,10 +88,11 @@ Skills
 ======
 * <b>Languages</b>        - Python, C++, Bash, Scala
 * <b>Framework</b>        - MySQL, HTML, NoSQL, Javascript, Apache Spark
-* <b>Tools & Lbraries</b> - Pytorch, Tensorflow, OpenCV, dlib, Boost-C++, Cmake, scikit-learn, git, Latex,    Pyspark
+* <b>Tools & Lbraries</b> - Pytorch, Tensorflow, OpenCV, dlib, Boost-C++, Cmake, scikit-learn, git, Latex, Pyspark
 
 Achievements and Honors
 ======
+* PC Rossin Fellowship, Lehigh University (Spring 2021)
 * Awarded by Cognizant, for the <b>Outstanding Project Award</b> in Facial Recognition with Deep Neural Network (2016-17) 
 * <b>Best Project Award</b> by the Department of Computer Science in RGPV university for ’Physical Intrusion Detection System’ (2015-16) 
 * Ranked among <b>top 1 percentile</b> in TESTimony’16 organised by Tata Consultancy Services. (2015) 
