@@ -24,7 +24,7 @@ Education
 Work experience
 ======
 * Ph.D. Summer Intern, <b>Lawrence Berkeley National Lab, ESnet</b>
-  * Supervisor: <a href="https://cs.lbl.gov/about/staff/leadership/inder-monga/">Dr. Inder Monga</a> | Mentor: <a href="https://www.es.net/about/esnet-staff/advanced-network-technologies/ezra/">Dr. Ezra Kissel</a>
+  * Supervisor: <a href="https://cs.lbl.gov/about/staff/leadership/inder-monga/">Dr. Inder Monga</a>, Mentor: <a href="https://www.es.net/about/esnet-staff/advanced-network-technologies/ezra/">Dr. Ezra Kissel</a>
 
 * Peer Mentor, <b>Lehigh University (NSF-REU) 2020</b> (<a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1757787">CNS-1757787</a>)
   * Mentoring and closely guiding 15 NSF-REU Interns on their respective site projects.
