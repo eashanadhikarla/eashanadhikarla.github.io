@@ -19,5 +19,6 @@ I'm a graduate researcher and graduate teaching assistant currently pursuing my 
 
 <p style="text-align: center;"><b>“Learn something about everything and everything about something”</b><i> – Thomas Huxley</i></p>
 
-<!-- 
-<iframe src="https://calendar.google.com/calendar/embed?src=eaa418%40lehigh.edu&ctz=America%2FNew_York" style="border: 0" width="400" height="250" frameborder="0" scrolling="no"></iframe> -->
+<html><body>
+  <iframe src="https://calendar.google.com/calendar/embed?src=eaa418%40lehigh.edu&ctz=America%2FNew_York" style="border: 0" width="400" height="250" frameborder="0" scrolling="no"></iframe>
+</body></html>
