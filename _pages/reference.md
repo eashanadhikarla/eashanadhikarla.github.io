@@ -13,9 +13,9 @@ Docker
 ======
 Basic commands when you have the 'Dockerfile' in the repository.
 
-Build Docker $\;\;\;\;\;\;\;\;\;\;\;\;$ ` docker build -t <container-name> . `
+Build Docker $\;\;\;\;\;\;\;\;\;\;\;\;$ `docker build -t <container-name> .`
 
-Run Docker $;\;\;\;\;\;\;\;\;\;\;\;\;\;$ ` docker run -it -rm --name test --privileged <container-name>:<tag> bash `
+Run Docker $\;\;\;\;\;\;\;\;\;\;\;\;\;$ `docker run -it -rm --name test --privileged <container-name>:<tag> bash`
 
 Python Virtual Environment
 ======
