@@ -21,10 +21,8 @@ Python Virtual Environment
 ======
 On maxOS and Linux:
 
-`python3 -m venv <path-to-env/env-name>`
-
-`source env/bin/activate # To activate the environment`
-
+`python3 -m venv <path-to-env/env-name>`<br />
+`source env/bin/activate # To activate the environment`<br />
 `deactivate # To deactivate the environment`
 
 Conda
