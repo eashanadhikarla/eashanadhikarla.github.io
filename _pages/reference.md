@@ -30,7 +30,7 @@ Conda
 
 Verify Conda is installed, check version number: $\;\;\;\;\;\;\;\;\;\;\;\;$ `conda info`<br />
 Update Conda to the current version: $\;\;\;\;\;\;\;\;\;\;\;\;$ `conda update -n base conda`<br />
-Update all packages to the latest version of Anaconda.<br /> Will install stable and compatible versions,<br /> not necessarily the very latest: $\;\;\;\;\;\;\;\;\;\;\;\;$ `conda update anaconda`<br />
+Update all packages: $\;\;\;\;\;\;\;\;\;\;\;\;$ `conda update anaconda`<br />
 
 ## Working with Environments
 
