@@ -28,4 +28,6 @@ On maxOS and Linux:
 Conda
 ======
 
-
+Verify Conda is installed, check version number: `conda info`<br />
+Update Conda to the current version: `conda update -n base conda`<br />
+Update all packages to the latest version of Anaconda. Will install stable and compatible versions, not necessarily the very latest: `conda update anaconda`<br />
