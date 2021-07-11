@@ -13,18 +13,19 @@ Docker
 ======
 Basic commands when you have the 'Dockerfile' in the repository.
 
-Build Docker $\;\;\;\;\;\;\;\;\;\;\;\;$ `docker build -t <container-name> .`
+Build Docker: $\;\;\;\;\;\;\;\;\;\;\;\;$ `docker build -t <container-name> .`
 
-Run Docker $\;\;\;\;\;\;\;\;\;\;\;\;\;$ `docker run -it -rm --name test --privileged <container-name>:<tag> bash`
+Run Docker: $\;\;\;\;\;\;\;\;\;\;\;\;\;$ `docker run -it -rm --name test --privileged <container-name>:<tag> bash`
 
 Python Virtual Environment
 ======
 On maxOS and Linux:
-~~~
+
+```
 python3 -m venv <path-to-env/env-name>
 source env/bin/activate # To activate the environment
 deactivate # To deactivate the environment
-~~~
+```
 
 Conda
 ======
