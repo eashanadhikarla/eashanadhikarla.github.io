@@ -12,7 +12,7 @@ redirect_from:
 Docker
 ======
 Basic commands when you have the 'Dockerfile' in the repository.
-Build Docker
+<b>Build Docker</b>
 ~~~
 docker build -t <container-name> .
 ~~~
