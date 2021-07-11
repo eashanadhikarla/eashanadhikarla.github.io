@@ -29,3 +29,8 @@ python3 -m venv <path-to-env/env-name>
 source env/bin/activate # To activate the environment
 deactivate # To deactivate the environment
 ~~~
+
+Conda
+======
+<embed src="files/conda-cheatsheet.pdf" type="application/pdf" width="100%" height="600px" />
+<!-- <embed src="files/conda-cheatsheet.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" width="100%" height="600px" /> -->
