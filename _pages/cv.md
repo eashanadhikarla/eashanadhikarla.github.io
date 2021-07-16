@@ -12,7 +12,7 @@ redirect_from:
 
 Education
 ======
-* <b>Ph.D.</b> in Computer Science, Lehigh University, Aug 2020 - May 2025 (expected)
+* <b>Ph.D.</b> in Computer Science, Lehigh University, Aug 2020 - Present <!-- May 2025 (expected)-->
   * Doctor of philosophy: I enable machines that can expand their visual knowledge by interacting with and learning directly from people.
   * Advisor:  <a href="http://www.cse.lehigh.edu/~brian/">Dr. Brian D. Davison</a>
   * Focus area: Data Science, Machine Learning, Computer Vision
