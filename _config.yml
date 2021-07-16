@@ -77,7 +77,7 @@ analytics:
 author:
   name             : "Eashan Adhikarla"
   avatar           : "display-picture.jpeg"
-  bio              : # "Ph.D. Student at Lehigh"
+  bio              : " " # "Ph.D. Student at Lehigh"
   location         : "Bethlehem, PA"
   employer         :
   pubmed           :
