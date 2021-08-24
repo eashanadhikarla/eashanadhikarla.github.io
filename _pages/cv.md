@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 {% include base_path %}
-<!-- Download - [Resume.pdf](https://eashanadhikarla.github.io/files/resume.pdf) -->
+<!-- Download - [Resume.pdf](https://eashanadhikarla.github.io/files/cv.pdf) -->
 
 Education
 ======
