@@ -5,7 +5,7 @@ author_profile: true
 ---
 
 
-&nbsp; -- &nbsp; [Google Scholar](https://scholar.google.com/citations?user=lQ4Yvs4AAAAJ) &nbsp; -- &nbsp;
+&nbsp; -- &nbsp; [Google Scholar](https://scholar.google.com/) &nbsp; -- &nbsp;
 
 B.Tierney, E.Dart, E.Kissel, E.Adhikarla, Exploring the use of the BBRv2 Congestion Control Algorithm for use on Data Transfer Nodes, **SC 2021 - INDIS Workshop**\
 [[Paper]()][[Code](https://github.com/esnet/testing-harness)]<br><br>
