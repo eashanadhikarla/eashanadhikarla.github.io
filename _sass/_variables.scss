@@ -27,10 +27,11 @@ $times                      : Times, serif;
 $bodoni                     : "Bodoni MT", serif;
 $calisto                    : "Calisto MT", serif;
 $garamond                   : Garamond, serif;
+$roboto                     : "Roboto", serif;
 
-$global-font-family         : $sans-serif-narrow; // $sans-serif;
-$header-font-family         : $sans-serif-narrow; // $sans-serif;
-$caption-font-family        : $sans-serif-narrow; // $serif;
+$global-font-family         : $roboto; // $sans-serif-narrow; // $sans-serif;
+$header-font-family         : $roboto; // $sans-serif-narrow; // $sans-serif;
+$caption-font-family        : $roboto; // $sans-serif-narrow; // $serif;
 
 /* type scale */
 $type-size-1                : 2.441em;  // ~39.056px
