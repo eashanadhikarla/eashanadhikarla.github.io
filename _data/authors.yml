@@ -1,38 +1,18 @@
 # Authors
 
 Name Name:
-  name             : "Eashan Adhikarla"
-  avatar           : "display-picture.jpeg"
-  bio              : "Ph.D. Student at Lehigh"
-  location         : "Bethlehem, PA"
-  employer         :
-  pubmed           :
-  googlescholar    : # "https://scholar.google.com/"
-  email            : "eaa418@lehigh.edu"
-  researchgate     : # "https://www.researchgate.net/profile/Zihao_Ding4"
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           : "eashanadhikarla"
-  google_plus      :
-  keybase          :
-  instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  lastfm           :
-  linkedin         : "eashanadhikarla"
-  orcid            : # "https://orcid.org/0000-0001-7958-9652"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
-  tumblr           :
-  twitter          : "eashan2212"
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
-  wikipedia        :
+  name        : "Eashan Adhikarla"
+  uri         : "http://name.com"
+  email       : "name@name.com"
+  bio         : "This is the first name."
+  avatar      : "bio-photo-2.jpg"
+  twitter     : "name"
+  google_plus : "Name"
+
+Name2 Name2:
+  name        : "Name2 Name2"
+  email       : "name2@name2.com"
+  bio         : "I ordered what?"
+  avatar      : "bio-photo.jpg"
+  twitter     : "name2"
+  google_plus : "Name"

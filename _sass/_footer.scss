@@ -27,7 +27,7 @@
     @include clearfix;
     margin-left: auto;
     margin-right: auto;
-    margin-top: auto; // 2em;
+    margin-top: 2em;
     max-width: 100%;
     padding: 0 1em 2em;
 
@@ -49,14 +49,13 @@
   .fab,
   .far,
   .fal {
-    // color: mix(#fff, $gray, 25%);
-    color: mix(#fff, $gray, 0%);
+    color: mix(#fff, $gray, 25%);
   }
 }
 
 .page__footer-copyright {
   font-family: $global-font-family;
-  font-size: $type-size-8;
+  font-size: $type-size-7;
 }
 
 .page__footer-follow {
