@@ -27,7 +27,7 @@
     @include clearfix;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2em;
+    margin-top: auto; // 2em;
     max-width: 100%;
     padding: 0 1em 2em;
 
@@ -49,7 +49,7 @@
   .fab,
   .far,
   .fal {
-    color: mix(#fff, $gray, 25%);
+    color: mix(#fff, $gray, 0.1%);
   }
 }
 
