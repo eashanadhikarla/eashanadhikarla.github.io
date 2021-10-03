@@ -9,11 +9,11 @@ main:
   - title: "Teaching"
     url: /teaching/
 
-  # - title: "Talks"
-  #   url: /talks/    
-
   - title: "Publications"
     url: /publications/
   
-  - title: "Personal Reference"
-    url: /reference/
+  # - title: "Talks"
+  #   url: /talks/    
+
+  # - title: "Personal Reference"
+  #   url: /reference/
