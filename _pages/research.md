@@ -5,10 +5,10 @@ author_profile: true
 ---
 
 
-&nbsp; -- &nbsp; [Google Scholar](https://scholar.google.com/) &nbsp; -- &nbsp;
+&nbsp; -- &nbsp; [Google Scholar](https://scholar.google.com/citations?hl=en&user=k3BMw_QAAAAJ) &nbsp; -- &nbsp;
 
 B.Tierney, E.Dart, E.Kissel, E.Adhikarla, Exploring the use of the BBRv2 Congestion Control Algorithm for use on Data Transfer Nodes, **SC 2021 - INDIS Workshop**\
-[[Paper]()][[Code](https://github.com/esnet/testing-harness)]<br><br>
+[[Paper]()][[Code](https://github.com/esnet/testing-harness)] (<i>Accepted, to be added soon!</i>)<br><br>
 
 
 E.Adhikarla, B.D.Davison, Face Mask Detection in real-world Webcam Images, **ACM GoodIT 2021**\
