@@ -9,8 +9,11 @@ redirect_from:
 
 {% include base_path %}
 
-
 ### Ph.D. Summer Intern, <b>Lawrence Berkeley National Lab, ESnet</b> &nbsp; -- &nbsp; <a href="cyan">June - August 2021</a>
+<!-- <br>
+<img align="right" src="/Users/eashan22/Dropbox (LU Student)/Macbook/Desktop/Github/eashanadhikarla.github.io/images/esnet.png" alt="Photo" style="width: 20%; height: 20%; border-radius: 0px; padding: 5px 5px 5px 5px"/>
+<img align="right" src="/Users/eashan22/Dropbox (LU Student)/Macbook/Desktop/Github/eashanadhikarla.github.io/images/lbnl.png" alt="Photo" style="width: 20%; height: 20%; border-radius: 0px; padding: 5px 5px 5px 5px"/>
+<br> -->
   * Supervisor: <a href="https://cs.lbl.gov/about/staff/leadership/inder-monga/">Dr. Inder Monga</a>, Mentor: <a href="https://www.es.net/about/esnet-staff/advanced-network-technologies/ezra/">Dr. Ezra Kissel</a>
   * Deployed a deep learning approach to automate the dynamic auto-tuning of pacing rate in DTNs
   * Developed kernel level system & traffic control operations in DTNaaS docker container. 
