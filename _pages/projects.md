@@ -20,6 +20,12 @@ hr {
 
 Research Projects
 ======
+
+### Attack Framework for Randomized Input Sampling Explanation for Black Box Models (Python, PyTorch) CURRENT PROJECT** <!-- (<a href="https://github.com/eashanadhikarla/">link</a>) -->
+RISE is a Explainable AI framework for deep neural networks that take images as input and output a class probability. Here, RISE generates an importance map indicating how salient each pixel is for the model’s prediction.
+  * We are designing a novel GAN framework to break RISE and prove that it is not as robust.
+  * We would also expand the framework from Image Classification task to Object Detection task (D-RISE).
+
 ### Memory Defense: More Robust Classification via a Memory-Masking Autoencoder (Python, PyTorch, Advertorch) (<a href="https://github.com/eashanadhikarla/">link</a>)
   * We developed a robust autoencoder with one-hot memory masking to mitigate adversarial attacks.
   * The proximity approximation model can retrieve an image's relevant memory features and reconstruct it with a repaired label.
