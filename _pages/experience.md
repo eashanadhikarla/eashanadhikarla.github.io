@@ -13,7 +13,7 @@ redirect_from:
 &nbsp;&nbsp; <img align="centre" src="https://eashanadhikarla.github.io/images/esnet.png" alt="Photo" style="width: 10%; height: 10%; border-radius: 0px; padding: 2px 2px 2px 2px"/> &nbsp;
 <img align="centre" src="https://eashanadhikarla.github.io/images/lbnl.png" alt="Photo" style="width: 10%; height: 10%; border-radius: 0px; padding: 2px 2px 2px 2px"/> &nbsp;
 <img align="centre" src="https://eashanadhikarla.github.io/images/lehigh.png" alt="Photo" style="width: 20%; height: 20%; border-radius: 0px; padding: 2px 2px 2px 2px"/> &nbsp;
-<img align="centre" src="https://eashanadhikarla.github.io/images/persistent.png" alt="Photo" style="width: 20%; height: 20%; border-radius: 0px; padding: 5px 5px 5px 5px"/> &nbsp;&nbsp;
+<img align="centre" src="https://eashanadhikarla.github.io/images/persistent.png" alt="Photo" style="width: 20%; height: 20%; border-radius: 0px; padding: 2px 2px 2px 2px"/> &nbsp;&nbsp;
 <br>
 
 ### Ph.D. Summer Intern, <b>Lawrence Berkeley National Lab, ESnet</b> &nbsp; -- &nbsp; <a href="cyan">June - August 2021</a>
