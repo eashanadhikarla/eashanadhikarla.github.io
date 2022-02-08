@@ -18,8 +18,8 @@ E.Adhikarla, B.D.Davison, Face Mask Detection in real-world Webcam Images, **ACM
 
 E.Adhikarla, D.Luo, B.D.Davison, Memory Defense: More Robust Classification
 via a Memory-Masking Autoencoder, to be uploaded in **arXiv 2021**\
-<!-- [[Paper]()][[Code]()]<br><br> -->
-[Paper][[Code](https://github.com/eashanadhikarla/MemoryDef)]<br><br>
+[[Paper](https://arxiv.org/pdf/2202.02595.pdf)][[Code](https://github.com/eashanadhikarla/MemoryDef)]<br><br>
+<!-- [Paper][[Code](https://github.com/eashanadhikarla/MemoryDef)]<br><br> -->
 
 
 E.Adhikarla, B. Austin, Estimating an HPC Facility’s Capacity For Accommodating
