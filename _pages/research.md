@@ -7,6 +7,13 @@ author_profile: true
 
 &nbsp; -- &nbsp; [Google Scholar](https://scholar.google.com/citations?hl=en&user=k3BMw_QAAAAJ) &nbsp; -- &nbsp;
 
+
+E.Adhikarla, D.Luo, B.D.Davison, Memory Defense: More Robust Classification
+via a Memory-Masking Autoencoder, to be uploaded in **arXiv 2022**\
+[[Paper](https://arxiv.org/pdf/2202.02595.pdf)][[Code](https://github.com/eashanadhikarla/MemoryDef)]<br><br>
+<!-- [Paper][[Code](https://github.com/eashanadhikarla/MemoryDef)]<br><br> -->
+
+
 B.Tierney, E.Dart, E.Kissel, E.Adhikarla, Exploring the use of the BBRv2 Congestion Control Algorithm for use on Data Transfer Nodes, **SC 2021 - INDIS Workshop**\
 [[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9652571f)][[Code](https://github.com/esnet/testing-harness)] (<i>**Won the Best Paper Award**</i>)<br><br>
 <!-- [Paper][[Code](https://github.com/esnet/testing-harness)] (<i>Accepted, to be added soon!</i>)<br><br> -->
@@ -14,12 +21,6 @@ B.Tierney, E.Dart, E.Kissel, E.Adhikarla, Exploring the use of the BBRv2 Congest
 
 E.Adhikarla, B.D.Davison, Face Mask Detection in real-world Webcam Images, **ACM GoodIT 2021**\
 [[Paper](https://dl.acm.org/doi/pdf/10.1145/3462203.3475903)][[Code](https://github.com/eashanadhikarla/wfm)]<br><br>
-
-
-E.Adhikarla, D.Luo, B.D.Davison, Memory Defense: More Robust Classification
-via a Memory-Masking Autoencoder, to be uploaded in **arXiv 2021**\
-[[Paper](https://arxiv.org/pdf/2202.02595.pdf)][[Code](https://github.com/eashanadhikarla/MemoryDef)]<br><br>
-<!-- [Paper][[Code](https://github.com/eashanadhikarla/MemoryDef)]<br><br> -->
 
 
 E.Adhikarla, B. Austin, Estimating an HPC Facility’s Capacity For Accommodating
