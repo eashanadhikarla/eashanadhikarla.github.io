@@ -11,11 +11,11 @@ redirect_from:
 
 <br>
 &nbsp;&nbsp; 
-<img align="centre" src="https://eashanadhikarla.github.io/images/lenovo.jpg" alt="Photo" style="width: 15%; height: 10%; border-radius: 5px; padding: 5px 10px 2px 2px"/> &nbsp;
-<img align="centre" src="https://eashanadhikarla.github.io/images/esnet.png" alt="Photo" style="width: 15%; height: 10%; border-radius: 5px; padding: 5px 10px 2px 2px"/> &nbsp;
-<img align="centre" src="https://eashanadhikarla.github.io/images/lbnl.png" alt="Photo" style="width: 15%; height: 10%; border-radius: 5px; padding: 5px 10px 2px 2px"/> &nbsp;
-<img align="centre" src="https://eashanadhikarla.github.io/images/lehigh.png" alt="Photo" style="width: 25%; height: 20%; border-radius: 5px; padding: 5px 10px 2px 2px"/> &nbsp;
-<img align="centre" src="https://eashanadhikarla.github.io/images/persistent.png" alt="Photo" style="width: 30%; height: 20%; border-radius: 5px; padding: 5px 10px 2px 2px"/> 
+<img align="centre" src="https://eashanadhikarla.github.io/images/lenovo.jpg" alt="Photo" style="width: 15%; height: 10%; border-radius: 5px; padding: 5px 10px 10px 2px"/> &nbsp;
+<img align="centre" src="https://eashanadhikarla.github.io/images/esnet.png" alt="Photo" style="width: 15%; height: 10%; border-radius: 5px; padding: 5px 10px 10px 2px"/> &nbsp;
+<img align="centre" src="https://eashanadhikarla.github.io/images/lbnl.png" alt="Photo" style="width: 15%; height: 10%; border-radius: 5px; padding: 5px 10px 10px 2px"/> &nbsp;
+<img align="centre" src="https://eashanadhikarla.github.io/images/lehigh.png" alt="Photo" style="width: 25%; height: 20%; border-radius: 5px; padding: 5px 10px 10px 2px"/> &nbsp;
+<img align="centre" src="https://eashanadhikarla.github.io/images/persistent.png" alt="Photo" style="width: 30%; height: 20%; border-radius: 5px; padding: 5px 10px 10px 2px"/> 
 &nbsp;&nbsp;
 <br>
 <br><br>
