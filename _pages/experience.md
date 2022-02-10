@@ -22,13 +22,12 @@ redirect_from:
 <img align="centre" src="https://eashanadhikarla.github.io/images/lehigh.png" alt="Photo" style="width: 25%; height: 20%; border-radius: 5px; padding: 10px 20px 10px 10px"/> &nbsp;
 <img align="centre" src="https://eashanadhikarla.github.io/images/persistent.png" alt="Photo" style="width: 30%; height: 20%; border-radius: 5px; padding: 10px 20px 10px 10px"/> 
 &nbsp;&nbsp;
-<br>
 <br><br>
 
 
 ### <i>Incoming</i> <b>Research Intern, Lenovo Research</b> &nbsp; -- &nbsp; <a href="cyan">June - August 2022</a>
 
-<br><br>
+<br>
 
 ### Ph.D. Summer Intern, <b>Lawrence Berkeley National Lab, ESnet</b> &nbsp; -- &nbsp; <a href="cyan">June - August 2021</a>
 (Won the Best Paper Award at SC21 - INDIS)
