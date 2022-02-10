@@ -19,6 +19,8 @@ redirect_from:
 
 ### <i>Incoming</i> <b>Research Intern, Lenovo Research</b> &nbsp; -- &nbsp; <a href="cyan">June - August 2022</a>
 
+<br><br>
+
 ### Ph.D. Summer Intern, <b>Lawrence Berkeley National Lab, ESnet</b> &nbsp; -- &nbsp; <a href="cyan">June - August 2021</a>
 (Won the Best Paper Award at SC21 - INDIS)
   * Supervisor: <a href="https://cs.lbl.gov/about/staff/leadership/inder-monga/">Dr. Inder Monga</a>, Mentor: <a href="https://www.es.net/about/esnet-staff/advanced-network-technologies/ezra/">Dr. Ezra Kissel</a>
