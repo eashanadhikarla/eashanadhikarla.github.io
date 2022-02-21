@@ -20,6 +20,6 @@ I am a second-year Ph.D. student at <a href="https://engineering.lehigh.edu">P.C
 <br><br>
 I have also received my Master of Science (M.S) in Computer Science from Lehigh University. Prior to joining Lehigh, I received my Bachelor's in Computer Science from Rajiv Gandhi Proudyogiki Vishwavidyalaya, Bhopal, MP, India.
 <br><br>
-As a part of my Ph.D. journey, I am always interested in summer opportunities to collaborate and work on exciting problems in A.I. Please feel free to contact me anytime on the list email.
+As a part of my Ph.D. journey, I am always interested in summer opportunities to collaborate and work on exciting problems in A.I. Please feel free to contact me anytime on the listed email.
 </p>
 <p style="text-align: center;"><b>“Learn something about everything and everything about something”</b><i> – Thomas Huxley</i></p>
