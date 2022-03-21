@@ -19,12 +19,12 @@ redirect_from:
 &nbsp;&nbsp;
 <br><br> -->
 
-
+<!-- 
 <img align="right" src="https://eashanadhikarla.github.io/images/lenovo.jpg" alt="Photo" style="width: 20%; height: 10%; border-radius: 5px; padding: 10px 20px 8px 10px"/>
 
 ### <i>Incoming</i> <b>Research Intern, Lenovo Research</b> &nbsp; -- &nbsp; <a href="cyan">June - August 2022</a>
 
-<br>
+<br> -->
 
 <img align="right" src="https://eashanadhikarla.github.io/images/esnet.png" alt="Photo" style="width: 20%; height: 10%; border-radius: 5px; padding: 10px 20px 10px 10px"/>
 
