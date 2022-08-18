@@ -21,9 +21,12 @@ redirect_from:
 
 <img align="right" src="https://eashanadhikarla.github.io/images/lenovo.jpg" alt="Photo" style="width: 20%; height: 10%; border-radius: 5px; padding: 10px 20px 8px 10px"/>
 
-### <b>Research Intern, Lenovo Research</b> &nbsp; -- &nbsp; <a href="cyan">June - Present</a> <!-- August 2022</a> -->
-
-<br>
+### <b>Research Intern, Lenovo Research</b> &nbsp; -- &nbsp; <a href="cyan">June - August 2022</a>
+  * Manager: Grant Lloyd, Executive Director, Lenovo Research, Mentor: John , Principal Research, Lenovo Research.
+  * My tasks broadly encapsulate chanlleges to deal with Low Light Imaging conditions on Lenovo ThinkPads, Tablets, and Motorola smartphones.
+  * During my time, I was the dataset owner for the team. My duties included understanding dataset, organization, triaging, building histograms and implementation and training model.
+  * I implemented and trained a redesigned Low-Light Net model that served better for the Thinkpad use case.
+  * Performed data structuring for better model generalization to counter distritbution shifts.
 
 <img align="right" src="https://eashanadhikarla.github.io/images/esnet.png" alt="Photo" style="width: 20%; height: 10%; border-radius: 5px; padding: 10px 20px 10px 10px"/>
 
