@@ -23,3 +23,4 @@ I have also received my Master of Science (M.S) in Computer Science from Lehigh 
 As a part of my Ph.D. journey, I am always interested in summer opportunities to collaborate and work on exciting problems in A.I. Please feel free to contact me anytime on the listed email.
 </p>
 <p style="text-align: center;"><b>“Learn something about everything and everything about something”</b><i> – Thomas Huxley</i></p>
+
