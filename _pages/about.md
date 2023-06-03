@@ -20,7 +20,7 @@ I am a Ph.D. student in Computer Science <a href="https://engineering.lehigh.edu
 <br><br>
 I have a strong background in AI, with a Master of Science (M.S.) and Bachelor of Science (B.S.) degrees in Computer Science from Lehigh University and Rajiv Gandhi Proudyogiki Vishwavidyalaya, respectively.
 <br><br>
-I am always interested in opportunities to collaborate and work on exciting problems that match my interests. Please feel free to contact me on my listed email.
+I'm always up for a challenge and love working with others to solve problems. If you have an exciting project that you think I'd be a good fit for, please don't hesitate to reach out.
 </p>
 <p style="text-align: center;"><b>“Learn something about everything and everything about something”</b><i> – Thomas Huxley</i></p>
 
