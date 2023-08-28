@@ -8,10 +8,11 @@ redirect_from:
 ---
 
 {% include base_path %}
-### <b>Machine Learning Research Intern</b>
-#### <b style="color: #3d8536;"> Lenovo Research</b>
 
-<div style="margin-top: -10px; margin-bottom: -20px;">
+### <b>Machine Learning Research Intern</b>
+#### <b style="color: #3d85c6;"> Lenovo Research</b>
+
+<div style="margin-top: -5px; margin-bottom: -20px;">
     <p>Manager: <a href="http://research.lenovo.com/webapp/view_English/personal.html?id=678"><u>Grant Lloyd</u></a>, <i>Executive Director, Lenovo Research</i></p>
 </div>
 <div style="margin-top: -10px; margin-bottom: -5px;">
@@ -30,7 +31,7 @@ redirect_from:
 
 ### <b>Machine Learning Research Intern, Motorola Mobility & Lenovo Research</b>
 
-<div style="margin-top: -10px; margin-bottom: -20px;">
+<div style="margin-top: -5px; margin-bottom: -20px;">
     <p>Manager: <a href="http://research.lenovo.com/webapp/view_English/personal.html?id=678"><u>Grant Lloyd</u></a>, <i>Executive Director, Lenovo Research</i></p>
 </div>
 <div style="margin-top: -10px; margin-bottom: -5px;">
@@ -49,7 +50,7 @@ redirect_from:
 
 ### <b>Ph.D. Summer Intern, Lawrence Berkeley National Lab (LBNL), ESnet</b>
 
-<div style="margin-top: -10px; margin-bottom: -20px;">
+<div style="margin-top: -5px; margin-bottom: -20px;">
     <p>Supervisor: <a href="https://cs.lbl.gov/about/staff/leadership/inder-monga/"><u>Dr. Inder Monga</u></a>, <i>Division Director, ESnet</i></p>
 </div>
 <div style="margin-top: -10px; margin-bottom: -5px;">
@@ -68,7 +69,7 @@ redirect_from:
 
 ### <b>Research Intern, Lawrence Berkeley National Lab (LBNL), NERSC</b>
 
-<div style="margin-top: -10px; margin-bottom: -20px;">
+<div style="margin-top: -5px; margin-bottom: -20px;">
     <p>Supervisor: <a href="https://www.nersc.gov/about/nersc-staff/advanced-technologies-group/nicholas-wright/"><u>Dr. Nicholas (Nick) James Wright</u></a>, <i>Group Lead, ATG Lab</i></p>
 </div>
 <div style="margin-top: -10px; margin-bottom: -5px;">
@@ -87,7 +88,7 @@ redirect_from:
 
 ### <b>Machine Learning Academic Intern, Persistent Systems Ltd.</b>
 
-<div style="margin-top: -10px; margin-bottom: -20px;">
+<div style="margin-top: -5px; margin-bottom: -20px;">
     <p>Manager: <a href="https://in.linkedin.com/in/kaustubh-bhadbhade-2996538"><u>Kaustubh Bhadbhade</u></a>, <i>Executive HR and Manager</i></p>
 </div>
 <div style="margin-top: -10px; margin-bottom: -5px;">
