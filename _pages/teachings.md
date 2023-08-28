@@ -19,7 +19,7 @@ hr {
 </style>
 
 ### CSE 160 - Introduction to Data Science
-<p style="color: #3d85c6;">Spring 2019, Spring 2021, Spring 2022</p>
+<p style="color: #3d85c6;">Spring 2019, Spring 2021, Spring 2022, Fall 2023</p>
 
 <b>Instructors:</b>
 - <u><a href="https://engineering.lehigh.edu/cse/faculty/724">Prof. Brian D. Davison</a></u>
