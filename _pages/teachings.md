@@ -25,7 +25,7 @@ hr {
 - <u><a href="https://engineering.lehigh.edu/cse/faculty/724">Prof. Brian D. Davison</a></u>
 - <u><a href="https://engineering.lehigh.edu/cse/faculty/44810">Prof. Aparna Bharati</a></u><br>
 
-<p style="text-align: justify;">Data Science is an interdisciplinary field focusing on the computational analysis of data to extract knowledge and insight. This course introduces the student to the collection, preparation, analysis, modeling and visualization of data, covering both conceptual and practical issues. Examples from diverse fields will be presented, and hands-on use of statistical and data manipulation software will be included.</p><br>
+<p style="text-align: justify;">Data Science is an interdisciplinary field focusing on the computational analysis of data to extract knowledge and insight. This course introduces the student to the collection, preparation, analysis, modeling and visualization of data, covering both conceptual and practical issues. Examples from diverse fields will be presented, and hands-on use of statistical and data manipulation software will be included.</p>
 
 ### CSE 017 - Programming and Data Structures 
 <p style="color: #3d85c6;">Fall 2019, Fall 2020</p>
