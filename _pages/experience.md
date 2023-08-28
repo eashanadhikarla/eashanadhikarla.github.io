@@ -11,16 +11,16 @@ redirect_from:
 ## <b>Machine Learning Research Intern, Lenovo Research</b>
 
 <div style="margin-top: -10px; margin-bottom: -20px;">
-    <h4>Manager: <a href="http://research.lenovo.com/webapp/view_English/personal.html?id=678"><u>Grant Lloyd</u></a>, <i>Executive Director, Lenovo Research</i></h4>
+    <p>Manager: <a href="http://research.lenovo.com/webapp/view_English/personal.html?id=678"><u>Grant Lloyd</u></a>, <i>Executive Director, Lenovo Research</i></p>
 </div>
 <div style="margin-top: -10px; margin-bottom: -5px;">
-    <h4>Mentor: <a href="https://www.linkedin.com/in/john-nicholson-9684792"><u>John Nicholson</u></a>, <i>Principal Research, Lenovo Research</i></h4>
+    <p>Mentor: <a href="https://www.linkedin.com/in/john-nicholson-9684792"><u>John Nicholson</u></a>, <i>Principal Research, Lenovo Research</i></p>
 </div>
-
+<br>
 <div style="display: flex; align-items: center;">
-    <div style="flex: 1; text-align: center; margin-right: 20px;"> <!-- Added margin-right here -->
-        <img src="https://eashanadhikarla.github.io/images/affiliations/lenovo.jpg" alt="Lenovo Research Logo" width="1650">
-        <div><a href="cyan">January - August 2023</a></div>
+    <div style="flex: 1; text-align: center; margin-right: 20px;">
+        <img src="https://eashanadhikarla.github.io/images/affiliations/lenovo.jpg" alt="Lenovo Research Logo" width="1300">
+        <div>January - August 2023</div>
     </div>
     <div style="flex: 2;">
         <p style="text-align: justify;">My responsibilities at Lenovo Research primarily focused on addressing challenges related to Low-Light Imaging & Video for Lenovo Thinkpads. My journey took me to probe dynamic resolution model training strategies, aiming for unparalleled model robustness. This curiosity paved the way for me to delve into, implement, and seamlessly integrate state-of-the-art super-resolution deep learning frameworks. These frameworks, designed with an emphasis on being lightweight, merged effortlessly with low-light image and video enhancement, making them apt for real-time applications. Additionally, my explorations led me to innovate with new loss functions, optimizing the entire spectrum of data preprocessing, management, and generation, all with an eye on expediting the training process.</p>
