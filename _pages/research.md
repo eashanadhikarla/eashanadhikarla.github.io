@@ -5,7 +5,7 @@ author_profile: true
 ---
 
 
-<!-- &nbsp; -- &nbsp; [Google Scholar](https://scholar.google.com/citations?hl=en&user=k3BMw_QAAAAJ) &nbsp; -- &nbsp; -->
+[[Google Scholar](https://scholar.google.com/citations?hl=en&user=k3BMw_QAAAAJ)]
 
 K.Zhang, J.Yu, Z.Yan, Y.Liu, <b>E.Adhikarla</b>, S.Fu, X.Chen, C.Chen, Y.Zhou, X.Li, L.He, B.D.Davison, Q.Li, Y.Chen, H.Liu, L.Sun\
 BiomedGPT: A Unified and Generalist Biomedical Generative Pre-trained Transformer for Vision, Language, and Multimodal Tasks\
