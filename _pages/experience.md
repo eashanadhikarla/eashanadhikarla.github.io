@@ -9,8 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-<div style="margin-top: -5px; margin-bottom: -20px;"><h3>Machine Learning Research Intern</h2></div>
-<div style="margin-top: -10px; margin-bottom: -5px;"><h3 style="color: #3d85c6;"> Lenovo Research</h3></div>
+### <b>Machine Learning Research Intern</b>, <b style="color: #3d85c6;">Lenovo Research</b>
 
 <div style="margin-top: -5px; margin-bottom: -20px;">
     <p>Manager: <a href="http://research.lenovo.com/webapp/view_English/personal.html?id=678"><u>Grant Lloyd</u></a>, <i>Executive Director, Lenovo Research</i></p>
@@ -29,7 +28,7 @@ redirect_from:
     </div>
 </div>
 
-### <b>Machine Learning Research Intern, Motorola Mobility & Lenovo Research</b>
+### <b>Machine Learning Research Intern</b>, <b style="color: #3d85c6;">Motorola Mobility & Lenovo Research</b>
 
 <div style="margin-top: -5px; margin-bottom: -20px;">
     <p>Manager: <a href="http://research.lenovo.com/webapp/view_English/personal.html?id=678"><u>Grant Lloyd</u></a>, <i>Executive Director, Lenovo Research</i></p>
@@ -48,7 +47,7 @@ redirect_from:
     </div>
 </div>
 
-### <b>Ph.D. Summer Intern, Lawrence Berkeley National Lab (LBNL), ESnet</b>
+### <b>Ph.D. Summer Intern</b>, <b style="color: #3d85c6;">Lawrence Berkeley National Lab (LBNL), ESnet</b>
 
 <div style="margin-top: -5px; margin-bottom: -20px;">
     <p>Supervisor: <a href="https://cs.lbl.gov/about/staff/leadership/inder-monga/"><u>Dr. Inder Monga</u></a>, <i>Division Director, ESnet</i></p>
@@ -67,7 +66,7 @@ redirect_from:
     </div>
 </div>
 
-### <b>Research Intern, Lawrence Berkeley National Lab (LBNL), NERSC</b>
+### <b>Research Intern</b>, <b style="color: #3d85c6;">Lawrence Berkeley National Lab (LBNL), NERSC</b>
 
 <div style="margin-top: -5px; margin-bottom: -20px;">
     <p>Supervisor: <a href="https://www.nersc.gov/about/nersc-staff/advanced-technologies-group/nicholas-wright/"><u>Dr. Nicholas (Nick) James Wright</u></a>, <i>Group Lead, ATG Lab</i></p>
@@ -86,7 +85,8 @@ redirect_from:
     </div>
 </div>
 
-### <b>Machine Learning Academic Intern, Persistent Systems Ltd.</b>
+
+### <b>Machine Learning Academic Intern</b>, <b style="color: #3d85c6;">Persistent Systems Ltd.</b>
 
 <div style="margin-top: -5px; margin-bottom: -20px;">
     <p>Manager: <a href="https://in.linkedin.com/in/kaustubh-bhadbhade-2996538"><u>Kaustubh Bhadbhade</u></a>, <i>Executive HR and Manager</i></p>
