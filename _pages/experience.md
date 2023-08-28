@@ -8,7 +8,8 @@ redirect_from:
 ---
 
 {% include base_path %}
-### <b>Machine Learning Research Intern, Lenovo Research</b>
+### <b>Machine Learning Research Intern</b>
+#### <b style="color: #3d8536;"> Lenovo Research</b>
 
 <div style="margin-top: -10px; margin-bottom: -20px;">
     <p>Manager: <a href="http://research.lenovo.com/webapp/view_English/personal.html?id=678"><u>Grant Lloyd</u></a>, <i>Executive Director, Lenovo Research</i></p>
