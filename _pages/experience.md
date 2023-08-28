@@ -17,16 +17,17 @@ redirect_from:
     <h4>Mentor: <a href="https://www.linkedin.com/in/john-nicholson-9684792"><u>John Nicholson</u></a>, <i>Principal Research, Lenovo Research</i></h4>
 </div>
 
-<table>
-    <tr>
-        <td valign="middle"><img src="https://eashanadhikarla.github.io/images/affiliations/lenovo.jpg" alt="Lenovo Research Logo" width="1650">
-        <div style="text-align: center;"> January - August 2023 </div></td><td valign="middle">
+<div style="display: flex; align-items: center;">
+    <div style="flex: 1; text-align: center; margin-right: 20px;"> <!-- Added margin-right here -->
+        <img src="https://eashanadhikarla.github.io/images/affiliations/lenovo.jpg" alt="Lenovo Research Logo" width="1650">
+        <div><a href="cyan">January - August 2023</a></div>
+    </div>
+    <div style="flex: 2;">
         <p style="text-align: justify;">My responsibilities at Lenovo Research primarily focused on addressing challenges related to Low-Light Imaging & Video for Lenovo Thinkpads. My journey took me to probe dynamic resolution model training strategies, aiming for unparalleled model robustness. This curiosity paved the way for me to delve into, implement, and seamlessly integrate state-of-the-art super-resolution deep learning frameworks. These frameworks, designed with an emphasis on being lightweight, merged effortlessly with low-light image and video enhancement, making them apt for real-time applications. Additionally, my explorations led me to innovate with new loss functions, optimizing the entire spectrum of data preprocessing, management, and generation, all with an eye on expediting the training process.</p>
-        </td>
-    </tr>
-</table>
+    </div>
+</div>
 
-## <b>Machine Learning Research Intern, Motorola Mobility & Lenovo Research</b>
+### <b>Machine Learning Research Intern, Motorola Mobility & Lenovo Research</b>
 
 <div style="margin-top: -10px; margin-bottom: -20px;">
     <h4>Manager: <a href="http://research.lenovo.com/webapp/view_English/personal.html?id=678"><u>Grant Lloyd</u></a>, <i>Executive Director, Lenovo Research</i></h4>
@@ -45,7 +46,7 @@ redirect_from:
     </tr>
 </table>
 
-## <b>Ph.D. Summer Intern, Lawrence Berkeley National Lab (LBNL), ESnet</b>
+### <b>Ph.D. Summer Intern, Lawrence Berkeley National Lab (LBNL), ESnet</b>
 
 <div style="margin-top: -10px; margin-bottom: -20px;">
     <h4>Supervisor: <a href="https://cs.lbl.gov/about/staff/leadership/inder-monga/"><u>Dr. Inder Monga</u></a>, <i>Division Director, ESnet</i></h4>
@@ -64,7 +65,7 @@ redirect_from:
     </tr>
 </table>
 
-## <b>Research Intern, Lawrence Berkeley National Lab (LBNL), NERSC</b>
+### <b>Research Intern, Lawrence Berkeley National Lab (LBNL), NERSC</b>
 
 <div style="margin-top: -10px; margin-bottom: -20px;">
     <h4>Supervisor: <a href="https://www.nersc.gov/about/nersc-staff/advanced-technologies-group/nicholas-wright/"><u>Dr. Nicholas (Nick) James Wright</u></a>, <i>Group Lead, ATG Lab</i></h4>
@@ -84,7 +85,7 @@ redirect_from:
 </table>
 
 
-## <b>Machine Learning Academic Intern, Persistent Systems Ltd.</b> &nbsp; -- &nbsp; <a href="cyan">June - August 2017</a>
+### <b>Machine Learning Academic Intern, Persistent Systems Ltd.</b>
 
 <div style="margin-top: -10px; margin-bottom: -20px;">
     <h4>Manager: <a href="https://in.linkedin.com/in/kaustubh-bhadbhade-2996538"><u>Kaustubh Bhadbhade</u></a>, <i>Executive HR and Manager</i></h4>
@@ -129,3 +130,25 @@ redirect_from:
   * Image Gathering for face-masks in United States.
   * Designing a novel face-mask detection algorithm for a survey research on SARS-CoV-2.
   * Funded by Lehigh Research Grants and partially funded by (<a href="https://converge.colorado.edu/resources/covid-19/working-groups/issues-impacts-recovery/cultural-perceptions-of-risk-behavioral-responses-and-community-resilience-in-covid-19">NSF-1841338</a>) -->
+
+
+
+## <b>Machine Learning Research Intern, Lenovo Research</b>
+
+<div style="margin-top: -10px; margin-bottom: -20px;">
+    <h4>Manager: <a href="http://research.lenovo.com/webapp/view_English/personal.html?id=678"><u>Grant Lloyd</u></a>, <i>Executive Director, Lenovo Research</i></h4>
+</div>
+<div style="margin-top: -10px; margin-bottom: -5px;">
+    <h4>Mentor: <a href="https://www.linkedin.com/in/john-nicholson-9684792"><u>John Nicholson</u></a>, <i>Principal Research, Lenovo Research</i></h4>
+</div>
+
+<div style="display: flex; align-items: center;">
+    <div style="flex: 1; text-align: center; margin-right: 20px;"> <!-- Added margin-right here -->
+        <img src="https://eashanadhikarla.github.io/images/affiliations/lenovo.jpg" alt="Lenovo Research Logo" width="1650">
+        <div><a href="cyan">January - August 2023</a></div>
+    </div>
+    <div style="flex: 2;">
+        <p style="text-align: justify;">My responsibilities at Lenovo Research primarily focused on addressing challenges related to Low-Light Imaging & Video for Lenovo Thinkpads. My journey took me to probe dynamic resolution model training strategies, aiming for unparalleled model robustness. This curiosity paved the way for me to delve into, implement, and seamlessly integrate state-of-the-art super-resolution deep learning frameworks. These frameworks, designed with an emphasis on being lightweight, merged effortlessly with low-light image and video enhancement, making them apt for real-time applications. Additionally, my explorations led me to innovate with new loss functions, optimizing the entire spectrum of data preprocessing, management, and generation, all with an eye on expediting the training process.</p>
+    </div>
+</div>
+
