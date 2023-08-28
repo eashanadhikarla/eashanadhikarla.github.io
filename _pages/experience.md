@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 {% include base_path %}
-## <b>Machine Learning Research Intern, Lenovo Research</b>
+### <b>Machine Learning Research Intern, Lenovo Research</b>
 
 <div style="margin-top: -10px; margin-bottom: -20px;">
     <p>Manager: <a href="http://research.lenovo.com/webapp/view_English/personal.html?id=678"><u>Grant Lloyd</u></a>, <i>Executive Director, Lenovo Research</i></p>
@@ -16,7 +16,7 @@ redirect_from:
 <div style="margin-top: -10px; margin-bottom: -5px;">
     <p>Mentor: <a href="https://www.linkedin.com/in/john-nicholson-9684792"><u>John Nicholson</u></a>, <i>Principal Research, Lenovo Research</i></p>
 </div>
-<br>
+
 <div style="display: flex; align-items: center;">
     <div style="flex: 1; text-align: center; margin-right: 20px;">
         <img src="https://eashanadhikarla.github.io/images/affiliations/lenovo.jpg" alt="Lenovo Research Logo" width="1300">
