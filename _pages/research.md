@@ -7,6 +7,11 @@ author_profile: true
 
 [[Google Scholar](https://scholar.google.com/citations?hl=en&user=k3BMw_QAAAAJ)]
 
+<b>E.Adhikarla</b>, K.Zhang, J.Yu, L.Sun, J.Nicholson, B.D.Davison\
+Robust Computer Vision in an Ever-Changing World: A Survey of Techniques for Tackling Distribution Shifts\
+**arXiv 2023**\
+[[Paper](https://arxiv.org/pdf/2312.01540.pdf)]<br>
+
 K.Zhang, J.Yu, Z.Yan, Y.Liu, <b>E.Adhikarla</b>, S.Fu, X.Chen, C.Chen, Y.Zhou, X.Li, L.He, B.D.Davison, Q.Li, Y.Chen, H.Liu, L.Sun\
 BiomedGPT: A Unified and Generalist Biomedical Generative Pre-trained Transformer for Vision, Language, and Multimodal Tasks\
 **arXiv 2023**\
