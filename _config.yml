@@ -119,6 +119,9 @@ include:
   - _pages
   - files
 exclude:
+  - images
+  - files
+  - google_scholar_crawler
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
