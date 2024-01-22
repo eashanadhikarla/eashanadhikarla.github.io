@@ -18,6 +18,13 @@ hr {
 }
 </style>
 
+### CSE 140 - Foundations Of Discrete Structures & Algorithms
+<p style="color: #3d85c6;">Spring 2024</p>
+
+<b>Instructor: </b><u><a href="[https://engineering.lehigh.edu/cse/faculty/](https://engineering.lehigh.edu/faculty/ahmed-hassan)">Prof. Ahmed Hassan</a></u><br>
+
+<p style="text-align: justify;">Basic representations used in algorithms: propositional and predicate logic, set operations and functions, relations and their representations, matrices and their representations, graphs and their representations, trees and their representations. Basic formalizations for proving algorithm correctness: logical consequences, induction, structural induction. Basic formalizations for algorithm analysis: counting, pigeonhole principle, permutations. Prerequisites: (MATH 021 or MATH 031 or MATH 051 or MATH 076) and CSE 017. CSE 017 can be taken concurrently.</p>
+
 ### CSE 160 - Introduction to Data Science
 <p style="color: #3d85c6;">Spring 2019, Spring 2021, Spring 2022, Fall 2023</p>
 
