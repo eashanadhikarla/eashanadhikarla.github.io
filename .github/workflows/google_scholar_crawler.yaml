@@ -13,7 +13,6 @@ jobs:
     - name: Install Reqs
       run: |
         sudo apt-get install python3-setuptools
-        using: 'node16'
     - name: Run
       run: |
         cd ./google_scholar_crawler
@@ -28,3 +27,4 @@ jobs:
         git push "${remote_repo}" HEAD:google-scholar-stats --force
       env: 
         GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+        ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
