@@ -12,7 +12,7 @@ author_profile: true
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 [Google Scholar](https://scholar.google.com/citations?hl=en&user=k3BMw_QAAAAJ)<br>
-<a href='https://scholar.google.com/citations?hl=en&user=k3BMw_QAAAAJ'><img src="https://img.shields.io/endpoint?url={{url|url_encode}}&logo=GoogleScholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
+<a href='https://scholar.google.com/citations?hl=en&user=k3BMw_QAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
 <!--
 <b>E.Adhikarla</b>, K.Zhang, J.Nicholson, L.Sun, B.D.Davison\
