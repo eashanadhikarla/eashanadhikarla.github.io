@@ -11,7 +11,18 @@ author_profile: true
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-[Google Scholar](https://scholar.google.com/citations?hl=en&user=k3BMw_QAAAAJ)<br><a href='https://scholar.google.com/citations?hl=en&user=k3BMw_QAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
+[Google Scholar](https://scholar.google.com/citations?hl=en&user=k3BMw_QAAAAJ)<br>
+<a href='https://scholar.google.com/citations?hl=en&user=k3BMw_QAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=GoogleScholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
+
+<!--
+<b>E.Adhikarla</b>, K.Zhang, J.Nicholson, L.Sun, B.D.Davison\
+Unified-EGformer: Exposure Guided Lightweight Transformer for Mixed-Exposure Image\
+**Submitted to ECCV 2024**\
+
+J.Yu, Y.Dai, X.Liu, J.Huang, Y.Shen, K.Zhang, R.Zhou, <b>E.Adhikarla</b>, W.Ye, Y.Liu, Z.Kong, K.Zhang, Y.Yin , V.Namboodiri , B.D.Davison , J.H.Moore , Y.Chen\
+Unleashing the Power of Multi-Task Learning: A Comprehensive Survey Spanning Traditional, Deep, and Pretrained Foundation Model Eras\
+**Submitted to Havard Data Science Review Journal (HDSR) 2024**\
+-->
 
 <b>E.Adhikarla</b>, K.Zhang, J.Yu, L.Sun, J.Nicholson, B.D.Davison\
 Robust Computer Vision in an Ever-Changing World: A Survey of Techniques for Tackling Distribution Shifts\
