@@ -14,7 +14,7 @@ redirect_from:
   <br>
     <img align="right" src="https://eashanadhikarla.github.io/images/dp.png" alt="Photo" style="width: 45%; height: 50%; border-radius: 40px; padding: 25px 25px 25px 25px"/>
   <br>
-  I am a Ph.D. student in Computer Science at <a href="https://engineering.lehigh.edu">P.C. Rossin College of Engineering and Applied Science</a>, Lehigh University, where I am advised by <a href="http://www.cse.lehigh.edu/~brian/">Dr. Brian D. Davison</a>. My research interests lie in applied machine learning, computer vision, image processing, and data science. I am particularly interested in the robustness of machine learning models in a data-centric paradigm. Currently, I am collaborating with MTI Lab at Lenovo Research and working on overall image enhancements on edge devices targeting improvements in model robustness and image quality with exposure related challenges.
+  I am a Ph.D. student in Computer Science at <a href="https://engineering.lehigh.edu">P.C. Rossin College of Engineering and Applied Science</a>, Lehigh University, where I am advised by <a href="http://www.cse.lehigh.edu/~brian/">Dr. Brian D. Davison</a>. My research interests lie in applied machine learning, computer vision, image processing, and data science. I am particularly interested in the developing efficient and fast foundation models for computer vision applications on Edge devices. Since 2022, I have been collaborating with Lenovo Research on overall image enhancements and generative AI on edge devices targeting improvements in model robustness and image quality.
   <br><br>
   I have a strong background in AGI (Artificial General Intelligence), with a Master of Science (M.S.) and Bachelor of Science (B.S.) degrees in Computer Science from Lehigh University and Rajiv Gandhi Proudyogiki Vishwavidyalaya, respectively.
   <br><br>
@@ -25,3 +25,14 @@ redirect_from:
   <b>“Try to learn something about everything and everything about something”</b>
   <i> – Thomas Henry Huxley</i>
 </p>
+
+News 📣
+* [06.2024] Joining Motorola's Computational Photography team at Lenovo Research for Generative AI based research. 
+* [05.2024] I will be serving as a reviewer for ICML ES-FoMo-II 2024 and CIKM 2024.
+* [12.2023] We released a new survey on [Robust Computer Vision in an Ever-Changing World: A Survey of Techniques for Tackling Distribution Shifts](https://arxiv.org/pdf/2312.01540.pdf)!
+* [05.2023] The first preprint of [BiomedGPT: A Unified and Generalist Biomedical Generative Pre-trained Transformer for Vision, Language, and Multimodal Tasks](https://arxiv.org/abs/2305.17100) is released. Journal print soon to be released!
+* [03.2023] Served as a reviewer for [PeerJ](https://peerj.com/).
+* [01.2023] Joined Lenovo Research, Mobile Technology Innovation (MTI) Lab's Computer Vision team work on developing AI models for Thinkpad camera lighting enhancements.
+
+Previously reviewed papers at: [Big Data](http://bigdataieee.org/), [SIGIR](https://sigir.org/), [WSDM](https://www.wsdm-conference.org/), [ICML](https://icml.cc/), [CIKM](http://www.cikmconference.org/), [PeerJ](https://peerj.com/). 
+
