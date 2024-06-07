@@ -12,16 +12,18 @@ author_profile: true
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 [Google Scholar](https://scholar.google.com/citations?hl=en&user=k3BMw_QAAAAJ)<br>
-<a href='https://scholar.google.com/citations?user=k3BMw_QAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
+<!-- <a href='https://scholar.google.com/citations?user=k3BMw_QAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> -->
 
 
 <b>E.Adhikarla</b>, K.Zhang, J.Nicholson, B.D.Davison\
 ExpoMamba: Exploiting Frequency SSM Blocks for Efficient and Effective Image Enhancement\
 **Submitted to ICML ES-FoMo-II 2024**\
+[Paper]()[Code]()<br>
 
 <b>E.Adhikarla</b>, K.Zhang, J.Nicholson, L.Sun, B.D.Davison\
 Unified-EGformer: Exposure Guided Lightweight Transformer for Mixed-Exposure Image\
 **Submitted to ECCV 2024**\
+[Paper]()[Code]()<br>
 
 J.Yu, Y.Dai, X.Liu, J.Huang, Y.Shen, K.Zhang, R.Zhou, <b>E.Adhikarla</b>, W.Ye, Y.Liu, Z.Kong, K.Zhang, Y.Yin , V.Namboodiri , B.D.Davison , J.H.Moore , Y.Chen\
 Unleashing the Power of Multi-Task Learning: A Comprehensive Survey Spanning Traditional, Deep, and Pretrained Foundation Model Eras\
@@ -30,7 +32,7 @@ Unleashing the Power of Multi-Task Learning: A Comprehensive Survey Spanning Tra
 
 K.Zhang, J.Yu, <b>E.Adhikarla</b>, R.Zhou, Z.Yan, Y.Liu, Z.Liu, L.He, B.D.Davison, X.Li, H.Ren, S.Fu, J.Zou, W.Lei, J.Huang, C.Chen, Y.Zhou, T.Liu, X.Chen, Y.Chen, Q.Li,  H.Liu, L.Sun\
 BiomedGPT: A Unified and Generalist Biomedical Generative Pre-trained Transformer for Vision, Language, and Multimodal Tasks\
-**arXiv 2023, Submitted to Nature Medicine**\
+**arXiv 2023, Submitted to Nature Medicine 2024**\
 [[Paper](https://arxiv.org/pdf/2305.17100.pdf)][[Code](https://github.com/taokz/BiomedGPT)]<br>
 
 <b>E.Adhikarla</b>, K.Zhang, J.Yu, L.Sun, J.Nicholson, B.D.Davison\
