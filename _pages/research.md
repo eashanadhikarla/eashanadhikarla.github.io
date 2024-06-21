@@ -17,7 +17,7 @@ author_profile: true
 
 <b>E.Adhikarla</b>, K.Zhang, J.Nicholson, B.D.Davison\
 ExpoMamba: Exploiting Frequency SSM Blocks for Efficient and Effective Image Enhancement\
-**Submitted to ICML ES-FoMo-II 2024**\
+**Accepted in ICML ES-FoMo-II 2024**\
 [[Paper]()][[Code]()]<br>
 
 <b>E.Adhikarla</b>, K.Zhang, J.Nicholson, L.Sun, B.D.Davison\
