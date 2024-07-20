@@ -26,7 +26,7 @@ redirect_from:
 </p>
 
 News 📣
-* [06.2024] We released a new low-light image enhancement paper on [Unified-EGformer: Exposure Guided Lightweight Transformer for Mixed-Exposure Image](https://arxiv.org/pdf/2407.13170).
+* [06.2024] We released a new low-light image enhancement paper on [Unified-EGformer](https://arxiv.org/pdf/2407.13170).
 * [07.2024] Our paper BiomedGPT got accepted in Nature Medicine, 2024.
 * [06.2024] Our paper ExpoMamba got accepted in ICML Efficient Systems for Foundation Models, 2024.
 * [06.2024] Joining Motorola's Computational Photography team at Lenovo Research for Generative AI based research.
