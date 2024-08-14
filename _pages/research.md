@@ -18,7 +18,7 @@ author_profile: true
 <b>E.Adhikarla</b>, K.Zhang, J.Nicholson, B.D.Davison\
 ExpoMamba: Exploiting Frequency SSM Blocks for Efficient and Effective Image Enhancement\
 **Accepted in ICML Efficient Systems for Foundation Models, 2024**\
-[[Paper]()][[Code]()]<br>
+[[Paper](https://openreview.net/pdf?id=X9L6PatYhH)][[Code](https://github.com/eashanadhikarla/ExpoMamba)][[Poster](https://eashanadhikarla.github.io/files/expomamba_poster.pdf)]<br>
 
 <b>E.Adhikarla</b>, K.Zhang, J.Nicholson, L.Sun, B.D.Davison\
 Unified-EGformer: Exposure Guided Lightweight Transformer for Mixed-Exposure Image\
