@@ -21,7 +21,7 @@ redirect_from:
 <div style="display: flex; align-items: center;">
     <div style="flex: 1; text-align: center; margin-right: 20px;">
         <img src="https://eashanadhikarla.github.io/images/affiliations/lenovo.jpg" alt="Lenovo Research Logo" width="1100">
-        <div>January - August 2023</div>
+        <div>January - August 2023<br>June - November 2024</div>
     </div>
     <div style="flex: 2;">
         <p style="text-align: justify;">My responsibilities at Lenovo Research primarily focused on addressing challenges related to Low-Light Imaging & Video for Lenovo Thinkpads. My journey took me to probe dynamic resolution model training strategies, aiming for unparalleled model robustness. This curiosity paved the way for me to delve into, implement, and seamlessly integrate state-of-the-art super-resolution deep learning frameworks. These frameworks, designed with an emphasis on being lightweight, merged effortlessly with low-light image and video enhancement, making them apt for real-time applications. Additionally, my explorations led me to innovate with new loss functions, optimizing the entire spectrum of data preprocessing, management, and generation, all with an eye on expediting the training process.</p>
