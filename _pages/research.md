@@ -33,7 +33,7 @@ Unleashing the Power of Multi-Task Learning: A Comprehensive Survey Spanning Tra
 K.Zhang, J.Yu, <b>E.Adhikarla</b>, R.Zhou, Z.Yan, Y.Liu, Z.Liu, L.He, B.D.Davison, X.Li, H.Ren, S.Fu, J.Zou, W.Lei, J.Huang, C.Chen, Y.Zhou, T.Liu, X.Chen, Y.Chen, Q.Li,  H.Liu, L.Sun\
 BiomedGPT: A Unified and Generalist Biomedical Generative Pre-trained Transformer for Vision, Language, and Multimodal Tasks\
 **arXiv 2023, Submitted to Nature Medicine 2024**\
-[[Paper](https://arxiv.org/pdf/2305.17100.pdf)][[Code](https://github.com/taokz/BiomedGPT)]<br>
+[[Paper]((https://www.nature.com/articles/s41591-024-03185-2))][[Code](https://github.com/taokz/BiomedGPT)]<br>
 
 <b>E.Adhikarla</b>, K.Zhang, J.Yu, L.Sun, J.Nicholson, B.D.Davison\
 Robust Computer Vision in an Ever-Changing World: A Survey of Techniques for Tackling Distribution Shifts\
