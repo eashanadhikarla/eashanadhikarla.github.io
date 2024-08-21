@@ -26,9 +26,9 @@ redirect_from:
 </p>
 
 News 📣
-* [06.2024] We released a new low-light image enhancement paper on [Unified-EGformer](https://arxiv.org/pdf/2407.13170).
-* [07.2024] Our paper BiomedGPT got accepted in Nature Medicine, 2024.
-* [06.2024] Our paper ExpoMamba got accepted in ICML Efficient Systems for Foundation Models, 2024.
+* [06.2024] Our paper [Unified-EGformer](https://arxiv.org/pdf/2407.13170) got accepted in ICPR 2024.
+* [07.2024] Our paper [BiomedGPT](https://www.nature.com/articles/s41591-024-03185-2) got accepted in Nature Medicine, 2024.
+* [06.2024] Our paper [ExpoMamba](https://openreview.net/pdf?id=X9L6PatYhH) got accepted in ICML Efficient Systems for Foundation Models, 2024.
 * [06.2024] Joining Motorola's Computational Photography team at Lenovo Research for Generative AI based research.
 * [05.2024] I will be serving as a reviewer for ICML ES-FoMo-II 2024 and CIKM 2024.
 * [12.2023] We released a new survey on [Robust Computer Vision in an Ever-Changing World: A Survey of Techniques for Tackling Distribution Shifts](https://arxiv.org/pdf/2312.01540.pdf)!
