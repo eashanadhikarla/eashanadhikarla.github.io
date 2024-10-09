@@ -17,12 +17,12 @@ author_profile: true
 
 <b>E.Adhikarla</b>, K.Zhang, J.Nicholson, B.D.Davison\
 ExpoMamba: Exploiting Frequency SSM Blocks for Efficient and Effective Image Enhancement\
-**Accepted in ICML Efficient Systems for Foundation Models, 2024**\
+**ICML Efficient Systems for Foundation Models, 2024**\
 [[Paper](https://openreview.net/pdf?id=X9L6PatYhH)][[Code](https://github.com/eashanadhikarla/ExpoMamba)][[Poster](https://eashanadhikarla.github.io/files/expomamba_poster.pdf)]<br>
 
 <b>E.Adhikarla</b>, K.Zhang, J.Nicholson, L.Sun, B.D.Davison\
 Unified-EGformer: Exposure Guided Lightweight Transformer for Mixed-Exposure Image\
-**_Submitted_**\
+**ICPR 2024**\
 [[Paper](https://arxiv.org/pdf/2407.13170)][[Code]()]<br>
 
 J.Yu, Y.Dai, X.Liu, J.Huang, Y.Shen, K.Zhang, R.Zhou, <b>E.Adhikarla</b>, W.Ye, Y.Liu, Z.Kong, K.Zhang, Y.Yin , V.Namboodiri , B.D.Davison , J.H.Moore , Y.Chen\
@@ -32,7 +32,7 @@ Unleashing the Power of Multi-Task Learning: A Comprehensive Survey Spanning Tra
 
 K.Zhang, J.Yu, <b>E.Adhikarla</b>, R.Zhou, Z.Yan, Y.Liu, Z.Liu, L.He, B.D.Davison, X.Li, H.Ren, S.Fu, J.Zou, W.Lei, J.Huang, C.Chen, Y.Zhou, T.Liu, X.Chen, Y.Chen, Q.Li,  H.Liu, L.Sun\
 BiomedGPT: A Unified and Generalist Biomedical Generative Pre-trained Transformer for Vision, Language, and Multimodal Tasks\
-**arXiv 2023, Submitted to Nature Medicine 2024**\
+**Nature Medicine 2024**\
 [[Paper]((https://www.nature.com/articles/s41591-024-03185-2))][[Code](https://github.com/taokz/BiomedGPT)]<br>
 
 <b>E.Adhikarla</b>, K.Zhang, J.Yu, L.Sun, J.Nicholson, B.D.Davison\
