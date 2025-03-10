@@ -25,6 +25,9 @@ redirect_from:
   <i> – Thomas Henry Huxley</i>
 </p>
 
+<strong>For recruiters:</strong>  
+<p style="color: blue; font-weight: bold;">I am open to the job market for full-time opportunities post summer/mid-fall– broadly in Computer Vision and Machine Learning.</p>
+
 News 📣
 * [06.2024] Our paper [Unified-EGformer](https://arxiv.org/pdf/2407.13170) got accepted in ICPR 2024.
 * [07.2024] Our paper [BiomedGPT](https://www.nature.com/articles/s41591-024-03185-2) got accepted in Nature Medicine, 2024.
