@@ -20,11 +20,6 @@ redirect_from:
   I'm always up for a challenge and love working with others to solve problems. If you have an exciting project that you think I'd be a good fit for, please don't hesitate to reach out.
 </p>
 
-<p style="text-align: center;">
-  <b>“Try to learn something about everything and everything about something”</b>
-  <i> – Thomas Henry Huxley</i>
-</p>
-
 <strong>For recruiters:</strong>  
 <p style="color: blue; font-weight: bold;">I am open to the job market for full-time opportunities post summer/mid-fall– broadly in Computer Vision and Machine Learning.</p>
 
@@ -42,3 +37,14 @@ News 📣
 
 Currently reviewing: [ICLR](https://www.iclr.cc/Conferences/2025) 2025, [Pattern Recognition](https://www.sciencedirect.com/journal/pattern-recognition) 2024,  [WACV](https://wacv2025.thecvf.com) (Emergency) 2025 <br>
 Previously reviewed papers at: [Big Data](http://bigdataieee.org/), [SIGIR](https://sigir.org/), [WSDM](https://www.wsdm-conference.org/), [ICML](https://icml.cc/), [CIKM](http://www.cikmconference.org/), [PeerJ](https://peerj.com/).
+
+<p style="text-align: center;">
+  <b>“Try to learn something about everything and everything about something”</b>
+  <i> – Thomas Henry Huxley</i>
+</p>
+
+<p style="text-align: center;">
+  <b>“Inventing new things requires a type of skill and ability that you're not going to get from LLMs”</b>
+  <i> – Yann LeCun</i>
+</p>
+
