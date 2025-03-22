@@ -21,7 +21,7 @@ redirect_from:
 </p>
 
 <strong>For recruiters:</strong>  
-<p style="color: blue; font-weight: bold;">I am open to the job market for full-time opportunities post summer/mid-fall– broadly in Computer Vision and Machine Learning.</p>
+<p style="color: blue; font-weight: bold;">I am open to the job market for full-time opportunities post summer/mid-fall 2025 onwards– broadly in Computer Vision and Machine Learning.</p>
 
 News 📣
 * [06.2024] Our paper [Unified-EGformer](https://arxiv.org/pdf/2407.13170) got accepted in ICPR 2024.
