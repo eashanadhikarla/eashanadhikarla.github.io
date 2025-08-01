@@ -8,6 +8,7 @@ redirect_from:
   - /about.html
 ---
 
+<!--
 <p style="text-align: justify;">
   Welcome to my home page!!!
   <br>
@@ -22,6 +23,21 @@ redirect_from:
 
 <strong>For recruiters:</strong>  
 <p style="color: blue; font-weight: bold;">I am open to the job market for full-time opportunities post summer/mid-fall 2025 onwards– broadly in Computer Vision and Machine Learning.</p>
+-->
+
+<p style="text-align: justify;">
+  <img align="right" src="https://eashanadhikarla.github.io/images/dp.png" alt="Eashan Adhikarala" style="width: 45%; height: auto; border-radius: 20px; padding: 15px;"/>
+  I am a final-year Ph.D. candidate in Computer Science at Lehigh University's P.C. Rossin College of Engineering, advised by <a href="http://www.cse.lehigh.edu/~brian/">Dr. Brian D. Davison</a>.
+  <br><br>
+  My research is focused on a critical challenge at the forefront of modern AI: **making powerful foundation models for computer vision both efficient and effective for on-device deployment.** I specialize in developing novel, lightweight architectures that push the boundaries of what's possible on edge devices, without compromising on performance, robustness, or image quality.
+  <br><br>
+  Since 2022, I have been fortunate to collaborate closely with the Computational Photography and Generative AI teams (including **Lenovo Research**, **Motorola Mobility**). Where, I have contributed to developing and optimizing next-generation AI models for image enhancement and controllable restoration, directly tackling real-world challenges in the mobile and edge computing space.
+  <br><br>
+  I hold Master of Science and Bachelor of Science degrees in Computer Science, which have provided me with a strong and comprehensive foundation in AI and its applications. I am passionate about tackling complex problems, collaborating with creative teams, and translating cutting-edge research into impactful technology.
+</p>
+
+<strong>For Recruiters:</strong>
+<p style="color: #0056b3; font-weight: bold;">I am actively seeking full-time roles broadly at the intersection of Computer Vision and Machine Learning, suitable for a PhD graduate, with expected availability from late 2025 onward.</p>
 
 News 📣
 * [06.2024] Our paper [Unified-EGformer](https://arxiv.org/pdf/2407.13170) got accepted in ICPR 2024.
