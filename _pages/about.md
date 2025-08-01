@@ -35,8 +35,10 @@ News 📣
 * [01.2023] Joined Lenovo Research, Mobile Technology Innovation (MTI) Lab's Computer Vision team work on developing AI models for Thinkpad camera lighting enhancements.
 * [11.2021] Paper from my internship at Berkeley Lab won the [Best Paper Award](https://scinet.supercomputing.org/community/indis/previous-editions/sc21-indis/indis-2021-best-paper-award/) in SC2021.
 
-Currently reviewing: [ICLR](https://www.iclr.cc/Conferences/2025) 2025, [Pattern Recognition](https://www.sciencedirect.com/journal/pattern-recognition) 2024,  [WACV](https://wacv2025.thecvf.com) (Emergency) 2025 <br>
-Previously reviewed papers at: [Big Data](http://bigdataieee.org/), [SIGIR](https://sigir.org/), [WSDM](https://www.wsdm-conference.org/), [ICML](https://icml.cc/), [CIKM](http://www.cikmconference.org/), [PeerJ](https://peerj.com/).
+Currently reviewing: [Pattern Recognition](https://www.sciencedirect.com/journal/pattern-recognition)<br>
+Previously reviewed papers at: [ICLR](https://www.iclr.cc/Conferences/2025), [Pattern Recognition](https://www.sciencedirect.com/journal/pattern-recognition), [WACV](https://wacv2025.thecvf.com) (Emergency), [Big Data](http://bigdataieee.org/), [SIGIR](https://sigir.org/), [WSDM](https://www.wsdm-conference.org/), [ICML](https://icml.cc/), [CIKM](http://www.cikmconference.org/), [PeerJ](https://peerj.com/).
+
+<!-- Previously reviewed papers at: [ICLR](https://www.iclr.cc/Conferences/2025) 2025, [Pattern Recognition](https://www.sciencedirect.com/journal/pattern-recognition) 2024,  [WACV](https://wacv2025.thecvf.com) (Emergency) 2025, [Big Data](http://bigdataieee.org/), [SIGIR](https://sigir.org/), [WSDM](https://www.wsdm-conference.org/), [ICML](https://icml.cc/), [CIKM](http://www.cikmconference.org/), [PeerJ](https://peerj.com/). -->
 
 <p style="text-align: center;">
   <b>“Try to learn something about everything and everything about something”</b>
