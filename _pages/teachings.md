@@ -26,11 +26,14 @@ hr {
 <p style="text-align: justify;">Basic representations used in algorithms: propositional and predicate logic, set operations and functions, relations and their representations, matrices and their representations, graphs and their representations, trees and their representations. Basic formalizations for proving algorithm correctness: logical consequences, induction, structural induction. Basic formalizations for algorithm analysis: counting, pigeonhole principle, permutations. Prerequisites: (MATH 021 or MATH 031 or MATH 051 or MATH 076) and CSE 017. CSE 017 can be taken concurrently.</p>
 
 ### CSE 160 - Introduction to Data Science
-<p style="color: #3d85c6;">Spring 2019<sup>1</sup>, Spring 2021<sup>1</sup>, Spring 2022<sup>1</sup>, Fall 2023<sup>2</sup></p>
+<p style="color: #3d85c6;">Spring 2019<sup>1</sup>, Spring 2021<sup>1</sup>, Spring 2022<sup>1</sup>, Fall 2023<sup>2</sup>, Spring 2024<sup>3</sup></p>
 
 <b>Instructors:</b>
 1. <u><a href="https://engineering.lehigh.edu/cse/faculty/724">Prof. Brian D. Davison</a></u>
 2. <u><a href="https://engineering.lehigh.edu/cse/faculty/44810">Prof. Aparna Bharati</a></u><br>
+
+<b>Co-Intructors:</b><br>
+3. Eashan Adhikarla<br>
 
 <p style="text-align: justify;">Data Science is an interdisciplinary field focusing on the computational analysis of data to extract knowledge and insight. This course introduces the student to the collection, preparation, analysis, modeling and visualization of data, covering both conceptual and practical issues. Examples from diverse fields will be presented, and hands-on use of statistical and data manipulation software will be included.</p>
 
