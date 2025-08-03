@@ -37,7 +37,7 @@ redirect_from:
 </p>
 
 <strong>For Recruiters:</strong>
-<p style="color: #0056b3; font-weight: bold;">I am actively seeking full-time roles broadly at the intersection of Computer Vision and Machine Learning, suitable for a PhD graduate, with expected availability from late 2025 onward.</p>
+<p style="color: #0056b3; font-weight: bold;">I am actively seeking full-time roles broadly at the intersection of Computer Vision and Machine Learning, suitable for a PhD graduate, with expected availability from late Fall 2025 onward.</p>
 
 News 📣
 * [06.2024] Our paper [Unified-EGformer](https://arxiv.org/pdf/2407.13170) got accepted in ICPR 2024.
