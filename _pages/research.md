@@ -15,6 +15,16 @@ author_profile: true
 
 <!-- <a href='https://scholar.google.com/citations?user=k3BMw_QAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> -->
 
+<b>E.Adhikarla</b>, B.D.Davison\
+RemEdit: Efficient Diffusion Editing with Riemannian Geometry\
+**Submitted, 2026**\
+[Paper] <!--[[Paper]()]<br>-->
+
+M.Aithal, RG VidalMata, M.Kartha, G.Chen, <b>E.Adhikarla</b>, L.N.Kisten, Z.Fu, N.A.Madhusudhana, J.Nasti\
+LENVIZ: A High-Resolution Low-Exposure Night Vision Benchmark Dataset\
+**Submitted, 2026**\
+[[Paper](https://arxiv.org/pdf/2503.19804.pdf)]<br>
+
 <b>E.Adhikarla</b>, K.Zhang, J.Nicholson, B.D.Davison\
 ExpoMamba: Exploiting Frequency SSM Blocks for Efficient and Effective Image Enhancement\
 **ICML Efficient Systems for Foundation Models, 2024**\
@@ -23,12 +33,13 @@ ExpoMamba: Exploiting Frequency SSM Blocks for Efficient and Effective Image Enh
 <b>E.Adhikarla</b>, K.Zhang, J.Nicholson, L.Sun, B.D.Davison\
 Unified-EGformer: Exposure Guided Lightweight Transformer for Mixed-Exposure Image\
 **ICPR 2024**\
-[[Paper](https://arxiv.org/pdf/2407.13170)][[Code]()]<br>
+[[Paper]([https://arxiv.org/pdf/2407.13170](https://link.springer.com/chapter/10.1007/978-3-031-78110-0_17))][[Code](https://github.com/eashanadhikarla/U-EGformer)]<br>
 
 J.Yu, Y.Dai, X.Liu, J.Huang, Y.Shen, K.Zhang, R.Zhou, <b>E.Adhikarla</b>, W.Ye, Y.Liu, Z.Kong, K.Zhang, Y.Yin , V.Namboodiri , B.D.Davison , J.H.Moore , Y.Chen\
 Unleashing the Power of Multi-Task Learning: A Comprehensive Survey Spanning Traditional, Deep, and Pretrained Foundation Model Eras\
-**Submitted to Havard Data Science Review Journal (HDSR) 2024**\
+**Havard Data Science Review Journal (HDSR) 2025**\
 [[Paper](https://arxiv.org/abs/2404.18961)][[Code](https://github.com/junfish/Awesome-Multitask-Learning)]<br>
+[[Part 1](https://hdsr.mitpress.mit.edu/pub/7fcc3jhv/release/1), [Part 2](https://hdsr.mitpress.mit.edu/pub/kuqgze5o/release/2), [Part 3](https://hdsr.mitpress.mit.edu/pub/lgmkutcd/release/2)]
 
 K.Zhang, J.Yu, <b>E.Adhikarla</b>, R.Zhou, Z.Yan, Y.Liu, Z.Liu, L.He, B.D.Davison, X.Li, H.Ren, S.Fu, J.Zou, W.Lei, J.Huang, C.Chen, Y.Zhou, T.Liu, X.Chen, Y.Chen, Q.Li,  H.Liu, L.Sun\
 BiomedGPT: A Unified and Generalist Biomedical Generative Pre-trained Transformer for Vision, Language, and Multimodal Tasks\
