@@ -33,7 +33,7 @@ ExpoMamba: Exploiting Frequency SSM Blocks for Efficient and Effective Image Enh
 <b>E.Adhikarla</b>, K.Zhang, J.Nicholson, L.Sun, B.D.Davison\
 Unified-EGformer: Exposure Guided Lightweight Transformer for Mixed-Exposure Image\
 **ICPR 2024**\
-[[Paper]([https://arxiv.org/pdf/2407.13170](https://link.springer.com/chapter/10.1007/978-3-031-78110-0_17))][[Code](https://github.com/eashanadhikarla/U-EGformer)]<br>
+[[Paper](https://link.springer.com/chapter/10.1007/978-3-031-78110-0_17)][[Code](https://github.com/eashanadhikarla/U-EGformer)]<br>
 
 J.Yu, Y.Dai, X.Liu, J.Huang, Y.Shen, K.Zhang, R.Zhou, <b>E.Adhikarla</b>, W.Ye, Y.Liu, Z.Kong, K.Zhang, Y.Yin , V.Namboodiri , B.D.Davison , J.H.Moore , Y.Chen\
 Unleashing the Power of Multi-Task Learning: A Comprehensive Survey Spanning Traditional, Deep, and Pretrained Foundation Model Eras\
