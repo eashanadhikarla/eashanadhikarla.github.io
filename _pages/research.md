@@ -17,13 +17,18 @@ author_profile: true
 
 <b>E.Adhikarla</b>, B.D.Davison\
 RemEdit: Efficient Diffusion Editing with Riemannian Geometry\
-**Submitted, 2026**\
+**IEEE/CVF Winter Conference on Applications of Computer Vision, 2026**\
 [Paper] <!--[[Paper]()]<br>-->
 
 M.Aithal, RG VidalMata, M.Kartha, G.Chen, <b>E.Adhikarla</b>, L.N.Kisten, Z.Fu, N.A.Madhusudhana, J.Nasti\
 LENVIZ: A High-Resolution Low-Exposure Night Vision Benchmark Dataset\
-**Submitted, 2026**\
+**IEEE/CVF Winter Conference on Applications of Computer Vision, 2026**\
 [[Paper](https://arxiv.org/pdf/2503.19804.pdf)]<br>
+
+<b>E.Adhikarla</b>, K.Zhang, J.Nicholson, B.D.Davison\
+ExpoMamba (extension): Exploiting Frequency SSM Blocks for Efficient and Effective Image Enhancement\
+**IEEE/CVF Winter Conference on Applications of Computer Vision, 2026**\
+[[Paper](https://openreview.net/pdf?id=X9L6PatYhH)][[Code](https://github.com/eashanadhikarla/ExpoMamba)][[Poster](https://eashanadhikarla.github.io/files/expomamba_poster.pdf)]<br>
 
 <b>E.Adhikarla</b>, K.Zhang, J.Nicholson, B.D.Davison\
 ExpoMamba: Exploiting Frequency SSM Blocks for Efficient and Effective Image Enhancement\
@@ -32,7 +37,7 @@ ExpoMamba: Exploiting Frequency SSM Blocks for Efficient and Effective Image Enh
 
 <b>E.Adhikarla</b>, K.Zhang, J.Nicholson, L.Sun, B.D.Davison\
 Unified-EGformer: Exposure Guided Lightweight Transformer for Mixed-Exposure Image\
-**ICPR 2024**\
+**International Conference on Pattern Recognition (ICPR), Springer Nature 2024**\
 [[Paper](https://link.springer.com/chapter/10.1007/978-3-031-78110-0_17)][[Code](https://github.com/eashanadhikarla/U-EGformer)]<br>
 
 J.Yu, Y.Dai, X.Liu, J.Huang, Y.Shen, K.Zhang, R.Zhou, <b>E.Adhikarla</b>, W.Ye, Y.Liu, Z.Kong, K.Zhang, Y.Yin , V.Namboodiri , B.D.Davison , J.H.Moore , Y.Chen\
