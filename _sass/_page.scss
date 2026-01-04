@@ -5,7 +5,7 @@
 #main {
   @include container;
   @include clearfix;
-  margin-top: 2em;
+  margin-top: 3em;
   padding-left: 1em;
   padding-right: 1em;
   animation: intro 0.3s both;
@@ -25,6 +25,14 @@
 
   .page__inner-wrap {
     @include full();
+    background: $background-color;
+    padding: 2.5em;
+    border-radius: $border-radius;
+    box-shadow: $box-shadow;
+
+    @include breakpoint(max-width $large) {
+      padding: 1.5em;
+    }
 
     .page__content,
     .page__meta,
@@ -38,7 +46,7 @@
   margin-top: 0;
   line-height: 1;
 
-  & + .page__meta {
+  &+.page__meta {
     margin-top: -0.5em;
   }
 }
@@ -55,7 +63,9 @@
     border-bottom: 1px solid $border-color;
   }
 
-  p, li, dl {
+  p,
+  li,
+  dl {
     font-size: 0.875em;
   }
 
@@ -64,8 +74,8 @@
     margin: 0 0 $indent-var;
 
     /* sibling indentation*/
-    @if $paragraph-indent == true {
-      & + p {
+    @if $paragraph-indent ==true {
+      &+p {
         text-indent: $indent-var;
         margin-top: -($indent-var);
       }
@@ -74,12 +84,15 @@
 
   a {
     text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.3s ease;
 
     &:hover {
-      text-decoration: underline;
+      border-bottom-color: $link-color;
 
       img {
-        box-shadow: 0 0 10px rgba(#000, 0.25);
+        box-shadow: $box-shadow-hover;
+        transform: translateY(-2px);
       }
     }
   }
@@ -101,7 +114,7 @@
   }
 
   /* blockquote citations */
-  blockquote + .small {
+  blockquote+.small {
     margin-top: -1.5em;
     padding-left: 1.25rem;
   }
@@ -300,6 +313,7 @@
   transition: $global-transition;
 
   &.disabled {
+
     input,
     button,
     textarea,
