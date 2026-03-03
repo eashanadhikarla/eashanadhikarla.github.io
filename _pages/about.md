@@ -40,6 +40,7 @@ redirect_from:
 <p style="color: #0056b3; font-weight: bold;">I am actively seeking full-time roles broadly at the intersection of Computer Vision and Machine Learning, suitable for a PhD graduate, with expected availability from Feb 1, 2026 onward.</p>
 
 News 📣
+* [08.2025] Three of our papers were accepted in WACV 2026 conference. ([RemEdit](https://openaccess.thecvf.com/content/WACV2026/papers/Adhikarla_RemEdit_Efficient_Diffusion_Editing_with_Riemannian_Geometry_WACV_2026_paper.pdf), [ExpoMamba-ext](https://openaccess.thecvf.com/content/WACV2026/papers/Adhikarla_From_Darkness_to_Detail_Frequency-Aware_SSMs_for_Low-Light_Vision_WACV_2026_paper.pdf), [Lenviz](https://openaccess.thecvf.com/content/WACV2026/papers/Aithal_LENVIZ_A_High-Resolution_Low-Exposure_Night_Vision_Benchmark_Dataset_WACV_2026_paper.pdf))
 * [06.2024] Our paper [Unified-EGformer](https://arxiv.org/pdf/2407.13170) got accepted in ICPR 2024.
 * [07.2024] Our paper [BiomedGPT](https://www.nature.com/articles/s41591-024-03185-2) got accepted in Nature Medicine, 2024.
 * [06.2024] Our paper [ExpoMamba](https://openreview.net/pdf?id=X9L6PatYhH) got accepted in ICML Efficient Systems for Foundation Models, 2024.
