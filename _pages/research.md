@@ -18,17 +18,17 @@ author_profile: true
 <b>E.Adhikarla</b>, B.D.Davison\
 RemEdit: Efficient Diffusion Editing with Riemannian Geometry\
 **IEEE/CVF Winter Conference on Applications of Computer Vision, 2026**\
-[Paper] <!--[[Paper]()]<br>-->
+[[Paper](https://openaccess.thecvf.com/content/WACV2026/papers/Adhikarla_RemEdit_Efficient_Diffusion_Editing_with_Riemannian_Geometry_WACV_2026_paper.pdf)][[Code](https://github.com/eashanadhikarla/RemEdit)][[Poster](https://eashanadhikarla.github.io/files/remedit_poster_wacv.pdf)]<br>
 
 M.Aithal, RG VidalMata, M.Kartha, G.Chen, <b>E.Adhikarla</b>, L.N.Kisten, Z.Fu, N.A.Madhusudhana, J.Nasti\
 LENVIZ: A High-Resolution Low-Exposure Night Vision Benchmark Dataset\
 **IEEE/CVF Winter Conference on Applications of Computer Vision, 2026**\
-[[Paper](https://arxiv.org/pdf/2503.19804.pdf)]<br>
+[[Paper](https://openaccess.thecvf.com/content/WACV2026/papers/Aithal_LENVIZ_A_High-Resolution_Low-Exposure_Night_Vision_Benchmark_Dataset_WACV_2026_paper.pdf)][[Code](https://github.com/rosauravidal/LENVIZ)][[Poster](https://eashanadhikarla.github.io/files/lenviz_poster_wacv.pdf)]<br>
 
-<b>E.Adhikarla</b>, K.Zhang, J.Nicholson, B.D.Davison\
-ExpoMamba (extension): Exploiting Frequency SSM Blocks for Efficient and Effective Image Enhancement\
+<b>E.Adhikarla</b>, K.Zhang, G.Chen, J.Nicholson, B.D.Davison\
+From Darkness to Detail: Frequency-Aware SSMs for Low-Light Vision\
 **IEEE/CVF Winter Conference on Applications of Computer Vision, 2026**\
-[[Paper](https://openreview.net/pdf?id=X9L6PatYhH)][[Code](https://github.com/eashanadhikarla/ExpoMamba)][[Poster](https://eashanadhikarla.github.io/files/expomamba_poster.pdf)]<br>
+[[Paper](https://openaccess.thecvf.com/content/WACV2026/papers/Adhikarla_From_Darkness_to_Detail_Frequency-Aware_SSMs_for_Low-Light_Vision_WACV_2026_paper.pdf)][[Code](https://github.com/eashanadhikarla/ExpoMamba)][[Poster](https://eashanadhikarla.github.io/files/expomamba_poster_wacv.pdf)]<br>
 
 <b>E.Adhikarla</b>, K.Zhang, J.Nicholson, B.D.Davison\
 ExpoMamba: Exploiting Frequency SSM Blocks for Efficient and Effective Image Enhancement\
