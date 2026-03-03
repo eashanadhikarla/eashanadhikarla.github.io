@@ -37,7 +37,7 @@ redirect_from:
 </p>
 
 <strong>For Recruiters:</strong>
-<p style="color: #0056b3; font-weight: bold;">I am actively seeking full-time roles broadly at the intersection of Computer Vision and Machine Learning, suitable for a PhD graduate, with expected availability from Feb 1, 2026 onward.</p>
+<p style="color: #0056b3; font-weight: bold;">I am actively seeking full-time roles broadly at the intersection of Computer Vision and Machine Learning, suitable for a PhD graduate, with expected availability from Apr 20, 2026 onward.</p>
 
 News 📣
 * [08.2025] Three of our papers were accepted in WACV 2026 conference. ([RemEdit](https://openaccess.thecvf.com/content/WACV2026/papers/Adhikarla_RemEdit_Efficient_Diffusion_Editing_with_Riemannian_Geometry_WACV_2026_paper.pdf), [ExpoMamba-ext](https://openaccess.thecvf.com/content/WACV2026/papers/Adhikarla_From_Darkness_to_Detail_Frequency-Aware_SSMs_for_Low-Light_Vision_WACV_2026_paper.pdf), [Lenviz](https://openaccess.thecvf.com/content/WACV2026/papers/Aithal_LENVIZ_A_High-Resolution_Low-Exposure_Night_Vision_Benchmark_Dataset_WACV_2026_paper.pdf))
