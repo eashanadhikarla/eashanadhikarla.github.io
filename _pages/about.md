@@ -63,7 +63,17 @@ Previously reviewed papers at: [ICLR](https://www.iclr.cc/Conferences/2025), [Pa
 </p>
 
 <p style="text-align: center;">
-  <b>“Inventing new things requires a type of skill and ability that you're not going to get from LLMs”</b>
-  <i> – Yann LeCun</i>
+  <b>“What you see and what you hear depends a great deal on where you are standing.”</b>
+  <i> – C.S. Lewis</i>
 </p>
 
+<p style="text-align: center;">
+  <b>“We need to listen to people who don’t have power, because they often have very powerful things to say.”</b>
+  <i> – Marty Baron</i>
+  <!-- https://news.lehigh.edu/nationally-renowned-editor-marty-baron-discusses-challenges-facing-journalism-and-democracy -->
+</p>
+
+<p style="text-align: center;">
+  <b>“We don't see things as they are, we see them as we are.”</b>
+  <i> – Anais Nin</i>
+</p>
