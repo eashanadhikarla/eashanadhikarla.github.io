@@ -16,6 +16,11 @@ author_profile: true
 <!-- <a href='https://scholar.google.com/citations?user=k3BMw_QAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> -->
 
 <b>E.Adhikarla</b>, B.D.Davison\
+DirectFlow: One-Step Posterior Transport Distillation for Blind Face Restoration\
+**Computer Vision and Pattern Recognition (CVPR), Workshop on Efficient and On-Device Generation (EDGE), 2026**\
+[[Paper]()][[Code]()][[Poster]()]<br>
+
+<b>E.Adhikarla</b>, B.D.Davison\
 RemEdit: Efficient Diffusion Editing with Riemannian Geometry\
 **IEEE/CVF Winter Conference on Applications of Computer Vision, 2026**\
 [[Paper](https://openaccess.thecvf.com/content/WACV2026/papers/Adhikarla_RemEdit_Efficient_Diffusion_Editing_with_Riemannian_Geometry_WACV_2026_paper.pdf)][[Code](https://github.com/eashanadhikarla/RemEdit)][[Poster](https://eashanadhikarla.github.io/files/remedit_poster_wacv.pdf)]<br>
