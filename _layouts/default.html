@@ -16,6 +16,25 @@ layout: compress
     {% include browser-upgrade.html %}
     {% include masthead.html %}
 
+    <div class="vertical-social-icons">
+      {% if site.author.email %}
+        <a href="mailto:{{ site.author.email }}" title="Email"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+      {% endif %}
+      {% if site.author.googlescholar %}
+        <a href="{{ site.author.googlescholar }}" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>
+      {% endif %}
+      {% if site.author.github %}
+        <a href="https://github.com/{{ site.author.github }}" target="_blank" title="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a>
+      {% endif %}
+      {% if site.author.linkedin %}
+        <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank" title="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+      {% endif %}
+      {% if site.author.twitter %}
+        <a href="https://twitter.com/{{ site.author.twitter }}" target="_blank" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      {% endif %}
+    </div>
+
+
     {{ content }}
 
     </script>

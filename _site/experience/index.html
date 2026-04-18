@@ -93,6 +93,11 @@
 
 <!-- start custom head snippets -->
 
+<!-- Google Fonts: Roboto + Roboto Mono (al-folio inspired) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons" rel="stylesheet">
+
 <link rel="apple-touch-icon" sizes="57x57" href="http://localhost:4000/images/apple-touch-icon-57x57.png?v=M44lzPylqQ">
 <link rel="apple-touch-icon" sizes="60x60" href="http://localhost:4000/images/apple-touch-icon-60x60.png?v=M44lzPylqQ">
 <link rel="apple-touch-icon" sizes="72x72" href="http://localhost:4000/images/apple-touch-icon-72x72.png?v=M44lzPylqQ">
@@ -140,29 +145,54 @@
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
+      <nav id="apple-nav" class="site-nav">
+        <!-- Nav links (middle) -->
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="http://localhost:4000/">Eashan Adhikarla</a></li>
+          <li class="masthead__menu-item">
+            <a href="http://localhost:4000/" >About</a>
+          </li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/research/">Publications</a></li>
+            <li class="masthead__menu-item">
+              <a href="http://localhost:4000/research/" >Publications</a>
+            </li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/experience/">Experiences</a></li>
+            <li class="masthead__menu-item">
+              <a href="http://localhost:4000/experience/" class="active">Experiences</a>
+            </li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/projects/">Projects</a></li>
-          
-            
-            <li class="masthead__menu-item"><a href="http://localhost:4000/teachings/">Teaching</a></li>
+            <li class="masthead__menu-item">
+              <a href="http://localhost:4000/teachings/" >Teaching</a>
+            </li>
           
         </ul>
+
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
   </div>
 </div>
+
+    <div class="vertical-social-icons">
+      
+        <a href="mailto:eaa418@lehigh.edu" title="Email"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+      
+      
+        <a href="https://scholar.google.com/citations?hl=en&user=k3BMw_QAAAAJ" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>
+      
+      
+        <a href="https://github.com/eashanadhikarla" target="_blank" title="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a>
+      
+      
+        <a href="https://www.linkedin.com/in/eashanadhikarla" target="_blank" title="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+      
+      
+        <a href="https://twitter.com/eashan2212" target="_blank" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      
+    </div>
+
 
     
 
@@ -171,79 +201,6 @@
 
 
 <div id="main" role="main">
-  
-
-
-  <div class="sidebar sticky">
-  
-
-
-
-<div itemscope itemtype="http://schema.org/Person">
-
-  <!-- <div class="author__avatar">
-    
-    	<img src="http://localhost:4000/images/dp.png" class="author__avatar" alt="Eashan Adhikarla">
-    
-  </div> -->
-
-  <div class="author__content">
-    <!-- <h3 class="author__name">Eashan Adhikarla</h3> -->
-    <p class="author__bio">PhD Student, Computer Science at Lehigh Universtiy<br> <br> The views expressed here are my own and do not necessarily represent the views of any organization I am affiliated to.</p>
-  </div>
-
-  <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">Follow</button>
-    <ul class="author__urls social-icons">
-      
-        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> Bethlehem, PA, USA</li>
-      
-      
-      
-      
-        <li><a href="mailto:eaa418@lehigh.edu"><i class="fa fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
-      
-      
-      
-        <li><a href="https://twitter.com/eashan2212"><i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
-      
-      
-      
-      
-        <li><a href="https://www.linkedin.com/in/eashanadhikarla"><i class="fa fa-fw fa-linkedin-square" aria-hidden="true"></i> LinkedIn</a></li>
-      
-      
-      
-      
-      
-      
-        <li><a href="https://github.com/eashanadhikarla"><i class="fa fa-fw fa-github" aria-hidden="true"></i> Github</a></li>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-        <li><a href="https://scholar.google.com/"><i class="ai ai-google-scholar-square ai-fw"></i> Google Scholar</a></li>
-      
-      
-      
-    </ul>
-  </div>
-</div>
-
-  
-  </div>
-
-
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
     <meta itemprop="headline" content="Experiences">
@@ -269,49 +226,117 @@
 
       <section class="page__content" itemprop="text">
         
-<h3 id="phd-summer-intern-lawrence-berkeley-national-lab-esnet----june---august-2021">Ph.D. Summer Intern, <b>Lawrence Berkeley National Lab, ESnet</b> &nbsp; &#8211; &nbsp; <a href="cyan">June - August 2021</a></h3>
-<ul>
-  <li>Supervisor: <a href="https://cs.lbl.gov/about/staff/leadership/inder-monga/">Dr. Inder Monga</a>, Mentor: <a href="https://www.es.net/about/esnet-staff/advanced-network-technologies/ezra/">Dr. Ezra Kissel</a></li>
-  <li>Deployed a deep learning approach to automate the dynamic auto-tuning of pacing rate in DTNs</li>
-  <li>Developed kernel level system &amp; traffic control operations in DTNaaS docker container.</li>
-  <li>Integrated a supporting tool that can dynamically visualize the elastic search data for real-time parameter optimization.</li>
-</ul>
+<h3 id="machine-learning-research-intern-lenovo-research"><b>Machine Learning Research Intern</b>, <b style="color: #3d85c6;">Lenovo Research</b></h3>
 
-<h3 id="peer-mentor-lehigh-university-nsf-reu-2020-cns-1757787---may---august-2020">Peer Mentor, <b>Lehigh University (NSF-REU) 2020</b> (<a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1757787">CNS-1757787</a>)&nbsp; &#8211; &nbsp; <a href="cyan">May - August 2020</a></h3>
-<ul>
-  <li>Mentoring and closely guiding 15 NSF-REU Interns on their respective site projects.</li>
-  <li>Duties included: Weekly one-on-one discussions with each intern, understanding their fallouts and helping them out with their codes and other low level academic issues.</li>
-</ul>
+<div style="margin-top: -5px; margin-bottom: -20px;">
+    <p>Manager: <a href="http://research.lenovo.com/webapp/view_English/personal.html?id=678"><u>Grant Lloyd</u></a>, <i>Executive Director, Lenovo Research</i></p>
+</div>
+<div style="margin-top: -10px; margin-bottom: -5px;">
+    <p>Mentor: <a href="https://www.linkedin.com/in/john-nicholson-9684792"><u>John Nicholson</u></a>, <i>Principal Research, Lenovo Research</i></p>
+</div>
 
-<h3 id="research-assistant-resilience-research-group-for-sars-cov-2---june---august-2020">Research Assistant, <b>Resilience Research Group for SARS-CoV-2</b>&nbsp; &#8211; &nbsp; <a href="cyan">June - August 2020</a></h3>
-<ul>
-  <li>Supervisor: <a href="http://www.cse.lehigh.edu/~brian/">Dr. Brian D. Davison</a></li>
-  <li>Image Gathering for face-masks in United States.</li>
-  <li>Designing a novel face-mask detection algorithm for a survey research on SARS-CoV-2.</li>
-  <li>Funded by Lehigh Research Grants and partially funded by (<a href="https://converge.colorado.edu/resources/covid-19/working-groups/issues-impacts-recovery/cultural-perceptions-of-risk-behavioral-responses-and-community-resilience-in-covid-19">NSF-1841338</a>)</li>
-</ul>
+<div style="display: flex; align-items: center;">
+    <div style="flex: 1; text-align: center; margin-right: 20px;">
+        <img src="https://eashanadhikarla.github.io/images/affiliations/lenovo.jpg" alt="Lenovo Research Logo" width="1100" />
+        <div>January - August 2023<br />June - November 2024</div>
+    </div>
+    <div style="flex: 2;">
+        <p style="text-align: justify;">My responsibilities at Lenovo Research primarily focused on addressing challenges related to Low-Light Imaging &amp; Video for Lenovo Thinkpads. My journey took me to probe dynamic resolution model training strategies, aiming for unparalleled model robustness. This curiosity paved the way for me to delve into, implement, and seamlessly integrate state-of-the-art super-resolution deep learning frameworks. These frameworks, designed with an emphasis on being lightweight, merged effortlessly with low-light image and video enhancement, making them apt for real-time applications. Additionally, my explorations led me to innovate with new loss functions, optimizing the entire spectrum of data preprocessing, management, and generation, all with an eye on expediting the training process.</p>
+    </div>
+</div>
 
-<h3 id="research-intern-lawrence-berkeley-national-lab-nersc-link---june---august-2019">Research Intern, <b>Lawrence Berkeley National Lab, NERSC</b> (<a href="https://cs.lbl.gov/news-media/news/2019/summer-student-researchers-wrap-up/"><i>link</i></a>)&nbsp; &#8211; &nbsp; <a href="cyan">June - August 2019</a></h3>
-<!-- Embedded Link: https://cdn.cp.adobe.io/content/2/video/3d0f97fc-0135-492b-b4f0-6c0d269cc2d7/embed?api_key=MarvelCP1 -->
-<ul>
-  <li>Supervisor: <a href="https://www.nersc.gov/about/nersc-staff/advanced-technologies-group/brian-austin/">Dr. Brian Austin</a></li>
-  <li>Developed scripts to fetch and analyze terabytes of data from the SLURM scheduler.</li>
-  <li>Analyzed &amp; estimated real-time queues in the scheduler for optimizing the policies for incoming jobs.</li>
-  <li>Developed three real-time policies that potentially improved the allocation procedure.
-    <ul>
-      <li>Draining</li>
-      <li>Job Cancellation</li>
-      <li>Job Pausing</li>
-    </ul>
-  </li>
-</ul>
+<h3 id="machine-learning-research-intern-motorola-mobility--lenovo-research"><b>Machine Learning Research Intern</b>, <b style="color: #3d85c6;">Motorola Mobility &amp; Lenovo Research</b></h3>
 
-<h3 id="machine-learning-intern-persistent-systems-ltd-link---june---august-2017">Machine Learning Intern, <b>Persistent Systems ltd</b> (<a href="https://github.com/eashanadhikarla/Facial-Recognition-with-DNN"><i>link</i></a>)&nbsp; &#8211; &nbsp; <a href="cyan">June - August 2017</a></h3>
-<ul>
-  <li>Developed a facial recognition and verification system using Google&#8217;s FaceNET research as the baseline.</li>
-  <li>Added additional OpenCV features on top of it, which can differentiate between 3-D and 2-D images.</li>
-  <li>Designed a purely browser-based RSA compliant module to work with FIDO keys.</li>
-</ul>
+<div style="margin-top: -5px; margin-bottom: -20px;">
+    <p>Manager: <a href="http://research.lenovo.com/webapp/view_English/personal.html?id=678"><u>Grant Lloyd</u></a>, <i>Executive Director, Lenovo Research</i></p>
+</div>
+<div style="margin-top: -10px; margin-bottom: -5px;">
+    <p>Mentor: <a href="https://www.linkedin.com/in/john-nicholson-9684792"><u>John Nicholson</u></a>, <i>Principal Research, Lenovo Research</i></p>
+</div>
+
+<div style="display: flex; align-items: center;">
+    <div style="flex: 1; text-align: center; margin-right: 20px;">
+        <img src="https://eashanadhikarla.github.io/images/affiliations/motorola-mobility.svg.png" alt="Moto Logo" width="950" />
+        <div>June - August 2022</div>
+    </div>
+    <div style="flex: 2;">
+        <p style="text-align: justify;">At Lenovo Research, my primary challenge was to address the Low Light Imaging conditions prevalent in Lenovo ThinkPads, Tablets, and Motorola smartphones. As the dataset owner for my team, I delved deep into understanding and organizing our data, leading the way in triaging, building histograms, and implementing the training model. I implemented and trained a redesigned generative model that served better for the Thinkpad use case. Performed data-centric structuring for better model generalization to counter distribution shifts.</p>
+    </div>
+</div>
+
+<h3 id="phd-summer-intern-lawrence-berkeley-national-lab-lbnl-esnet"><b>Ph.D. Summer Intern</b>, <b style="color: #3d85c6;">Lawrence Berkeley National Lab (LBNL), ESnet</b></h3>
+
+<div style="margin-top: -5px; margin-bottom: -20px;">
+    <p>Supervisor: <a href="https://cs.lbl.gov/about/staff/leadership/inder-monga/"><u>Dr. Inder Monga</u></a>, <i>Division Director, ESnet</i></p>
+</div>
+<div style="margin-top: -10px; margin-bottom: -5px;">
+    <p>Mentor: <a href="https://www.es.net/about/esnet-staff/advanced-network-technologies/ezra/"><u>Dr. Ezra Kissel</u></a>, <i>Research Engineer, ESnet</i></p>
+</div>
+
+<div style="display: flex; align-items: center;">
+    <div style="flex: 1; text-align: center; margin-right: 20px;">
+        <img src="https://eashanadhikarla.github.io/images/affiliations/esnet.png" alt="ESnet Logo" width="1250" />
+        <div>June - August 2021</div>
+    </div>
+    <div style="flex: 2;">
+        <p style="text-align: justify;">At Lawrence Berkeley National Lab (LBNL) within the Energy Science Net, I embarked on a journey to refine and redefine data transfer protocols. I deployed an innovative deep learning strategy designed to automate the dynamic auto-tuning of pacing rates within Data Transfer Nodes (DTNs). Venturing deeper into the system's intricacies, I engineered kernel-level system and traffic control operations, all housed within the DTNaaS (Data Transfer Node as a Service) docker container. Complementing these efforts, I also integrated a versatile tool capable of offering dynamic visualizations of elastic search data. This tool was pivotal in facilitating real-time parameter optimization, ensuring efficient and effective data transfers.</p>
+    </div>
+</div>
+
+<h3 id="research-intern-lawrence-berkeley-national-lab-lbnl-nersc"><b>Research Intern</b>, <b style="color: #3d85c6;">Lawrence Berkeley National Lab (LBNL), NERSC</b></h3>
+
+<div style="margin-top: -5px; margin-bottom: -20px;">
+    <p>Supervisor: <a href="https://www.nersc.gov/about/nersc-staff/advanced-technologies-group/nicholas-wright/"><u>Dr. Nicholas (Nick) James Wright</u></a>, <i>Group Lead, ATG Lab</i></p>
+</div>
+<div style="margin-top: -10px; margin-bottom: -5px;">
+    <p>Mentor: <a href="https://www.nersc.gov/about/nersc-staff/advanced-technologies-group/brian-austin/"><u>Dr. Brian Austin</u></a>, <i>Staff Engineer, NERSC</i></p>
+</div>
+
+<div style="display: flex; align-items: center;">
+    <div style="flex: 1; text-align: center; margin-right: 20px;">
+        <img src="https://eashanadhikarla.github.io/images/affiliations/lbnl.png" alt="LBNL Logo" width="1200" />
+        <div>June - August 2019</div>
+    </div>
+    <div style="flex: 2;">
+        <p style="text-align: justify;">At Lawrence Berkeley National Lab (LBNL) within the National Energy Research Scientific Computing division, I embarked on a journey to refine and redefine data transfer protocols. I deployed an innovative deep learning strategy designed to automate the dynamic auto-tuning of pacing rates within Data Transfer Nodes (DTNs). Venturing deeper into the system's intricacies, I engineered kernel-level system and traffic control operations, all housed within the DTNaaS (Data Transfer Node as a Service) docker container. Complementing these efforts, I also integrated a versatile tool capable of offering dynamic visualizations of elastic search data. This tool was pivotal in facilitating real-time parameter optimization, ensuring efficient and effective data transfers.</p>
+    </div>
+</div>
+
+<h3 id="machine-learning-academic-intern-persistent-systems-ltd"><b>Machine Learning Academic Intern</b>, <b style="color: #3d85c6;">Persistent Systems Ltd.</b></h3>
+
+<div style="margin-top: -5px; margin-bottom: -20px;">
+    <p>Manager: <a href="https://in.linkedin.com/in/kaustubh-bhadbhade-2996538"><u>Kaustubh Bhadbhade</u></a>, <i>Executive HR and Manager</i></p>
+</div>
+<div style="margin-top: -10px; margin-bottom: -5px;">
+    <p>Mentor: <a href="https://in.linkedin.com/in/bhushan-garware"><u>Dr. Bhushan Garware</u></a>, <i>Technical Specialist</i></p>
+</div>
+
+<div style="display: flex; align-items: center;">
+    <div style="flex: 1; text-align: center; margin-right: 20px;">
+        <img src="https://eashanadhikarla.github.io/images/affiliations/persistent.png" alt="Persistent Systems Logo" width="1200" />
+        <div>June - August 2017</div>
+    </div>
+    <div style="flex: 2;">
+        <p style="text-align: justify;">At Persistent Systems, I took a deep dive into the realm of facial recognition. Drawing inspiration from Google's FaceNET research, I developed a comprehensive facial recognition and verification system. Building upon this foundation, I integrated advanced OpenCV features, enhancing its capability to distinguish between 3-D and 2-D images. A significant challenge we encountered was addressing the hard-negative loss, an issue previously identified in Google's FaceNET paper. Through meticulous refinements, we managed to mitigate this concern. In addition to the research project, I also collaborated on the engineering project where, I crafted a browser-centric RSA-compliant module designed exclusively to seamlessly integrate with FIDO keys. Each step of this journey was geared towards creating a system that's both robust and user-friendly.</p>
+    </div>
+</div>
+
+<!-- HIDDEN EXPERIENCES -->
+<!-- <img align="right" src="https://eashanadhikarla.github.io/images/lehigh.png" alt="Photo" style="width: 25%; height: 20%; border-radius: 5px; padding: 10px 20px 10px 10px"/>
+
+### Peer Mentor, <b>Lehigh University (NSF-REU) 2020</b> (<a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1757787">CNS-1757787</a>)&nbsp; -- &nbsp; <a href="cyan">May - August 2020</a>
+  * Mentoring and closely guiding 15 NSF-REU Interns on their respective site projects.
+  * Duties included: Weekly one-on-one discussions with each intern, understanding their fallouts and helping them out with their codes and other low level academic issues.
+
+
+<img align="right" src="https://eashanadhikarla.github.io/images/lehigh.png" alt="Photo" style="width: 25%; height: 20%; border-radius: 5px; padding: 10px 20px 10px 10px"/>
+
+### Research Assistant, <b>Resilience Research Group for SARS-CoV-2</b>&nbsp; -- &nbsp; <a href="cyan">June - August 2020</a>
+  * Supervisor: <a href="http://www.cse.lehigh.edu/~brian/">Dr. Brian D. Davison</a>
+  * Image Gathering for face-masks in United States.
+  * Designing a novel face-mask detection algorithm for a survey research on SARS-CoV-2.
+  * Funded by Lehigh Research Grants and partially funded by (<a href="https://converge.colorado.edu/resources/covid-19/working-groups/issues-impacts-recovery/cultural-perceptions-of-risk-behavioral-responses-and-community-resilience-in-covid-19">NSF-1841338</a>) -->
+
 
         
       </section>
@@ -361,7 +386,7 @@
   </ul>
 </div> -->
 
-<div class="page__footer-copyright">&copy; 2021 Eashan Adhikarla. <br>The views expressed here are my own and do not necessarily represent the views of any organization I am affiliated to.</div>
+<div class="page__footer-copyright">&copy; 2026 Eashan Adhikarla. <br>The views expressed here are my own and do not necessarily represent the views of any organization I am affiliated with.</div>
 
       </footer>
     </div>
@@ -377,12 +402,55 @@
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-80724937-2', 'auto');
+  ga('create', 'UA-145341626-1', 'auto');
   ga('send', 'pageview');
 </script>
 
 
 
+
+<!-- <script>
+    $(document).ready(function () {
+        
+        var gsDataBaseUrl = 'https://raw.githubusercontent.com/eashanadhikarla/eashanadhikarla.github.io/'
+        
+        $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
+            var totalCitation = data['citedby']
+            document.getElementById('total_cit').innerHTML = totalCitation;
+            var citationEles = document.getElementsByClassName('show_paper_citations')
+            Array.prototype.forEach.call(citationEles, element => {
+                var paperId = element.getAttribute('data')
+                var numCitations = data['publications'][paperId]['num_citations']
+                element.innerHTML = '| Citations: ' + numCitations;
+            });
+        });
+    })
+</script> -->
+
+<script>
+    $(document).ready(function () {
+        
+        var gsDataBaseUrl = 'https://raw.githubusercontent.com/eashanadhikarla/eashanadhikarla.github.io/'
+        
+        $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
+            // var totalCitation = data['citedby']
+            // document.getElementById('total_cit').innerHTML = totalCitation;
+            var citationEles = document.getElementsByClassName('show_paper_citations')
+            Array.prototype.forEach.call(citationEles, element => {
+                var paperId = element.getAttribute('data')
+                var numCitations = data['publications'][paperId]['num_citations']
+                element.innerHTML = '| Citations: ' + numCitations;
+            });
+            var citationBadges = document.getElementsByClassName('paper_citations_badges')
+            Array.prototype.forEach.call(citationBadges, element => {
+                var paperId = element.getAttribute('data')
+                var numCitations = data['publications'][paperId]['num_citations']
+                element.href = 'https://scholar.google.com/citations?view_op=view_citation&citation_for_view=' + paperId;
+                element.innerHTML = '<img src="https://img.shields.io/badge/citations-' + numCitations +'-blue?style=social&logo=googlescholar">'
+            });
+        });
+    })
+</script>
 
 
 

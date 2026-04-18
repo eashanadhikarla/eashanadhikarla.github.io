@@ -2,31 +2,14 @@
 permalink: /
 title:
 excerpt: "About me"
-author_profile: true
+author_profile: false
 redirect_from:
   - /about/
   - /about.html
 ---
 
-<!--
 <p style="text-align: justify;">
-  Welcome to my home page!!!
-  <br>
-    <img align="right" src="https://eashanadhikarla.github.io/images/dp.png" alt="Photo" style="width: 45%; height: 50%; border-radius: 40px; padding: 25px 25px 25px 25px"/>
-  <br>
-  I am a Ph.D. candidate in Computer Science at <a href="https://engineering.lehigh.edu">P.C. Rossin College of Engineering and Applied Science</a>, Lehigh University, where I am advised by <a href="http://www.cse.lehigh.edu/~brian/">Dr. Brian D. Davison</a>. My research interests lie in applied machine learning, computer vision, image processing, and data science. Currently, I am exploring into developing efficient and fast foundation models for computer vision applications on Edge devices. Since 2022, I have been collaborating with Lenovo Research on overall image enhancements and generative AI based restorations on edge devices targeting improvements in model speed, robustness and image quality.
-  <br><br>
-  I have a strong background in AGI (Artificial General Intelligence), with a Master of Science (M.S.) and Bachelor of Science (B.S.) degrees in Computer Science from Lehigh University and Rajiv Gandhi Proudyogiki Vishwavidyalaya, respectively.
-  <br><br>
-  I'm always up for a challenge and love working with others to solve problems. If you have an exciting project that you think I'd be a good fit for, please don't hesitate to reach out.
-</p>
-
-<strong>For recruiters:</strong>  
-<p style="color: blue; font-weight: bold;">I am open to the job market for full-time opportunities post summer/mid-fall 2025 onwards– broadly in Computer Vision and Machine Learning.</p>
--->
-
-<p style="text-align: justify;">
-  <img align="right" src="https://eashanadhikarla.github.io/images/dp.png" alt="Eashan Adhikarala" style="width: 45%; height: auto; border-radius: 20px; padding: 15px;"/>
+  <img src="https://eashanadhikarla.github.io/images/dp.png" alt="Eashan Adhikarla" style="float: right; width: 100%; max-width: 250px; height: auto; border-radius: 12px; margin: 0 0 20px 25px;"/>
   I am a final-year Ph.D. candidate in Computer Science at Lehigh University's P.C. Rossin College of Engineering, advised by <a href="http://www.cse.lehigh.edu/~brian/">Dr. Brian D. Davison</a>.
   <br><br>
   My research is focused on a critical challenge at the forefront of modern AI: <b>making powerful foundation models for computer vision both efficient and effective for on-device deployment.</b> I specialize in developing novel, lightweight architectures that push the boundaries of what's possible on edge devices, without compromising on performance, robustness, or image quality.
@@ -39,7 +22,7 @@ redirect_from:
 <strong>For Recruiters:</strong>
 <p style="color: #0056b3; font-weight: bold;">I am actively seeking full-time roles broadly at the intersection of Computer Vision and Machine Learning, suitable for a PhD graduate, with expected availability from Apr 20, 2026 onward.</p>
 
-News 📣
+<strong>News</strong> 📣
 * [03.2026] Our paper DirectFlow: One-Step Posterior Transport Distillation for Blind Face Restoration got accepted in CVPR EDGE 2026.
 * [08.2025] Three of our papers were accepted in WACV 2026 conference. ([RemEdit](https://openaccess.thecvf.com/content/WACV2026/papers/Adhikarla_RemEdit_Efficient_Diffusion_Editing_with_Riemannian_Geometry_WACV_2026_paper.pdf), [ExpoMamba-ext](https://openaccess.thecvf.com/content/WACV2026/papers/Adhikarla_From_Darkness_to_Detail_Frequency-Aware_SSMs_for_Low-Light_Vision_WACV_2026_paper.pdf), [Lenviz](https://openaccess.thecvf.com/content/WACV2026/papers/Aithal_LENVIZ_A_High-Resolution_Low-Exposure_Night_Vision_Benchmark_Dataset_WACV_2026_paper.pdf))
 * [06.2024] Our paper [Unified-EGformer](https://arxiv.org/pdf/2407.13170) got accepted in ICPR 2024.

@@ -1,43 +1,64 @@
 /* ==========================================================================
-   SINGLE PAGE/POST
+   SINGLE PAGE/POST — al-folio centered layout
    ========================================================================== */
 
-#main {
-  @include container;
-  @include clearfix;
-  margin-top: 3em;
-  padding-left: 1em;
-  padding-right: 1em;
-  animation: intro 0.3s both;
-  animation-delay: 0.35s;
+.vertical-social-icons {
+  position: fixed; /* Restored sticky floating behavior */
+  top: 5.5rem; /* Optical alignment relative to the browser viewport */
+  left: max(2rem, calc(50vw - 530px));
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+  padding: 0.35rem 0.2rem; /* Slender on the sides (width-wise), standard length vertically */
+  background-color: #f2f2f7; /* Apple light grey UI background */
+  border-radius: 9999px; /* Pill shape vertically */
+  z-index: 50;
 
-  @include breakpoint($x-large) {
-    max-width: $x-large;
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.8rem;
+    height: 2.8rem;
+    color: #1d1d1f; /* Dark text natively */
+    font-size: 1.25rem;
+    border-radius: 50%; /* Perfect circles inside the pill */
+    transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+
+    /* Apple blue highlight on hover (like the 'Learn more' button) */
+    &:hover {
+      background-color: #0071e3; /* Apple Blue */
+      color: #ffffff; /* White icon on blue */
+      transform: translateY(-2px); /* Slight lift */
+      box-shadow: 0 4px 8px rgba(0, 113, 227, 0.3); /* Soft blue glow */
+    }
+  }
+
+  /* Hide on screens smaller than 1080px to prevent text overlap */
+  @include breakpoint(max-width 1080px) {
+    display: none;
   }
 }
 
+#main {
+  width: 100%;
+  max-width: 900px;
+  margin: 2em auto;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  animation: intro 0.3s both;
+  animation-delay: 0.35s;
+}
+
 .page {
-  @include breakpoint($large) {
-    @include span(10 of 12 last);
-    @include prefix(0.5 of 12);
-    @include suffix(2 of 12);
-  }
+  width: 100%;
 
   .page__inner-wrap {
-    @include full();
-    background: $background-color;
-    padding: 2.5em;
-    border-radius: $border-radius;
-    box-shadow: $box-shadow;
-
-    @include breakpoint(max-width $large) {
-      padding: 1.5em;
-    }
-
     .page__content,
     .page__meta,
     .page__share {
-      @include full();
+      width: 100%;
     }
   }
 }

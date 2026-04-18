@@ -93,6 +93,11 @@
 
 <!-- start custom head snippets -->
 
+<!-- Google Fonts: Roboto + Roboto Mono (al-folio inspired) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons" rel="stylesheet">
+
 <link rel="apple-touch-icon" sizes="57x57" href="http://localhost:4000/images/apple-touch-icon-57x57.png?v=M44lzPylqQ">
 <link rel="apple-touch-icon" sizes="60x60" href="http://localhost:4000/images/apple-touch-icon-60x60.png?v=M44lzPylqQ">
 <link rel="apple-touch-icon" sizes="72x72" href="http://localhost:4000/images/apple-touch-icon-72x72.png?v=M44lzPylqQ">
@@ -140,29 +145,54 @@
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
+      <nav id="apple-nav" class="site-nav">
+        <!-- Nav links (middle) -->
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="http://localhost:4000/">Eashan Adhikarla</a></li>
+          <li class="masthead__menu-item">
+            <a href="http://localhost:4000/" >About</a>
+          </li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/research/">Publications</a></li>
+            <li class="masthead__menu-item">
+              <a href="http://localhost:4000/research/" >Publications</a>
+            </li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/experience/">Experiences</a></li>
+            <li class="masthead__menu-item">
+              <a href="http://localhost:4000/experience/" >Experiences</a>
+            </li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/projects/">Projects</a></li>
-          
-            
-            <li class="masthead__menu-item"><a href="http://localhost:4000/teachings/">Teaching</a></li>
+            <li class="masthead__menu-item">
+              <a href="http://localhost:4000/teachings/" class="active">Teaching</a>
+            </li>
           
         </ul>
+
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
   </div>
 </div>
+
+    <div class="vertical-social-icons">
+      
+        <a href="mailto:eaa418@lehigh.edu" title="Email"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+      
+      
+        <a href="https://scholar.google.com/citations?hl=en&user=k3BMw_QAAAAJ" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>
+      
+      
+        <a href="https://github.com/eashanadhikarla" target="_blank" title="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a>
+      
+      
+        <a href="https://www.linkedin.com/in/eashanadhikarla" target="_blank" title="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+      
+      
+        <a href="https://twitter.com/eashan2212" target="_blank" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      
+    </div>
+
 
     
 
@@ -171,79 +201,6 @@
 
 
 <div id="main" role="main">
-  
-
-
-  <div class="sidebar sticky">
-  
-
-
-
-<div itemscope itemtype="http://schema.org/Person">
-
-  <!-- <div class="author__avatar">
-    
-    	<img src="http://localhost:4000/images/dp.png" class="author__avatar" alt="Eashan Adhikarla">
-    
-  </div> -->
-
-  <div class="author__content">
-    <!-- <h3 class="author__name">Eashan Adhikarla</h3> -->
-    <p class="author__bio">PhD Student, Computer Science at Lehigh Universtiy<br> <br> The views expressed here are my own and do not necessarily represent the views of any organization I am affiliated to.</p>
-  </div>
-
-  <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">Follow</button>
-    <ul class="author__urls social-icons">
-      
-        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> Bethlehem, PA, USA</li>
-      
-      
-      
-      
-        <li><a href="mailto:eaa418@lehigh.edu"><i class="fa fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
-      
-      
-      
-        <li><a href="https://twitter.com/eashan2212"><i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
-      
-      
-      
-      
-        <li><a href="https://www.linkedin.com/in/eashanadhikarla"><i class="fa fa-fw fa-linkedin-square" aria-hidden="true"></i> LinkedIn</a></li>
-      
-      
-      
-      
-      
-      
-        <li><a href="https://github.com/eashanadhikarla"><i class="fa fa-fw fa-github" aria-hidden="true"></i> Github</a></li>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-        <li><a href="https://scholar.google.com/"><i class="ai ai-google-scholar-square ai-fw"></i> Google Scholar</a></li>
-      
-      
-      
-    </ul>
-  </div>
-</div>
-
-  
-  </div>
-
-
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
     <meta itemprop="headline" content="Teaching Assistant">
@@ -281,49 +238,45 @@ hr {
 }
 </style>
 
-<h3 id="cse-160---introduction-to-data-science-fall-2021">CSE 160 - Introduction to Data Science (Fall 2021)</h3>
-<p>Undergraduate Course, Department of Computer Science &amp; Engineering<br /></p>
+<h3 id="cse-140---foundations-of-discrete-structures--algorithms">CSE 140 - Foundations Of Discrete Structures &amp; Algorithms</h3>
+<p style="color: #3d85c6;">Spring 2024</p>
 
-<p><b> Instructor </b>- Prof. Brian D. Davison <br /></p>
+<p><b>Instructor: </b><u><a href="https://engineering.lehigh.edu/faculty/ahmed-hassan">Prof. Ahmed Hassan</a></u><br /></p>
+
+<p style="text-align: justify;">Basic representations used in algorithms: propositional and predicate logic, set operations and functions, relations and their representations, matrices and their representations, graphs and their representations, trees and their representations. Basic formalizations for proving algorithm correctness: logical consequences, induction, structural induction. Basic formalizations for algorithm analysis: counting, pigeonhole principle, permutations. Prerequisites: (MATH 021 or MATH 031 or MATH 051 or MATH 076) and CSE 017. CSE 017 can be taken concurrently.</p>
+
+<h3 id="cse-160---introduction-to-data-science">CSE 160 - Introduction to Data Science</h3>
+<p style="color: #3d85c6;">Spring 2019<sup>1</sup>, Spring 2021<sup>1</sup>, Spring 2022<sup>1</sup>, Fall 2023<sup>2</sup>, Spring 2024<sup>3</sup></p>
+
+<p><b>Instructors:</b></p>
+<ol>
+  <li><u><a href="https://engineering.lehigh.edu/cse/faculty/724">Prof. Brian D. Davison</a></u></li>
+  <li><u><a href="https://engineering.lehigh.edu/cse/faculty/44810">Prof. Aparna Bharati</a></u><br /></li>
+</ol>
+
+<p><b>Co-Intructors:</b><br /></p>
+<ol>
+  <li>Eashan Adhikarla<br /></li>
+</ol>
 
 <p style="text-align: justify;">Data Science is an interdisciplinary field focusing on the computational analysis of data to extract knowledge and insight. This course introduces the student to the collection, preparation, analysis, modeling and visualization of data, covering both conceptual and practical issues. Examples from diverse fields will be presented, and hands-on use of statistical and data manipulation software will be included.</p>
 
-<hr />
+<h3 id="cse-017---programming-and-data-structures">CSE 017 - Programming and Data Structures</h3>
+<p style="color: #3d85c6;">Fall 2019<sup>1</sup>, Fall 2020<sup>2</sup></p>
 
-<h3 id="cse-017---programming-and-data-structures-fall-2020">CSE 017 - Programming and Data Structures (Fall 2020)</h3>
-<p>Undergraduate Course, Department of Computer Science &amp; Engineering<br /></p>
-
-<p><b> Instructor </b>- Prof. Houria Oudghiri <br /></p>
+<p><b>Instructor</b></p>
+<ol>
+  <li><u><a href="https://engineering.lehigh.edu/cse/faculty/3011">Prof. Arielle K. Carr</a></u></li>
+  <li><u><a href="https://engineering.lehigh.edu/cse/faculty/11326">Prof. Houria Oudghiri</a></u><br /></li>
+</ol>
 
 <p style="text-align: justify;">This course will cover the design and implementation of algorithms using Java.
 It assumes that students have had prior experience using conditional statements, loops, arrays, etc., in Java, and will build on this knowledge to develop a full understanding of proper object-oriented programming, algorithmic techniques (e.g., divide-and-conquer, recursion), and the design of data structures (e.g., queues, stacks, trees).</p>
 
-<hr />
+<h3 id="cse-001---breadth-of-computing">CSE 001 - Breadth of Computing</h3>
+<p style="color: #3d85c6;">Fall 2018</p>
 
-<h3 id="cse-160---introduction-to-data-science-spring-2019">CSE 160 - Introduction to Data Science (Spring 2019)</h3>
-<p>Undergraduate Course, Department of Computer Science &amp; Engineering<br /></p>
-
-<p><b> Instructor </b>- Prof. Brian D. Davison <br /></p>
-
-<p style="text-align: justify;">Data Science is an interdisciplinary field focusing on the computational analysis of data to extract knowledge and insight. This course introduces the student to the collection, preparation, analysis, modeling and visualization of data, covering both conceptual and practical issues. Examples from diverse fields will be presented, and hands-on use of statistical and data manipulation software will be included.</p>
-
-<hr />
-
-<h3 id="cse-017---programming-and-data-structures-fall-2019">CSE 017 - Programming and Data Structures (Fall 2019)</h3>
-<p>Undergraduate Course, Department of Computer Science &amp; Engineering<br /></p>
-
-<p><b> Instructor </b>-</p>
-<ul><li>Prof. Arielle Carr - CSE017(010), CSE017(011)</li><li>Prof. Houria Oudghiri - CSE017(012)</li></ul>
-
-<p style="text-align: justify;">This course will cover the design and implementation of algorithms using Java. It assumes that students have had prior experience using conditional statements, loops, arrays, etc., in Java, and
-will build on this knowledge to develop a full understanding of proper object-oriented programming, algorithmic techniques (e.g., divide-and-conquer, recursion), and the design of data structures (e.g., queues, stacks, trees).</p>
-
-<hr />
-
-<h3 id="cse-001---breadth-of-computing-fall-2018">CSE 001 - Breadth of Computing (Fall 2018)</h3>
-<p>Undergraduate Course, Department of Computer Science &amp; Engineering<br /></p>
-
-<p><b> Instructor </b>- Prof. Daniel Lopresti <br /></p>
+<p><b>Instructor: </b><u><a href="https://engineering.lehigh.edu/cse/faculty/732">Prof. Daniel Lopresti</a></u><br /></p>
 
 <p style="text-align: justify;">The course is intended for students who plan to take further courses in Computer Science (i.e., CSE 002, which can be taken concurrently, and CSE 017, the next course in the computer science sequence), and for those who want to gain understanding about the breadth of computer science topics as part of a general education. No prior experience with computer programming is assumed. There are no prerequisites.</p>
 
@@ -375,7 +328,7 @@ will build on this knowledge to develop a full understanding of proper object-or
   </ul>
 </div> -->
 
-<div class="page__footer-copyright">&copy; 2021 Eashan Adhikarla. <br>The views expressed here are my own and do not necessarily represent the views of any organization I am affiliated to.</div>
+<div class="page__footer-copyright">&copy; 2026 Eashan Adhikarla. <br>The views expressed here are my own and do not necessarily represent the views of any organization I am affiliated with.</div>
 
       </footer>
     </div>
@@ -391,12 +344,55 @@ will build on this knowledge to develop a full understanding of proper object-or
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-80724937-2', 'auto');
+  ga('create', 'UA-145341626-1', 'auto');
   ga('send', 'pageview');
 </script>
 
 
 
+
+<!-- <script>
+    $(document).ready(function () {
+        
+        var gsDataBaseUrl = 'https://raw.githubusercontent.com/eashanadhikarla/eashanadhikarla.github.io/'
+        
+        $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
+            var totalCitation = data['citedby']
+            document.getElementById('total_cit').innerHTML = totalCitation;
+            var citationEles = document.getElementsByClassName('show_paper_citations')
+            Array.prototype.forEach.call(citationEles, element => {
+                var paperId = element.getAttribute('data')
+                var numCitations = data['publications'][paperId]['num_citations']
+                element.innerHTML = '| Citations: ' + numCitations;
+            });
+        });
+    })
+</script> -->
+
+<script>
+    $(document).ready(function () {
+        
+        var gsDataBaseUrl = 'https://raw.githubusercontent.com/eashanadhikarla/eashanadhikarla.github.io/'
+        
+        $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
+            // var totalCitation = data['citedby']
+            // document.getElementById('total_cit').innerHTML = totalCitation;
+            var citationEles = document.getElementsByClassName('show_paper_citations')
+            Array.prototype.forEach.call(citationEles, element => {
+                var paperId = element.getAttribute('data')
+                var numCitations = data['publications'][paperId]['num_citations']
+                element.innerHTML = '| Citations: ' + numCitations;
+            });
+            var citationBadges = document.getElementsByClassName('paper_citations_badges')
+            Array.prototype.forEach.call(citationBadges, element => {
+                var paperId = element.getAttribute('data')
+                var numCitations = data['publications'][paperId]['num_citations']
+                element.href = 'https://scholar.google.com/citations?view_op=view_citation&citation_for_view=' + paperId;
+                element.innerHTML = '<img src="https://img.shields.io/badge/citations-' + numCitations +'-blue?style=social&logo=googlescholar">'
+            });
+        });
+    })
+</script>
 
 
 

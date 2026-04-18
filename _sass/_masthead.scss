@@ -1,31 +1,21 @@
 /* ==========================================================================
-   MASTHEAD
+   MASTHEAD — al-folio inspired clean nav bar
    ========================================================================== */
 
 .masthead {
   position: sticky;
   top: 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-  -webkit-animation: intro 0.3s both;
-  animation: intro 0.3s both;
-  -webkit-animation-delay: 0.15s;
-  animation-delay: 0.15s;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   z-index: 20;
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.75);
   backdrop-filter: saturate(180%) blur(20px);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-  transition: box-shadow 0.3s ease;
 
   &__inner-wrap {
-    @include container;
-    @include clearfix;
-    padding: 1em 1em 1em;
-    font-family: $sans-serif-narrow;
-
-    @include breakpoint($x-large) {
-      max-width: $x-large;
-    }
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0.8em 1em;
 
     nav {
       z-index: 10;
@@ -38,7 +28,6 @@
 }
 
 .masthead__menu {
-
   ul {
     margin: 0;
     padding: 0;
@@ -47,13 +36,52 @@
   }
 }
 
-.masthead__menu-item {
-  display: block;
-  list-style-type: none;
-  white-space: nowrap;
+.site-nav {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-  &--lg {
-    padding-right: 2em;
-    font-weight: 700;
+  /* Apple-style segmented pill container */
+  .visible-links {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    gap: 0.2rem;
+    margin: 0;
+    padding: 0.2rem 0.35rem; /* Slimmer top/bottom padding, maintains standard horizontal length */
+    background-color: #f2f2f7; /* Apple's light grey UI background */
+    border-radius: 9999px; /* Absolute pill shape wrapper */
+
+    li {
+      display: block;
+    }
+
+    a {
+      display: block;
+      padding: 0.2rem 1.2rem; /* Slimmer vertical target area, keeps horizontal length identical */
+      color: #1d1d1f; /* Apple's dark text */
+      font-size: 0.95rem;
+      font-weight: 300; /* Matching the 300-weight of the remaining content perfectly */
+      text-align: center;
+      border-radius: 9999px; /* Inner pill shapes */
+      transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+
+      /* Hover interaction */
+      &:hover {
+        color: #000;
+        background-color: rgba(0, 0, 0, 0.05); /* Subtle dark grey highlight */
+      }
+
+      /* Active page styling (identical to the image) */
+      &.active {
+        background-color: #1d1d1f; /* Black pill */
+        color: #ffffff; /* White text */
+        font-weight: 300; /* Keeping active items clean without bolding */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle depth */
+      }
+    }
   }
 }

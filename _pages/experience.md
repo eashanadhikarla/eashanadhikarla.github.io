@@ -2,7 +2,7 @@
 layout: single
 title: Experiences
 permalink: /experience/
-author_profile: true
+author_profile: false
 redirect_from:
   - /resume
 ---

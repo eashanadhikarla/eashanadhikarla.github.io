@@ -151,3 +151,33 @@
     font-size: $type-size-7;
   }
 }
+
+/* Custom Apple External Link */
+.link-apple-external {
+  display: inline-flex;
+  align-items: center;
+  color: #0071e3 !important; /* Apple Blue */
+  font-family: $global-font-family;
+  font-size: 1.05rem;
+  font-weight: 300;
+  text-decoration: none !important;
+  border-bottom: none !important;
+  transition: color 0.2s ease;
+
+  .arrow {
+    margin-left: 0.2rem;
+    position: relative;
+    top: 1px; /* Optical alignment with the text baseline */
+    transition: transform 0.2s ease;
+  }
+
+  &:hover {
+    color: #0077ed !important;
+    text-decoration: none !important;
+    border-bottom: none !important;
+
+    .arrow {
+      transform: translate(2px, -2px); /* Snappy lift up-and-right on hover */
+    }
+  }
+}

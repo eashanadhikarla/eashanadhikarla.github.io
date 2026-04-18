@@ -93,6 +93,11 @@
 
 <!-- start custom head snippets -->
 
+<!-- Google Fonts: Roboto + Roboto Mono (al-folio inspired) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons" rel="stylesheet">
+
 <link rel="apple-touch-icon" sizes="57x57" href="http://localhost:4000/images/apple-touch-icon-57x57.png?v=M44lzPylqQ">
 <link rel="apple-touch-icon" sizes="60x60" href="http://localhost:4000/images/apple-touch-icon-60x60.png?v=M44lzPylqQ">
 <link rel="apple-touch-icon" sizes="72x72" href="http://localhost:4000/images/apple-touch-icon-72x72.png?v=M44lzPylqQ">
@@ -140,29 +145,54 @@
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
+      <nav id="apple-nav" class="site-nav">
+        <!-- Nav links (middle) -->
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="http://localhost:4000/">Eashan Adhikarla</a></li>
+          <li class="masthead__menu-item">
+            <a href="http://localhost:4000/" >About</a>
+          </li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/research/">Publications</a></li>
+            <li class="masthead__menu-item">
+              <a href="http://localhost:4000/research/" >Publications</a>
+            </li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/experience/">Experiences</a></li>
+            <li class="masthead__menu-item">
+              <a href="http://localhost:4000/experience/" >Experiences</a>
+            </li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/projects/">Projects</a></li>
-          
-            
-            <li class="masthead__menu-item"><a href="http://localhost:4000/teachings/">Teaching</a></li>
+            <li class="masthead__menu-item">
+              <a href="http://localhost:4000/teachings/" >Teaching</a>
+            </li>
           
         </ul>
+
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
   </div>
 </div>
+
+    <div class="vertical-social-icons">
+      
+        <a href="mailto:eaa418@lehigh.edu" title="Email"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+      
+      
+        <a href="https://scholar.google.com/citations?hl=en&user=k3BMw_QAAAAJ" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>
+      
+      
+        <a href="https://github.com/eashanadhikarla" target="_blank" title="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a>
+      
+      
+        <a href="https://www.linkedin.com/in/eashanadhikarla" target="_blank" title="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+      
+      
+        <a href="https://twitter.com/eashan2212" target="_blank" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      
+    </div>
+
 
     
 
@@ -187,7 +217,7 @@
 
   <div class="author__content">
     <!-- <h3 class="author__name">Eashan Adhikarla</h3> -->
-    <p class="author__bio">PhD Student, Computer Science at Lehigh Universtiy<br> <br> The views expressed here are my own and do not necessarily represent the views of any organization I am affiliated to.</p>
+    <p class="author__bio">Ph.D. Student, Computer Science at Lehigh Universtiy<br> <br> The views expressed here are my own and do not necessarily represent the views of any organization I am affiliated to.</p>
   </div>
 
   <div class="author__urls-wrapper">
@@ -230,7 +260,7 @@
       
       
       
-        <li><a href="https://scholar.google.com/"><i class="ai ai-google-scholar-square ai-fw"></i> Google Scholar</a></li>
+        <li><a href="https://scholar.google.com/citations?hl=en&user=k3BMw_QAAAAJ"><i class="ai ai-google-scholar-square ai-fw"></i> Google Scholar</a></li>
       
       
       
@@ -276,7 +306,7 @@
   </ul>
 </div> -->
 
-<div class="page__footer-copyright">&copy; 2021 Eashan Adhikarla. <br>The views expressed here are my own and do not necessarily represent the views of any organization I am affiliated to.</div>
+<div class="page__footer-copyright">&copy; 2026 Eashan Adhikarla. <br>The views expressed here are my own and do not necessarily represent the views of any organization I am affiliated with.</div>
 
       </footer>
     </div>
@@ -292,12 +322,55 @@
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-80724937-2', 'auto');
+  ga('create', 'UA-145341626-1', 'auto');
   ga('send', 'pageview');
 </script>
 
 
 
+
+<!-- <script>
+    $(document).ready(function () {
+        
+        var gsDataBaseUrl = 'https://raw.githubusercontent.com/eashanadhikarla/eashanadhikarla.github.io/'
+        
+        $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
+            var totalCitation = data['citedby']
+            document.getElementById('total_cit').innerHTML = totalCitation;
+            var citationEles = document.getElementsByClassName('show_paper_citations')
+            Array.prototype.forEach.call(citationEles, element => {
+                var paperId = element.getAttribute('data')
+                var numCitations = data['publications'][paperId]['num_citations']
+                element.innerHTML = '| Citations: ' + numCitations;
+            });
+        });
+    })
+</script> -->
+
+<script>
+    $(document).ready(function () {
+        
+        var gsDataBaseUrl = 'https://raw.githubusercontent.com/eashanadhikarla/eashanadhikarla.github.io/'
+        
+        $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
+            // var totalCitation = data['citedby']
+            // document.getElementById('total_cit').innerHTML = totalCitation;
+            var citationEles = document.getElementsByClassName('show_paper_citations')
+            Array.prototype.forEach.call(citationEles, element => {
+                var paperId = element.getAttribute('data')
+                var numCitations = data['publications'][paperId]['num_citations']
+                element.innerHTML = '| Citations: ' + numCitations;
+            });
+            var citationBadges = document.getElementsByClassName('paper_citations_badges')
+            Array.prototype.forEach.call(citationBadges, element => {
+                var paperId = element.getAttribute('data')
+                var numCitations = data['publications'][paperId]['num_citations']
+                element.href = 'https://scholar.google.com/citations?view_op=view_citation&citation_for_view=' + paperId;
+                element.innerHTML = '<img src="https://img.shields.io/badge/citations-' + numCitations +'-blue?style=social&logo=googlescholar">'
+            });
+        });
+    })
+</script>
 
 
 

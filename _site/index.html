@@ -95,6 +95,11 @@
 
 <!-- start custom head snippets -->
 
+<!-- Google Fonts: Roboto + Roboto Mono (al-folio inspired) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons" rel="stylesheet">
+
 <link rel="apple-touch-icon" sizes="57x57" href="http://localhost:4000/images/apple-touch-icon-57x57.png?v=M44lzPylqQ">
 <link rel="apple-touch-icon" sizes="60x60" href="http://localhost:4000/images/apple-touch-icon-60x60.png?v=M44lzPylqQ">
 <link rel="apple-touch-icon" sizes="72x72" href="http://localhost:4000/images/apple-touch-icon-72x72.png?v=M44lzPylqQ">
@@ -142,29 +147,54 @@
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
+      <nav id="apple-nav" class="site-nav">
+        <!-- Nav links (middle) -->
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="http://localhost:4000/">Eashan Adhikarla</a></li>
+          <li class="masthead__menu-item">
+            <a href="http://localhost:4000/" class="active">About</a>
+          </li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/research/">Publications</a></li>
+            <li class="masthead__menu-item">
+              <a href="http://localhost:4000/research/" >Publications</a>
+            </li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/experience/">Experiences</a></li>
+            <li class="masthead__menu-item">
+              <a href="http://localhost:4000/experience/" >Experiences</a>
+            </li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/projects/">Projects</a></li>
-          
-            
-            <li class="masthead__menu-item"><a href="http://localhost:4000/teachings/">Teaching</a></li>
+            <li class="masthead__menu-item">
+              <a href="http://localhost:4000/teachings/" >Teaching</a>
+            </li>
           
         </ul>
+
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
   </div>
 </div>
+
+    <div class="vertical-social-icons">
+      
+        <a href="mailto:eaa418@lehigh.edu" title="Email"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+      
+      
+        <a href="https://scholar.google.com/citations?hl=en&user=k3BMw_QAAAAJ" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>
+      
+      
+        <a href="https://github.com/eashanadhikarla" target="_blank" title="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a>
+      
+      
+        <a href="https://www.linkedin.com/in/eashanadhikarla" target="_blank" title="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+      
+      
+        <a href="https://twitter.com/eashan2212" target="_blank" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      
+    </div>
+
 
     
 
@@ -173,79 +203,6 @@
 
 
 <div id="main" role="main">
-  
-
-
-  <div class="sidebar sticky">
-  
-
-
-
-<div itemscope itemtype="http://schema.org/Person">
-
-  <!-- <div class="author__avatar">
-    
-    	<img src="http://localhost:4000/images/dp.png" class="author__avatar" alt="Eashan Adhikarla">
-    
-  </div> -->
-
-  <div class="author__content">
-    <!-- <h3 class="author__name">Eashan Adhikarla</h3> -->
-    <p class="author__bio">PhD Student, Computer Science at Lehigh Universtiy<br> <br> The views expressed here are my own and do not necessarily represent the views of any organization I am affiliated to.</p>
-  </div>
-
-  <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">Follow</button>
-    <ul class="author__urls social-icons">
-      
-        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> Bethlehem, PA, USA</li>
-      
-      
-      
-      
-        <li><a href="mailto:eaa418@lehigh.edu"><i class="fa fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
-      
-      
-      
-        <li><a href="https://twitter.com/eashan2212"><i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
-      
-      
-      
-      
-        <li><a href="https://www.linkedin.com/in/eashanadhikarla"><i class="fa fa-fw fa-linkedin-square" aria-hidden="true"></i> LinkedIn</a></li>
-      
-      
-      
-      
-      
-      
-        <li><a href="https://github.com/eashanadhikarla"><i class="fa fa-fw fa-github" aria-hidden="true"></i> Github</a></li>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-        <li><a href="https://scholar.google.com/"><i class="ai ai-google-scholar-square ai-fw"></i> Google Scholar</a></li>
-      
-      
-      
-    </ul>
-  </div>
-</div>
-
-  
-  </div>
-
-
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
     
@@ -269,18 +226,61 @@
       
 
       <section class="page__content" itemprop="text">
-        <!-- <img align="right" src="https://cseveren.github.io/images/dp.png" alt="Photo" style="width: 210px; border-radius: 10px; padding: 8px 8px 8px 8px"/> -->
-
-<p style="text-align: justify;">
-Welcome to my home page!
-<br />
-<img align="right" src="https://eashanadhikarla.github.io/images/display-picture.jpeg" alt="Photo" style="width: 45%; height: 50%; border-radius: 55px; padding: 50px 50px 50px 50px" />
-<br />
-I am a second year Ph.D. Student at P.C. Rossin College of Engineering and Applied Science at <a href="https://www1.lehigh.edu">Lehigh University, Bethlehem - Pennsylvania.</a>, where I am fortunately advised by <a href="http://www.cse.lehigh.edu/~brian/">Dr. Brian D. Davison</a>, Professor of Computer Science and Engineering, Director of Web Understanding, Modeling, and Evaluation (WUME) lab and Associate Director of Institute for Data, Intelligent Systems, and Computation (I-DISC). I received my Master of Science (M.S.) in Computer Science from Lehigh University and Bachelors of Engineering (B.E.) in Computer Science from Rajiv Gandhi Proudyogiki Vishwavidyalaya, Bhopal, MP (India).
-<br /><br />
-My research interest lies in the area of deep learning and computer vision. Drawing parallels from the quintessential researchers in my network, my post Ph.D. goal is to work in Industry or research laboratory, and contribute extensively to the field of A.I.
+        <p style="text-align: justify;">
+  <img src="https://eashanadhikarla.github.io/images/dp.png" alt="Eashan Adhikarla" style="float: right; width: 100%; max-width: 250px; height: auto; border-radius: 12px; margin: 0 0 20px 25px;" />
+  I am a final-year Ph.D. candidate in Computer Science at Lehigh University's P.C. Rossin College of Engineering, advised by <a href="http://www.cse.lehigh.edu/~brian/">Dr. Brian D. Davison</a>.
+  <br /><br />
+  My research is focused on a critical challenge at the forefront of modern AI: <b>making powerful foundation models for computer vision both efficient and effective for on-device deployment.</b> I specialize in developing novel, lightweight architectures that push the boundaries of what's possible on edge devices, without compromising on performance, robustness, or image quality.
+  <br /><br />
+  Since 2022, I have been fortunate to collaborate closely with the Computational Photography and Generative AI teams (including <b>Lenovo Research</b>, <b>Motorola Mobility</b>). Where, I have contributed to developing and optimizing next-generation AI models for image enhancement and controllable restoration, directly tackling real-world challenges in the mobile and edge computing space.
+  <br /><br />
+  I hold Master of Science and Bachelor of Science degrees in Computer Science, which have provided me with a strong and comprehensive foundation in AI and its applications. I am passionate about tackling complex problems, collaborating with creative teams, and translating cutting-edge research into impactful technology.
 </p>
-<p style="text-align: center;"><b>“Learn something about everything and everything about something”</b><i> – Thomas Huxley</i></p>
+
+<p><strong>For Recruiters:</strong></p>
+<p style="color: #0056b3; font-weight: bold;">I am actively seeking full-time roles broadly at the intersection of Computer Vision and Machine Learning, suitable for a PhD graduate, with expected availability from Apr 20, 2026 onward.</p>
+
+<p><strong>News</strong> 📣</p>
+<ul>
+  <li>[03.2026] Our paper DirectFlow: One-Step Posterior Transport Distillation for Blind Face Restoration got accepted in CVPR EDGE 2026.</li>
+  <li>[08.2025] Three of our papers were accepted in WACV 2026 conference. (<a href="https://openaccess.thecvf.com/content/WACV2026/papers/Adhikarla_RemEdit_Efficient_Diffusion_Editing_with_Riemannian_Geometry_WACV_2026_paper.pdf">RemEdit</a>, <a href="https://openaccess.thecvf.com/content/WACV2026/papers/Adhikarla_From_Darkness_to_Detail_Frequency-Aware_SSMs_for_Low-Light_Vision_WACV_2026_paper.pdf">ExpoMamba-ext</a>, <a href="https://openaccess.thecvf.com/content/WACV2026/papers/Aithal_LENVIZ_A_High-Resolution_Low-Exposure_Night_Vision_Benchmark_Dataset_WACV_2026_paper.pdf">Lenviz</a>)</li>
+  <li>[06.2024] Our paper <a href="https://arxiv.org/pdf/2407.13170">Unified-EGformer</a> got accepted in ICPR 2024.</li>
+  <li>[07.2024] Our paper <a href="https://www.nature.com/articles/s41591-024-03185-2">BiomedGPT</a> got accepted in Nature Medicine, 2024.</li>
+  <li>[06.2024] Our paper <a href="https://openreview.net/pdf?id=X9L6PatYhH">ExpoMamba</a> got accepted in ICML Efficient Systems for Foundation Models, 2024.</li>
+  <li>[06.2024] Joining Motorola’s Computational Photography team at Lenovo Research for Generative AI based research.</li>
+  <li>[05.2024] I will be serving as a reviewer for ICML ES-FoMo-II 2024 and CIKM 2024.</li>
+  <li>[12.2023] We released a new survey on <a href="https://arxiv.org/pdf/2312.01540.pdf">Robust Computer Vision in an Ever-Changing World: A Survey of Techniques for Tackling Distribution Shifts</a>!</li>
+  <li>[05.2023] The first preprint of <a href="https://arxiv.org/abs/2305.17100">BiomedGPT: A Unified and Generalist Biomedical Generative Pre-trained Transformer for Vision, Language, and Multimodal Tasks</a> is released. Journal print soon to be released!</li>
+  <li>[03.2023] Served as a reviewer for <a href="https://peerj.com/">PeerJ</a>.</li>
+  <li>[01.2023] Joined Lenovo Research, Mobile Technology Innovation (MTI) Lab’s Computer Vision team work on developing AI models for Thinkpad camera lighting enhancements.</li>
+  <li>[11.2021] Paper from my internship at Berkeley Lab won the <a href="https://scinet.supercomputing.org/community/indis/previous-editions/sc21-indis/indis-2021-best-paper-award/">Best Paper Award</a> in SC2021.</li>
+</ul>
+
+<p>Currently reviewing: <a href="https://www.sciencedirect.com/journal/pattern-recognition">Pattern Recognition</a><br />
+Previously reviewed papers at: <a href="https://www.iclr.cc/Conferences/2025">ICLR</a>, <a href="https://www.sciencedirect.com/journal/pattern-recognition">Pattern Recognition</a>, <a href="https://wacv2025.thecvf.com">WACV</a> (Emergency), <a href="http://bigdataieee.org/">Big Data</a>, <a href="https://sigir.org/">SIGIR</a>, <a href="https://www.wsdm-conference.org/">WSDM</a>, <a href="https://icml.cc/">ICML</a>, <a href="http://www.cikmconference.org/">CIKM</a>, <a href="https://peerj.com/">PeerJ</a>.</p>
+
+<!-- Previously reviewed papers at: [ICLR](https://www.iclr.cc/Conferences/2025) 2025, [Pattern Recognition](https://www.sciencedirect.com/journal/pattern-recognition) 2024,  [WACV](https://wacv2025.thecvf.com) (Emergency) 2025, [Big Data](http://bigdataieee.org/), [SIGIR](https://sigir.org/), [WSDM](https://www.wsdm-conference.org/), [ICML](https://icml.cc/), [CIKM](http://www.cikmconference.org/), [PeerJ](https://peerj.com/). -->
+
+<p style="text-align: center;">
+  <b>“Try to learn something about everything and everything about something”</b>
+  <i> – Thomas Henry Huxley</i>
+</p>
+
+<p style="text-align: center;">
+  <b>“What you see and what you hear depends a great deal on where you are standing.”</b>
+  <i> – C.S. Lewis</i>
+</p>
+
+<p style="text-align: center;">
+  <b>“We need to listen to people who don’t have power, because they often have very powerful things to say.”</b>
+  <i> – Marty Baron</i>
+  <!-- https://news.lehigh.edu/nationally-renowned-editor-marty-baron-discusses-challenges-facing-journalism-and-democracy -->
+</p>
+
+<p style="text-align: center;">
+  <b>“We don't see things as they are, we see them as we are.”</b>
+  <i> – Anais Nin</i>
+</p>
 
         
       </section>
@@ -330,7 +330,7 @@ My research interest lies in the area of deep learning and computer vision. Draw
   </ul>
 </div> -->
 
-<div class="page__footer-copyright">&copy; 2021 Eashan Adhikarla. <br>The views expressed here are my own and do not necessarily represent the views of any organization I am affiliated to.</div>
+<div class="page__footer-copyright">&copy; 2026 Eashan Adhikarla. <br>The views expressed here are my own and do not necessarily represent the views of any organization I am affiliated with.</div>
 
       </footer>
     </div>
@@ -346,12 +346,55 @@ My research interest lies in the area of deep learning and computer vision. Draw
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-80724937-2', 'auto');
+  ga('create', 'UA-145341626-1', 'auto');
   ga('send', 'pageview');
 </script>
 
 
 
+
+<!-- <script>
+    $(document).ready(function () {
+        
+        var gsDataBaseUrl = 'https://raw.githubusercontent.com/eashanadhikarla/eashanadhikarla.github.io/'
+        
+        $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
+            var totalCitation = data['citedby']
+            document.getElementById('total_cit').innerHTML = totalCitation;
+            var citationEles = document.getElementsByClassName('show_paper_citations')
+            Array.prototype.forEach.call(citationEles, element => {
+                var paperId = element.getAttribute('data')
+                var numCitations = data['publications'][paperId]['num_citations']
+                element.innerHTML = '| Citations: ' + numCitations;
+            });
+        });
+    })
+</script> -->
+
+<script>
+    $(document).ready(function () {
+        
+        var gsDataBaseUrl = 'https://raw.githubusercontent.com/eashanadhikarla/eashanadhikarla.github.io/'
+        
+        $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
+            // var totalCitation = data['citedby']
+            // document.getElementById('total_cit').innerHTML = totalCitation;
+            var citationEles = document.getElementsByClassName('show_paper_citations')
+            Array.prototype.forEach.call(citationEles, element => {
+                var paperId = element.getAttribute('data')
+                var numCitations = data['publications'][paperId]['num_citations']
+                element.innerHTML = '| Citations: ' + numCitations;
+            });
+            var citationBadges = document.getElementsByClassName('paper_citations_badges')
+            Array.prototype.forEach.call(citationBadges, element => {
+                var paperId = element.getAttribute('data')
+                var numCitations = data['publications'][paperId]['num_citations']
+                element.href = 'https://scholar.google.com/citations?view_op=view_citation&citation_for_view=' + paperId;
+                element.innerHTML = '<img src="https://img.shields.io/badge/citations-' + numCitations +'-blue?style=social&logo=googlescholar">'
+            });
+        });
+    })
+</script>
 
 
 

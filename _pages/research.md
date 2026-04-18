@@ -1,7 +1,7 @@
-﻿---
+---
 title: "Research"
 permalink: /research/
-author_profile: true
+author_profile: false
 ---
 
 {% if site.google_scholar_stats_use_cdn %}
@@ -11,7 +11,7 @@ author_profile: true
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-[Google Scholar](https://scholar.google.com/citations?hl=en&user=k3BMw_QAAAAJ)<br>
+<a href="https://scholar.google.com/citations?hl=en&user=k3BMw_QAAAAJ" class="link-apple-external">Google Scholar <svg class="arrow" viewBox="0 0 14 14" width="13" height="13" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M4 3h7v7M11 3L3 11"/></svg></a><br><br>
 
 <!-- <a href='https://scholar.google.com/citations?user=k3BMw_QAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> -->
 

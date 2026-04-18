@@ -9,9 +9,12 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 
-gem "github-pages", group: :jekyll_plugins
+gem "jekyll", "~> 4.3.3"
 
-# If you want to use Jekyll native, uncomment the line below.
+# Modern ruby requires webrick and csv for local server
+gem "webrick", "~> 1.8"
+gem "csv"
+gem "base64"
 # To upgrade, run `bundle update`.
 
 # gem "jekyll"
@@ -23,5 +26,4 @@ group :jekyll_plugins do
   # gem "jekyll-archives"
   gem "jekyll-feed"
   gem 'jekyll-sitemap'
-  gem 'hawkins'
 end

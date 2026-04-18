@@ -93,6 +93,11 @@
 
 <!-- start custom head snippets -->
 
+<!-- Google Fonts: Roboto + Roboto Mono (al-folio inspired) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons" rel="stylesheet">
+
 <link rel="apple-touch-icon" sizes="57x57" href="http://localhost:4000/images/apple-touch-icon-57x57.png?v=M44lzPylqQ">
 <link rel="apple-touch-icon" sizes="60x60" href="http://localhost:4000/images/apple-touch-icon-60x60.png?v=M44lzPylqQ">
 <link rel="apple-touch-icon" sizes="72x72" href="http://localhost:4000/images/apple-touch-icon-72x72.png?v=M44lzPylqQ">
@@ -140,29 +145,54 @@
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
+      <nav id="apple-nav" class="site-nav">
+        <!-- Nav links (middle) -->
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="http://localhost:4000/">Eashan Adhikarla</a></li>
+          <li class="masthead__menu-item">
+            <a href="http://localhost:4000/" >About</a>
+          </li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/research/">Publications</a></li>
+            <li class="masthead__menu-item">
+              <a href="http://localhost:4000/research/" class="active">Publications</a>
+            </li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/experience/">Experiences</a></li>
+            <li class="masthead__menu-item">
+              <a href="http://localhost:4000/experience/" >Experiences</a>
+            </li>
           
             
-            <li class="masthead__menu-item"><a href="http://localhost:4000/projects/">Projects</a></li>
-          
-            
-            <li class="masthead__menu-item"><a href="http://localhost:4000/teachings/">Teaching</a></li>
+            <li class="masthead__menu-item">
+              <a href="http://localhost:4000/teachings/" >Teaching</a>
+            </li>
           
         </ul>
+
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
   </div>
 </div>
+
+    <div class="vertical-social-icons">
+      
+        <a href="mailto:eaa418@lehigh.edu" title="Email"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+      
+      
+        <a href="https://scholar.google.com/citations?hl=en&user=k3BMw_QAAAAJ" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>
+      
+      
+        <a href="https://github.com/eashanadhikarla" target="_blank" title="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a>
+      
+      
+        <a href="https://www.linkedin.com/in/eashanadhikarla" target="_blank" title="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+      
+      
+        <a href="https://twitter.com/eashan2212" target="_blank" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      
+    </div>
+
 
     
 
@@ -171,79 +201,6 @@
 
 
 <div id="main" role="main">
-  
-
-
-  <div class="sidebar sticky">
-  
-
-
-
-<div itemscope itemtype="http://schema.org/Person">
-
-  <!-- <div class="author__avatar">
-    
-    	<img src="http://localhost:4000/images/dp.png" class="author__avatar" alt="Eashan Adhikarla">
-    
-  </div> -->
-
-  <div class="author__content">
-    <!-- <h3 class="author__name">Eashan Adhikarla</h3> -->
-    <p class="author__bio">PhD Student, Computer Science at Lehigh Universtiy<br> <br> The views expressed here are my own and do not necessarily represent the views of any organization I am affiliated to.</p>
-  </div>
-
-  <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">Follow</button>
-    <ul class="author__urls social-icons">
-      
-        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> Bethlehem, PA, USA</li>
-      
-      
-      
-      
-        <li><a href="mailto:eaa418@lehigh.edu"><i class="fa fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
-      
-      
-      
-        <li><a href="https://twitter.com/eashan2212"><i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
-      
-      
-      
-      
-        <li><a href="https://www.linkedin.com/in/eashanadhikarla"><i class="fa fa-fw fa-linkedin-square" aria-hidden="true"></i> LinkedIn</a></li>
-      
-      
-      
-      
-      
-      
-        <li><a href="https://github.com/eashanadhikarla"><i class="fa fa-fw fa-github" aria-hidden="true"></i> Github</a></li>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-        <li><a href="https://scholar.google.com/"><i class="ai ai-google-scholar-square ai-fw"></i> Google Scholar</a></li>
-      
-      
-      
-    </ul>
-  </div>
-</div>
-
-  
-  </div>
-
-
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
     <meta itemprop="headline" content="Research">
@@ -268,48 +225,76 @@
       
 
       <section class="page__content" itemprop="text">
-        <p>  –   <a href="https://scholar.google.com/citations?user=lQ4Yvs4AAAAJ">Google Scholar</a>   –  </p>
+        
+<p><a href="https://scholar.google.com/citations?hl=en&amp;user=k3BMw_QAAAAJ" class="link-apple-external">Google Scholar <svg class="arrow" viewBox="0 0 14 14" width="13" height="13" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M4 3h7v7M11 3L3 11"></path></svg></a><br /><br /></p>
 
-<p>B.Tierney, E.Dart, E.Kissel, E.Adhikarla, Exploring the use of the BBRv2 Congestion Control Algorithm for use on Data Transfer Nodes, <strong>SC 2021 - INDIS Workshop</strong><br />
-[<a href="">Paper</a>][<a href="https://github.com/esnet/testing-harness">Code</a>]<br /><br /></p>
+<!-- <a href='https://scholar.google.com/citations?user=k3BMw_QAAAAJ'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Feashanadhikarla%2Feashanadhikarla.github.io%2Fgoogle-scholar-stats%2Fgs_data_shieldsio.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> -->
 
-<p>E.Adhikarla, B.D.Davison, Face Mask Detection in real-world Webcam Images, <strong>ACM GoodIT 2021</strong><br />
-[<a href="https://dl.acm.org/doi/pdf/10.1145/3462203.3475903">Paper</a>][<a href="https://github.com/eashanadhikarla/wfm">Code</a>]<br /><br /></p>
+<p><b>E.Adhikarla</b>, B.D.Davison<br />
+DirectFlow: One-Step Posterior Transport Distillation for Blind Face Restoration<br />
+<strong>Computer Vision and Pattern Recognition (CVPR), Workshop on Efficient and On-Device Generation (EDGE), 2026</strong><br />
+[<a href="">Paper</a>][<a href="">Code</a>][<a href="">Poster</a>]<br /></p>
 
-<p>E.Adhikarla, D.Luo, B.D.Davison, Memory Defense: More Robust Classification
-via a Memory-Masking Autoencoder, to be uploaded in <strong>arXiv 2021</strong><br />
-[<a href="">Paper</a>][<a href="">Code</a>]<br /><br /></p>
+<p><b>E.Adhikarla</b>, B.D.Davison<br />
+RemEdit: Efficient Diffusion Editing with Riemannian Geometry<br />
+<strong>IEEE/CVF Winter Conference on Applications of Computer Vision, 2026</strong><br />
+[<a href="https://openaccess.thecvf.com/content/WACV2026/papers/Adhikarla_RemEdit_Efficient_Diffusion_Editing_with_Riemannian_Geometry_WACV_2026_paper.pdf">Paper</a>][<a href="https://github.com/eashanadhikarla/RemEdit">Code</a>][<a href="https://eashanadhikarla.github.io/files/remedit_poster_wacv.pdf">Poster</a>]<br /></p>
 
-<p>E.Adhikarla, B. Austin, Estimating an HPC Facility’s Capacity For Accommodating
-Real-time Workflows, <strong>NERSC 2019</strong> [<a href="">Thesis</a>]<br /><br /></p>
+<p>M.Aithal, RG VidalMata, M.Kartha, G.Chen, <b>E.Adhikarla</b>, L.N.Kisten, Z.Fu, N.A.Madhusudhana, J.Nasti<br />
+LENVIZ: A High-Resolution Low-Exposure Night Vision Benchmark Dataset<br />
+<strong>IEEE/CVF Winter Conference on Applications of Computer Vision, 2026</strong><br />
+[<a href="https://openaccess.thecvf.com/content/WACV2026/papers/Aithal_LENVIZ_A_High-Resolution_Low-Exposure_Night_Vision_Benchmark_Dataset_WACV_2026_paper.pdf">Paper</a>][<a href="https://github.com/rosauravidal/LENVIZ">Code</a>][<a href="https://eashanadhikarla.github.io/files/lenviz_poster_wacv.pdf">Poster</a>]<br /></p>
 
-<!-- [Active Reseach](#active) &nbsp; &nbsp; - &nbsp; &nbsp; [Publications](#pubs) &nbsp; &nbsp; - &nbsp; &nbsp; [Google Scholar](https://scholar.google.com/citations?user=lQ4Yvs4AAAAJ) -->
+<p><b>E.Adhikarla</b>, K.Zhang, G.Chen, J.Nicholson, B.D.Davison<br />
+From Darkness to Detail: Frequency-Aware SSMs for Low-Light Vision<br />
+<strong>IEEE/CVF Winter Conference on Applications of Computer Vision, 2026</strong><br />
+[<a href="https://openaccess.thecvf.com/content/WACV2026/papers/Adhikarla_From_Darkness_to_Detail_Frequency-Aware_SSMs_for_Low-Light_Vision_WACV_2026_paper.pdf">Paper</a>][<a href="https://github.com/eashanadhikarla/ExpoMamba">Code</a>][<a href="https://eashanadhikarla.github.io/files/expomamba_poster_wacv.pdf">Poster</a>]<br /></p>
 
-<!-- <h2 id="active">
-Active Research
-</h2> -->
+<p><b>E.Adhikarla</b>, K.Zhang, J.Nicholson, B.D.Davison<br />
+ExpoMamba: Exploiting Frequency SSM Blocks for Efficient and Effective Image Enhancement<br />
+<strong>ICML Efficient Systems for Foundation Models, 2024</strong><br />
+[<a href="https://openreview.net/pdf?id=X9L6PatYhH">Paper</a>][<a href="https://github.com/eashanadhikarla/ExpoMamba">Code</a>][<a href="https://eashanadhikarla.github.io/files/expomamba_poster.pdf">Poster</a>]<br /></p>
 
-<!-- #### Working Papers
+<p><b>E.Adhikarla</b>, K.Zhang, J.Nicholson, L.Sun, B.D.Davison<br />
+Unified-EGformer: Exposure Guided Lightweight Transformer for Mixed-Exposure Image<br />
+<strong>International Conference on Pattern Recognition (ICPR), Springer Nature 2024</strong><br />
+[<a href="https://link.springer.com/chapter/10.1007/978-3-031-78110-0_17">Paper</a>][<a href="https://github.com/eashanadhikarla/U-EGformer">Code</a>]<br /></p>
 
-* "[Lockdowns and Innovation: Evidence from 1918 Flu Pandemic](https://www.nber.org/papers/w28152)" (with [Enrico Berkes][eberkes], [Olivier Deschênes][odeschenes], [Ruben Gaetani][ruben], and [Jeff Lin][jlin]). NBER Working Paper 28152 (2020). Revision requested at *Review of Economics and Statistics* (short paper).
+<p>J.Yu, Y.Dai, X.Liu, J.Huang, Y.Shen, K.Zhang, R.Zhou, <b>E.Adhikarla</b>, W.Ye, Y.Liu, Z.Kong, K.Zhang, Y.Yin , V.Namboodiri , B.D.Davison , J.H.Moore , Y.Chen<br />
+Unleashing the Power of Multi-Task Learning: A Comprehensive Survey Spanning Traditional, Deep, and Pretrained Foundation Model Eras<br />
+<strong>Havard Data Science Review Journal (HDSR) 2025</strong><br />
+[<a href="https://arxiv.org/abs/2404.18961">Paper</a>][<a href="https://github.com/junfish/Awesome-Multitask-Learning">Code</a>]<br />
+[<a href="https://hdsr.mitpress.mit.edu/pub/7fcc3jhv/release/1">Part 1</a>, <a href="https://hdsr.mitpress.mit.edu/pub/kuqgze5o/release/2">Part 2</a>, <a href="https://hdsr.mitpress.mit.edu/pub/lgmkutcd/release/2">Part 3</a>]</p>
 
+<p>K.Zhang, J.Yu, <b>E.Adhikarla</b>, R.Zhou, Z.Yan, Y.Liu, Z.Liu, L.He, B.D.Davison, X.Li, H.Ren, S.Fu, J.Zou, W.Lei, J.Huang, C.Chen, Y.Zhou, T.Liu, X.Chen, Y.Chen, Q.Li,  H.Liu, L.Sun<br />
+BiomedGPT: A Unified and Generalist Biomedical Generative Pre-trained Transformer for Vision, Language, and Multimodal Tasks<br />
+<strong>Nature Medicine 2024</strong><br />
+[<a href="(https://www.nature.com/articles/s41591-024-03185-2)">Paper</a>][<a href="https://github.com/taokz/BiomedGPT">Code</a>]<br /></p>
 
-#### Selected Works in Progress
+<p><b>E.Adhikarla</b>, K.Zhang, J.Yu, L.Sun, J.Nicholson, B.D.Davison<br />
+Robust Computer Vision in an Ever-Changing World: A Survey of Techniques for Tackling Distribution Shifts<br />
+<strong>arXiv 2023</strong><br />
+[<a href="https://arxiv.org/pdf/2312.01540.pdf">Paper</a>]<br /></p>
 
-* "Driving, Dropouts, and Drive-throughs: Mobility Restrictions and Teen Outcomes" (with [Valerie Bostwick][vkb]). *Draft coming soon!*
+<p><b>E.Adhikarla</b>, D.Luo, B.D.Davison<br />
+Memory Defense: More Robust Classification via a Memory-Masking Autoencoder<br />
+<strong>arXiv 2022</strong><br />
+[<a href="https://arxiv.org/pdf/2202.02595.pdf">Paper</a>][<a href="https://github.com/eashanadhikarla/MemoryDef">Code</a>]<br /></p>
 
-* "Modal Choice and Income in Mexico City" (with [Paulina Oliva][poliva] and [Danae Hernández-Cortés][dhc]).
+<p>B.Tierney, E.Dart, E.Kissel, <b>E.Adhikarla</b><br />
+Exploring the use of the BBRv2 Congestion Control Algorithm for use on Data Transfer Nodes<br />
+<strong>SC 2021 - INDIS Workshop</strong><br />
+[<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=9652571f">Paper</a>][<a href="https://github.com/esnet/testing-harness">Code</a>] (<i><strong>Won the Best Paper Award</strong></i>)<br /></p>
 
-* "Climate, Innovation, and Adaptation" (with [Enrico Berkes][eberkes], [Olivier Deschênes][odeschenes], and [Jeff Lin][jlin]).
+<p><b>E.Adhikarla</b>, B.D.Davison<br />
+Face Mask Detection in real-world Webcam Images<br />
+<strong>ACM GoodIT 2021</strong><br />
+[<a href="https://dl.acm.org/doi/pdf/10.1145/3462203.3475903">Paper</a>][<a href="https://github.com/eashanadhikarla/wfm">Code</a>]<br /></p>
 
-* "The Racial Commuting Gap since 1980" (with [Devin Michelle Bunten][dmb], [Ellen Fu][exf], and [Lyndsey Rolheiser][lar]). *Draft coming soon!*
-
-
-<h2 id="pubs">
-Publications
-</h2> -->
-
-<!-- #### Peer-Reviewed Publications in Economics -->
+<p><b>E.Adhikarla</b>, B. Austin<br />
+Estimating an HPC Facility’s Capacity For Accommodating<br />
+Real-time Workflows, <strong>NERSC 2019</strong><br />
+[<a href="https://eashanadhikarla.github.io/files/thesis-internship.pdf">Thesis</a>][<a href="https://cs.lbl.gov/news-media/news/2019/summer-student-researchers-wrap-up/">Poster Presentation Clip</a>]<br /></p>
 
         
       </section>
@@ -359,7 +344,7 @@ Publications
   </ul>
 </div> -->
 
-<div class="page__footer-copyright">&copy; 2021 Eashan Adhikarla. <br>The views expressed here are my own and do not necessarily represent the views of any organization I am affiliated to.</div>
+<div class="page__footer-copyright">&copy; 2026 Eashan Adhikarla. <br>The views expressed here are my own and do not necessarily represent the views of any organization I am affiliated with.</div>
 
       </footer>
     </div>
@@ -375,12 +360,55 @@ Publications
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-80724937-2', 'auto');
+  ga('create', 'UA-145341626-1', 'auto');
   ga('send', 'pageview');
 </script>
 
 
 
+
+<!-- <script>
+    $(document).ready(function () {
+        
+        var gsDataBaseUrl = 'https://raw.githubusercontent.com/eashanadhikarla/eashanadhikarla.github.io/'
+        
+        $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
+            var totalCitation = data['citedby']
+            document.getElementById('total_cit').innerHTML = totalCitation;
+            var citationEles = document.getElementsByClassName('show_paper_citations')
+            Array.prototype.forEach.call(citationEles, element => {
+                var paperId = element.getAttribute('data')
+                var numCitations = data['publications'][paperId]['num_citations']
+                element.innerHTML = '| Citations: ' + numCitations;
+            });
+        });
+    })
+</script> -->
+
+<script>
+    $(document).ready(function () {
+        
+        var gsDataBaseUrl = 'https://raw.githubusercontent.com/eashanadhikarla/eashanadhikarla.github.io/'
+        
+        $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
+            // var totalCitation = data['citedby']
+            // document.getElementById('total_cit').innerHTML = totalCitation;
+            var citationEles = document.getElementsByClassName('show_paper_citations')
+            Array.prototype.forEach.call(citationEles, element => {
+                var paperId = element.getAttribute('data')
+                var numCitations = data['publications'][paperId]['num_citations']
+                element.innerHTML = '| Citations: ' + numCitations;
+            });
+            var citationBadges = document.getElementsByClassName('paper_citations_badges')
+            Array.prototype.forEach.call(citationBadges, element => {
+                var paperId = element.getAttribute('data')
+                var numCitations = data['publications'][paperId]['num_citations']
+                element.href = 'https://scholar.google.com/citations?view_op=view_citation&citation_for_view=' + paperId;
+                element.innerHTML = '<img src="https://img.shields.io/badge/citations-' + numCitations +'-blue?style=social&logo=googlescholar">'
+            });
+        });
+    })
+</script>
 
 
 
