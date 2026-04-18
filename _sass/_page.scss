@@ -34,6 +34,17 @@
       box-shadow: 0 4px 8px rgba(0, 113, 227, 0.3); /* Soft blue glow */
     }
   }
+
+  /* Switch back to a horizontal, statically centered pill on mobile to prevent text overlapping */
+  @media screen and (max-width: 1080px) {
+    position: static;
+    flex-direction: row; /* Lay them out horizontally */
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1rem auto 0 auto; /* Spacing below the masthead */
+    padding: 0.35rem 0.5rem; /* Re-widen the horizontal padding to fit a horizontal row */
+    width: max-content; /* Hug the row */
+  }
 }
 
 #main {
