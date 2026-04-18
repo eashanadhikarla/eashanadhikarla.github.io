@@ -23,6 +23,8 @@
     height: 2.8rem;
     color: #1d1d1f; /* Dark text natively */
     font-size: 1.25rem;
+    text-decoration: none !important; /* Ensure no inherited underlines */
+    border-bottom: none !important; /* Ensure no inherited borders */
     border-radius: 50%; /* Perfect circles inside the pill */
     transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
 
