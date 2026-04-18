@@ -38,6 +38,7 @@
   /* Switch back to a horizontal, statically centered pill on mobile to prevent text overlapping */
   @media screen and (max-width: 1080px) {
     position: static;
+    display: flex; /* Override inline-flex to allow margin auto centering */
     flex-direction: row; /* Lay them out horizontally */
     flex-wrap: wrap;
     justify-content: center;
