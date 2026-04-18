@@ -5,11 +5,10 @@ excerpt: "About me"
 author_profile: false
 redirect_from:
   - /about/
-  - /about.html
 ---
 
 <p style="text-align: justify;">
-  <img src="https://eashanadhikarla.github.io/images/dp.png" alt="Eashan Adhikarla" style="float: right; width: 100%; max-width: 250px; height: auto; border-radius: 12px; margin: 0 0 20px 25px;"/>
+  <img src="https://eashanadhikarla.github.io/images/dp.png" alt="Eashan Adhikarla" class="profile-img-responsive"/>
   I am a final-year Ph.D. candidate in Computer Science at Lehigh University's P.C. Rossin College of Engineering, advised by <a href="http://www.cse.lehigh.edu/~brian/">Dr. Brian D. Davison</a>.
   <br><br>
   My research is focused on a critical challenge at the forefront of modern AI: <b>making powerful foundation models for computer vision both efficient and effective for on-device deployment.</b> I specialize in developing novel, lightweight architectures that push the boundaries of what's possible on edge devices, without compromising on performance, robustness, or image quality.
