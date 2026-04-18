@@ -11,7 +11,13 @@ author_profile: false
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-<a href="https://scholar.google.com/citations?hl=en&user=k3BMw_QAAAAJ" class="link-apple-external">Google Scholar <svg class="arrow" viewBox="0 0 14 14" width="13" height="13" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M4 3h7v7M11 3L3 11"/></svg></a><br><br>
+<div style="display: flex; gap: 1.5rem; flex-wrap: wrap; margin-bottom: 2rem;">
+  <a href="https://scholar.google.com/citations?hl=en&user=k3BMw_QAAAAJ" class="link-apple-external" target="_blank">Google Scholar <svg class="arrow" viewBox="0 0 14 14" width="13" height="13" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M4 3h7v7M11 3L3 11"/></svg></a>
+  <a href="https://orcid.org/0009-0006-8417-0788" class="link-apple-external" target="_blank">ORCID <svg class="arrow" viewBox="0 0 14 14" width="13" height="13" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M4 3h7v7M11 3L3 11"/></svg></a>
+  <a href="https://www.semanticscholar.org/author/Eashan-Adhikarla/2123636086" class="link-apple-external" target="_blank">Semantic Scholar <svg class="arrow" viewBox="0 0 14 14" width="13" height="13" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M4 3h7v7M11 3L3 11"/></svg></a>
+  <a href="https://arxiv.org/a/0009-0006-8417-0788.html" class="link-apple-external" target="_blank">arXiv <svg class="arrow" viewBox="0 0 14 14" width="13" height="13" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M4 3h7v7M11 3L3 11"/></svg></a>
+  <a href="https://www.scopus.com/authid/detail.uri?authorId=57267843100" class="link-apple-external" target="_blank">Scopus <svg class="arrow" viewBox="0 0 14 14" width="13" height="13" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M4 3h7v7M11 3L3 11"/></svg></a>
+</div>
 
 <!-- <a href='https://scholar.google.com/citations?user=k3BMw_QAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> -->
 

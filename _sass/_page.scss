@@ -3,16 +3,21 @@
    ========================================================================== */
 
 .vertical-social-icons {
-  position: fixed; /* Restored sticky floating behavior */
-  top: 5.5rem; /* Optical alignment relative to the browser viewport */
+  position: fixed;
+  /* Restored sticky floating behavior */
+  top: 5.5rem;
+  /* Optical alignment relative to the browser viewport */
   left: max(2rem, calc(50vw - 530px));
   display: inline-flex;
   flex-direction: column;
   align-items: center;
   gap: 0.2rem;
-  padding: 0.35rem 0.2rem; /* Slender on the sides (width-wise), standard length vertically */
-  background-color: #f2f2f7; /* Apple light grey UI background */
-  border-radius: 9999px; /* Pill shape vertically */
+  padding: 0.35rem 0.2rem;
+  /* Slender on the sides (width-wise), standard length vertically */
+  background-color: #f2f2f7;
+  /* Apple light grey UI background */
+  border-radius: 9999px;
+  /* Pill shape vertically */
   z-index: 50;
 
   a {
@@ -21,32 +26,45 @@
     align-items: center;
     width: 2.8rem;
     height: 2.8rem;
-    color: #1d1d1f; /* Dark text natively */
+    color: #1d1d1f;
+    /* Dark text natively */
     font-size: 1.25rem;
-    text-decoration: none !important; /* Ensure no inherited underlines */
-    border-bottom: none !important; /* Ensure no inherited borders */
-    border-radius: 50%; /* Perfect circles inside the pill */
+    text-decoration: none !important;
+    /* Ensure no inherited underlines */
+    border-bottom: none !important;
+    /* Ensure no inherited borders */
+    border-radius: 50%;
+    /* Perfect circles inside the pill */
     transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
 
     /* Apple blue highlight on hover (like the 'Learn more' button) */
     &:hover {
-      background-color: #0071e3; /* Apple Blue */
-      color: #ffffff; /* White icon on blue */
-      transform: translateY(-2px); /* Slight lift */
-      box-shadow: 0 4px 8px rgba(0, 113, 227, 0.3); /* Soft blue glow */
+      background-color: #0071e3;
+      /* Apple Blue */
+      color: #ffffff;
+      /* White icon on blue */
+      transform: translateY(-2px);
+      /* Slight lift */
+      box-shadow: 0 4px 8px rgba(0, 113, 227, 0.3);
+      /* Soft blue glow */
     }
   }
 
   /* Switch back to a horizontal, statically centered pill on mobile to prevent text overlapping */
   @media screen and (max-width: 1080px) {
     position: static;
-    display: flex; /* Override inline-flex to allow margin auto centering */
-    flex-direction: row; /* Lay them out horizontally */
+    display: flex;
+    /* Override inline-flex to allow margin auto centering */
+    flex-direction: row;
+    /* Lay them out horizontally */
     flex-wrap: wrap;
     justify-content: center;
-    margin: 1rem auto 0 auto; /* Spacing below the masthead */
-    padding: 0.35rem 0.5rem; /* Re-widen the horizontal padding to fit a horizontal row */
-    width: max-content; /* Hug the row */
+    margin: 1rem auto 0 auto;
+    /* Spacing below the masthead */
+    padding: 0.35rem 0.5rem;
+    /* Re-widen the horizontal padding to fit a horizontal row */
+    width: max-content;
+    /* Hug the row */
   }
 }
 
@@ -64,6 +82,7 @@
   width: 100%;
 
   .page__inner-wrap {
+
     .page__content,
     .page__meta,
     .page__share {
