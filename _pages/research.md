@@ -24,7 +24,7 @@ author_profile: false
 <b>E.Adhikarla</b>, B.D.Davison\
 DirectFlow: One-Step Posterior Transport Distillation for Blind Face Restoration\
 **Computer Vision and Pattern Recognition (CVPR), Workshop on Efficient and On-Device Generation (EDGE), 2026**\
-[[Paper]()][[Code]()][[Poster]()]<br>
+[[Paper](https://openaccess.thecvf.com/content/CVPR2026W/EDGE/papers/Adhikarla_DirectFlow_One-Step_Posterior_Transport_Distillation_for_Blind_Face_Restoration_CVPRW_2026_paper.pdf)][[Poster]()]<br>
 
 <b>E.Adhikarla</b>, B.D.Davison\
 RemEdit: Efficient Diffusion Editing with Riemannian Geometry\
