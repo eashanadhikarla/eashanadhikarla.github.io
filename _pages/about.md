@@ -8,6 +8,13 @@ redirect_from:
 ---
 
 <p style="text-align: justify;">
+  I am a Staff Researcher in AI Technology Center at <a href="https://news.lenovo.com/">Lenovo</a>. My work focuses on perception understanding for Lenovo’s frontier agentic system, developing next-generation multimodal vision systems that enable autonomous agents to perceive, reason, and interact efficiently with their environments. 
+  <br><br>
+  I recently earned my PhD in Computer Science from <a href="https://www2.lehigh.edu/">Lehigh University</a>, where I was advised by <a href="http://www.cse.lehigh.edu/~brian/">Dr. Brian D. Davison</a>. My research foundation lies heavily in architectural and computational efficiency for vision-centric foundation models. I specialize in developing novel, lightweight architectures on edge device NPUs.
+</p>
+
+<!--
+<p style="text-align: justify;">
   <img src="https://eashanadhikarla.github.io/images/dp.png" alt="Eashan Adhikarla" class="profile-img-responsive"/>
   I am a final-year Ph.D. candidate in Computer Science at Lehigh University's P.C. Rossin College of Engineering, advised by <a href="http://www.cse.lehigh.edu/~brian/">Dr. Brian D. Davison</a>.
   <br><br>
@@ -17,6 +24,7 @@ redirect_from:
   <br><br>
   I hold Master of Science and Bachelor of Science degrees in Computer Science, which have provided me with a strong and comprehensive foundation in AI and its applications. I am passionate about tackling complex problems, collaborating with creative teams, and translating cutting-edge research into impactful technology.
 </p>
+-->
 
 <strong>For Recruiters:</strong>
 <p style="color: #0056b3; font-weight: bold;">I am actively seeking full-time roles broadly at the intersection of Computer Vision and Machine Learning, suitable for a PhD graduate, with expected availability from Apr 20, 2026 onward.</p>
