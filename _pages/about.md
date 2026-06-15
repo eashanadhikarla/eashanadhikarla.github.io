@@ -25,10 +25,10 @@ redirect_from:
   <br><br>
   I hold Master of Science and Bachelor of Science degrees in Computer Science, which have provided me with a strong and comprehensive foundation in AI and its applications. I am passionate about tackling complex problems, collaborating with creative teams, and translating cutting-edge research into impactful technology.
 </p>
--->
 
 <strong>For Recruiters:</strong>
 <p style="color: #0056b3; font-weight: bold;">I am actively seeking full-time roles broadly at the intersection of Computer Vision and Machine Learning, suitable for a PhD graduate, with expected availability from Apr 20, 2026 onward.</p>
+-->
 
 <strong>News</strong> 📣
 * [03.2026] Our paper DirectFlow: One-Step Posterior Transport Distillation for Blind Face Restoration got accepted in CVPR EDGE 2026.
