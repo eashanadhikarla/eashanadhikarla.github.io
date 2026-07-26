@@ -431,8 +431,16 @@
         var gsDataBaseUrl = 'https://raw.githubusercontent.com/eashanadhikarla/eashanadhikarla.github.io/'
         
         $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
-            // var totalCitation = data['citedby']
-            // document.getElementById('total_cit').innerHTML = totalCitation;
+            var totalCitation = data['citedby']
+            var publicationCount = Object.keys(data['publications'] || {}).length
+            var totalCitEle = document.getElementById('total_cit')
+            var totalPubEle = document.getElementById('total_pub_count')
+            if (totalCitEle) {
+                totalCitEle.innerHTML = totalCitation
+            }
+            if (totalPubEle) {
+                totalPubEle.innerHTML = publicationCount
+            }
             var citationEles = document.getElementsByClassName('show_paper_citations')
             Array.prototype.forEach.call(citationEles, element => {
                 var paperId = element.getAttribute('data')

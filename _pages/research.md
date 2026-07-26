@@ -21,6 +21,11 @@ author_profile: false
 
 <!-- <a href='https://scholar.google.com/citations?user=k3BMw_QAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> -->
 
+Z.Yan, Z.Fang, D.J.King, A.Pongsakul, <b>E.Adhikarla</b>, H.Ren, S.Fu, Q.Li, L.He, X.Li, H.Liu, Y.Wu, L.Sun\
+Agentic AI Enhances Physician Trust in Clinical Decision Making\
+**American Medical Informatics Association (AMIA) Annual Symposium, 2026**\
+[[Paper](https://arxiv.org/pdf/2606.30658)]<br>
+
 <b>E.Adhikarla</b>, B.D.Davison\
 DirectFlow: One-Step Posterior Transport Distillation for Blind Face Restoration\
 **Computer Vision and Pattern Recognition (CVPR), Workshop on Efficient and On-Device Generation (EDGE), 2026**\

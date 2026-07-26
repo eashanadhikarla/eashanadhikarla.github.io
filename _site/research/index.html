@@ -224,14 +224,25 @@
 
       <section class="page__content" itemprop="text">
         
-<p><a href="https://scholar.google.com/citations?hl=en&amp;user=k3BMw_QAAAAJ" class="link-apple-external">Google Scholar <svg class="arrow" viewBox="0 0 14 14" width="13" height="13" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M4 3h7v7M11 3L3 11"></path></svg></a><br /><br /></p>
+<div style="display: flex; gap: 1.5rem; flex-wrap: wrap; margin-bottom: 2rem;">
+  <a href="https://scholar.google.com/citations?hl=en&amp;user=k3BMw_QAAAAJ" class="link-apple-external" target="_blank">Google Scholar <svg class="arrow" viewBox="0 0 14 14" width="13" height="13" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M4 3h7v7M11 3L3 11" /></svg></a>
+  <a href="https://orcid.org/0009-0006-8417-0788" class="link-apple-external" target="_blank">ORCID <svg class="arrow" viewBox="0 0 14 14" width="13" height="13" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M4 3h7v7M11 3L3 11" /></svg></a>
+  <a href="https://www.semanticscholar.org/author/Eashan-Adhikarla/2123636086" class="link-apple-external" target="_blank">Semantic Scholar <svg class="arrow" viewBox="0 0 14 14" width="13" height="13" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M4 3h7v7M11 3L3 11" /></svg></a>
+  <a href="https://arxiv.org/a/0009-0006-8417-0788.html" class="link-apple-external" target="_blank">arXiv <svg class="arrow" viewBox="0 0 14 14" width="13" height="13" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M4 3h7v7M11 3L3 11" /></svg></a>
+  <a href="https://www.scopus.com/authid/detail.uri?authorId=57267843100" class="link-apple-external" target="_blank">Scopus <svg class="arrow" viewBox="0 0 14 14" width="13" height="13" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M4 3h7v7M11 3L3 11" /></svg></a>
+</div>
 
 <!-- <a href='https://scholar.google.com/citations?user=k3BMw_QAAAAJ'><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Feashanadhikarla%2Feashanadhikarla.github.io%2Fgoogle-scholar-stats%2Fgs_data_shieldsio.json&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> -->
+
+<p>Z.Yan, Z.Fang, D.J.King, A.Pongsakul, <b>E.Adhikarla</b>, H.Ren, S.Fu, Q.Li, L.He, X.Li, H.Liu, Y.Wu, L.Sun<br />
+Agentic AI Enhances Physician Trust in Clinical Decision Making<br />
+<strong>American Medical Informatics Association (AMIA) Annual Symposium, 2026</strong><br />
+[<a href="https://arxiv.org/pdf/2606.30658">Paper</a>]<br /></p>
 
 <p><b>E.Adhikarla</b>, B.D.Davison<br />
 DirectFlow: One-Step Posterior Transport Distillation for Blind Face Restoration<br />
 <strong>Computer Vision and Pattern Recognition (CVPR), Workshop on Efficient and On-Device Generation (EDGE), 2026</strong><br />
-[<a href="">Paper</a>][<a href="">Code</a>][<a href="">Poster</a>]<br /></p>
+[<a href="https://openaccess.thecvf.com/content/CVPR2026W/EDGE/papers/Adhikarla_DirectFlow_One-Step_Posterior_Transport_Distillation_for_Blind_Face_Restoration_CVPRW_2026_paper.pdf">Paper</a>][<a href="">Poster</a>]<br /></p>
 
 <p><b>E.Adhikarla</b>, B.D.Davison<br />
 RemEdit: Efficient Diffusion Editing with Riemannian Geometry<br />
@@ -389,8 +400,16 @@ Real-time Workflows, <strong>NERSC 2019</strong><br />
         var gsDataBaseUrl = 'https://raw.githubusercontent.com/eashanadhikarla/eashanadhikarla.github.io/'
         
         $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
-            // var totalCitation = data['citedby']
-            // document.getElementById('total_cit').innerHTML = totalCitation;
+            var totalCitation = data['citedby']
+            var publicationCount = Object.keys(data['publications'] || {}).length
+            var totalCitEle = document.getElementById('total_cit')
+            var totalPubEle = document.getElementById('total_pub_count')
+            if (totalCitEle) {
+                totalCitEle.innerHTML = totalCitation
+            }
+            if (totalPubEle) {
+                totalPubEle.innerHTML = publicationCount
+            }
             var citationEles = document.getElementsByClassName('show_paper_citations')
             Array.prototype.forEach.call(citationEles, element => {
                 var paperId = element.getAttribute('data')
