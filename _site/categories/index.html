@@ -352,46 +352,37 @@
 
 
 
-<!-- <script>
-    $(document).ready(function () {
-        
-        var gsDataBaseUrl = 'https://raw.githubusercontent.com/eashanadhikarla/eashanadhikarla.github.io/'
-        
-        $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
-            var totalCitation = data['citedby']
-            document.getElementById('total_cit').innerHTML = totalCitation;
-            var citationEles = document.getElementsByClassName('show_paper_citations')
-            Array.prototype.forEach.call(citationEles, element => {
-                var paperId = element.getAttribute('data')
-                var numCitations = data['publications'][paperId]['num_citations']
-                element.innerHTML = '| Citations: ' + numCitations;
-            });
-        });
-    })
-</script> -->
-
 <script>
+    // Live Scholar numbers come from the google-scholar-stats branch, which the
+    // crawler force-pushes to. The page is server-rendered with the last known
+    // values from _data/scholar_stats.yml, so a failed fetch leaves those in place.
     $(document).ready(function () {
         
         var gsDataBaseUrl = 'https://raw.githubusercontent.com/eashanadhikarla/eashanadhikarla.github.io/'
         
+        // Two Scholar entries are not standalone papers; keep this in step with
+        // PUBLICATION_OFFSET in google_scholar_crawler/main.py.
+        var publicationOffset = 2;
+
         $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
-            var totalCitation = data['citedby']
-            var publicationCount = Object.keys(data['publications'] || {}).length
             var totalCitEle = document.getElementById('total_cit')
+            if (totalCitEle && data['citedby']) {
+                totalCitEle.innerHTML = data['citedby']
+            }
+
             var totalPubEle = document.getElementById('total_pub_count')
-            if (totalCitEle) {
-                totalCitEle.innerHTML = totalCitation
+            var rawPubCount = Object.keys(data['publications'] || {}).length
+            if (totalPubEle && rawPubCount) {
+                totalPubEle.innerHTML = Math.max(rawPubCount - publicationOffset, 0) + '+'
             }
-            if (totalPubEle) {
-                totalPubEle.innerHTML = publicationCount
-            }
+
             var citationEles = document.getElementsByClassName('show_paper_citations')
             Array.prototype.forEach.call(citationEles, element => {
                 var paperId = element.getAttribute('data')
                 var numCitations = data['publications'][paperId]['num_citations']
                 element.innerHTML = '| Citations: ' + numCitations;
             });
+
             var citationBadges = document.getElementsByClassName('paper_citations_badges')
             Array.prototype.forEach.call(citationBadges, element => {
                 var paperId = element.getAttribute('data')

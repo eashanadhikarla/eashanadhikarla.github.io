@@ -28,6 +28,23 @@ jobs:
           SCHOLAR_DEADLINE_SECONDS: '600'
         run: python google_scholar_crawler/main.py
 
+      # Served straight to the browser, so the site picks up new numbers
+      # without waiting for a rebuild.
+      - name: Publish stats to google-scholar-stats branch
+        run: |
+          cd results
+          git init -q
+          git checkout -q -b google-scholar-stats
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add gs_data.json gs_data_shieldsio.json
+          git commit -q -m "Updated Citation Data"
+          git push --force -q \
+            "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git" \
+            HEAD:google-scholar-stats
+
+      # Server-rendered fallback, so the page is still correct if the browser
+      # fetch above is blocked or fails.
       - name: Commit updated stats
         run: |
           git config --local user.name "github-actions[bot]"

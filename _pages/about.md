@@ -14,7 +14,7 @@ redirect_from:
   <br><br>
   I recently earned my PhD in Computer Science from <a href="https://www2.lehigh.edu/">Lehigh University</a>, where I was advised by <a href="http://www.cse.lehigh.edu/~brian/">Dr. Brian D. Davison</a>. My research foundation lies heavily in architectural and computational efficiency for vision-centric foundation models. I specialize in developing novel, lightweight architectures on edge device NPUs.
   <br><br>
-  I have published more than <span class="live-metric">{{ site.data.scholar_stats.publication_count | default: 0 }}+</span> papers with <span class="live-metric">{{ site.data.scholar_stats.citedby | default: 0 }}</span> citations.
+  I have published more than <span class="live-metric" id="total_pub_count">{{ site.data.scholar_stats.publication_count | default: 0 }}+</span> papers with <span class="live-metric" id="total_cit">{{ site.data.scholar_stats.citedby | default: 0 }}</span> citations.
 </p>
 </section>
 
