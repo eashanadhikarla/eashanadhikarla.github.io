@@ -1,9 +1,9 @@
 name: Get Citation Data
 
-on: 
- schedule:
-  - cron:  '0 8 * * *'
- workflow_dispatch:
+on:
+  schedule:
+    - cron: '0 8 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -11,42 +11,31 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
-    - uses: actions/checkout@v4
-    - name: Install Reqs
-      run: |
-        sudo apt-get install python3-setuptools
-    - name: Run
-      run: |
-        cd ./google_scholar_crawler
-        pip3 install -r requirements.txt
-        python3 main.py
-        cd ..
-        python3 - <<'PY'
-        import json
-        from pathlib import Path
-        stats = json.loads(Path('results/gs_data.json').read_text())
-        raw_pub_count = len(stats.get('publications', {}))
-        pub_count = max(raw_pub_count - 2, 0)
-        citedby = stats.get('citedby', 0)
-        updated = stats.get('updated', '')
-        out = Path('_data/scholar_stats.yml')
-        out.write_text(
-            f"citedby: {citedby}\n"
-            f"publication_count: {pub_count}\n"
-            f"publication_count_raw: {raw_pub_count}\n"
-            f'updated: "{updated}"\n'
-        )
-        print(f"updated stats: citedby={citedby}, publications={pub_count} (raw={raw_pub_count})")
-        PY
-        git config --local user.name "${GITHUB_ACTOR}"
-        git config --local user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-        git add _data/scholar_stats.yml
-        if git diff --cached --quiet; then
-          echo "No scholar stats changes to commit."
-          exit 0
-        fi
-        git commit -m "chore: update scholar stats data"
-        git push origin master
-      env: 
-        GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r google_scholar_crawler/requirements.txt
+
+      - name: Fetch Scholar stats
+        env:
+          GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+          SCHOLAR_DEADLINE_SECONDS: '600'
+        run: python google_scholar_crawler/main.py
+
+      - name: Commit updated stats
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _data/scholar_stats.yml
+          if git diff --cached --quiet; then
+            echo "No scholar stats changes to commit."
+            exit 0
+          fi
+          git commit -m "chore: update scholar stats data"
+          git push origin master
