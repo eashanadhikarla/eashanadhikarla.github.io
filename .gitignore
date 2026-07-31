@@ -1,4 +1,7 @@
 .DS_Store
 
 # Crawler output; published to the google-scholar-stats branch, not to master.
+# Untracked here, so it only ever exists on a machine that ran the crawler and
+# is served locally by `jekyll serve` for previewing the Scholar numbers.
 results/
+_site/results/

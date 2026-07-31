@@ -12,7 +12,15 @@
         // PUBLICATION_OFFSET in google_scholar_crawler/main.py.
         var publicationOffset = 2;
 
-        $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
+        // The published branch is not reachable while developing, so serve the
+        // local crawler output instead. results/ is untracked, so this path
+        // only resolves on a machine that has run the crawler.
+        var isLocal = ['localhost', '127.0.0.1', ''].indexOf(location.hostname) !== -1;
+        var dataUrl = isLocal
+            ? '/results/gs_data.json'
+            : gsDataBaseUrl + 'google-scholar-stats/gs_data.json';
+
+        $.getJSON(dataUrl, function (data) {
             var totalCitEle = document.getElementById('total_cit')
             if (totalCitEle && data['citedby']) {
                 totalCitEle.innerHTML = data['citedby']
