@@ -1,8 +1,10 @@
 name: Get Citation Data
 
 on:
+  # Google Scholar blocks most CI attempts, so retry through the day rather
+  # than relying on a single daily run to get through.
   schedule:
-    - cron: '0 8 * * *'
+    - cron: '0 */4 * * *'
   workflow_dispatch:
 
 permissions:
