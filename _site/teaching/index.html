@@ -497,9 +497,9 @@ techniques (e.g., divide-and-conquer, recursion), and the design of data structu
 
 
 <script>
-    // Live Scholar numbers come from the google-scholar-stats branch, which the
-    // crawler force-pushes to. The page is server-rendered with the last known
-    // values from _data/scholar_stats.yml, so a failed fetch leaves those in place.
+    // Scholar numbers come from the google-scholar-stats branch, which the
+    // crawler force-pushes to. Nothing is baked in at build time, so the
+    // placeholders in the markup remain visible if this fetch fails.
     $(document).ready(function () {
         
         var gsDataBaseUrl = 'https://raw.githubusercontent.com/eashanadhikarla/eashanadhikarla.github.io/'

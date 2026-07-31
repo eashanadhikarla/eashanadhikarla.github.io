@@ -1,4 +1,4 @@
 .DS_Store
 
-# Raw Google Scholar crawler output; only _data/scholar_stats.yml is committed.
+# Crawler output; published to the google-scholar-stats branch, not to master.
 results/
