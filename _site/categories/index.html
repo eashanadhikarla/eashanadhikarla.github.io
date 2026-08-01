@@ -167,6 +167,11 @@
               <a href="http://localhost:4000/teachings/" >Teaching</a>
             </li>
           
+            
+            <li class="masthead__menu-item">
+              <a href="http://localhost:4000/news/" >News</a>
+            </li>
+          
         </ul>
       </nav>
     </div>
@@ -353,53 +358,58 @@
 
 
 <script>
-    // Scholar numbers come from the google-scholar-stats branch, which the
-    // crawler force-pushes to. Nothing is baked in at build time, so the
-    // placeholders in the markup remain visible if this fetch fails.
+    /* Scholar numbers come from the google-scholar-stats branch, which the
+       crawler force-pushes to. Nothing is baked in at build time, so the
+       placeholders in the markup remain visible if this fetch fails.
+
+       compress_html strips every newline in production, so this script must
+       survive being collapsed onto one line: block comments only, and an
+       explicit semicolon on every statement rather than relying on automatic
+       semicolon insertion. */
     $(document).ready(function () {
         
-        var gsDataBaseUrl = 'https://raw.githubusercontent.com/eashanadhikarla/eashanadhikarla.github.io/'
+        var gsDataBaseUrl = 'https://raw.githubusercontent.com/eashanadhikarla/eashanadhikarla.github.io/';
         
-        // Two Scholar entries are not standalone papers; keep this in step with
-        // PUBLICATION_OFFSET in google_scholar_crawler/main.py.
+        /* Two Scholar entries are not standalone papers; keep this in step
+           with PUBLICATION_OFFSET in google_scholar_crawler/main.py. */
         var publicationOffset = 2;
 
-        // The published branch is not reachable while developing, so serve the
-        // local crawler output instead. results/ is untracked, so this path
-        // only resolves on a machine that has run the crawler.
+        /* The published branch is not reachable while developing, so serve the
+           local crawler output instead. results/ is untracked, so this path
+           only resolves on a machine that has run the crawler. */
         var isLocal = ['localhost', '127.0.0.1', ''].indexOf(location.hostname) !== -1;
         var dataUrl = isLocal
             ? '/results/gs_data.json'
             : gsDataBaseUrl + 'google-scholar-stats/gs_data.json';
 
         $.getJSON(dataUrl, function (data) {
-            var totalCitEle = document.getElementById('total_cit')
+            var totalCitEle = document.getElementById('total_cit');
             if (totalCitEle && data['citedby']) {
-                totalCitEle.innerHTML = data['citedby']
+                totalCitEle.innerHTML = data['citedby'];
             }
 
-            var totalPubEle = document.getElementById('total_pub_count')
-            var rawPubCount = Object.keys(data['publications'] || {}).length
+            var totalPubEle = document.getElementById('total_pub_count');
+            var rawPubCount = Object.keys(data['publications'] || {}).length;
             if (totalPubEle && rawPubCount) {
-                totalPubEle.innerHTML = Math.max(rawPubCount - publicationOffset, 0) + '+'
+                totalPubEle.innerHTML = Math.max(rawPubCount - publicationOffset, 0) + '+';
             }
 
-            var citationEles = document.getElementsByClassName('show_paper_citations')
-            Array.prototype.forEach.call(citationEles, element => {
-                var paperId = element.getAttribute('data')
-                var numCitations = data['publications'][paperId]['num_citations']
+            var citationEles = document.getElementsByClassName('show_paper_citations');
+            Array.prototype.forEach.call(citationEles, function (element) {
+                var paperId = element.getAttribute('data');
+                var numCitations = data['publications'][paperId]['num_citations'];
                 element.innerHTML = '| Citations: ' + numCitations;
             });
 
-            var citationBadges = document.getElementsByClassName('paper_citations_badges')
-            Array.prototype.forEach.call(citationBadges, element => {
-                var paperId = element.getAttribute('data')
-                var numCitations = data['publications'][paperId]['num_citations']
+            var citationBadges = document.getElementsByClassName('paper_citations_badges');
+            Array.prototype.forEach.call(citationBadges, function (element) {
+                var paperId = element.getAttribute('data');
+                var numCitations = data['publications'][paperId]['num_citations'];
                 element.href = 'https://scholar.google.com/citations?view_op=view_citation&citation_for_view=' + paperId;
-                element.innerHTML = '<img src="https://img.shields.io/badge/citations-' + numCitations +'-blue?style=social&logo=googlescholar">'
+                element.innerHTML = '<img src="https://img.shields.io/badge/citations-' + numCitations + '-blue?style=social&logo=googlescholar">';
             });
         });
-    })
+    });
 </script>
 
 

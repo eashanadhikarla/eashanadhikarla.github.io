@@ -35,6 +35,9 @@
 <loc>http://localhost:4000/experience/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/news/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/page-archive/</loc>
 </url>
 <url>
