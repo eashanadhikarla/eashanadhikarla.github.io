@@ -13,8 +13,7 @@
         {% else %}
         var gsDataBaseUrl = 'https://raw.githubusercontent.com/{{ site.repository }}/';
         {% endif %}
-        /* Two Scholar entries are not standalone papers; keep this in step
-           with PUBLICATION_OFFSET in google_scholar_crawler/main.py. */
+        /* Two Scholar entries are not standalone papers. */
         var publicationOffset = 2;
 
         /* The published branch is not reachable while developing, so serve the
