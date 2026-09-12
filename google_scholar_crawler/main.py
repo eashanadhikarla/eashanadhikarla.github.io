@@ -223,12 +223,16 @@ def fetch_author(scholar_id):
                 delay = random.uniform(8, 20)
                 print(f"[scholar] retrying in {delay:.1f}s", flush=True)
                 time.sleep(delay)
-    raise RuntimeError(f"could not fetch a usable Scholar profile: {last_error}")
+    raise Blocked(f"could not fetch a usable Scholar profile: {last_error}")
 
 
 def main():
     scholar_id = os.environ.get("GOOGLE_SCHOLAR_ID", "").strip() or SCHOLAR_ID_DEFAULT
-    author = fetch_author(scholar_id)
+    try:
+        author = fetch_author(scholar_id)
+    except Blocked as exc:
+        print(f"[scholar] skipping publish for this run: {exc}", flush=True)
+        return
     citedby = author.get("citedby") or 0
     publications = author.get("publications") or {}
 
