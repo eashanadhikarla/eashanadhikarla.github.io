@@ -1,9 +1,17 @@
 name: Get Citation Data
 
+# Hundreds of AcadHomepage clones fire at 08:00 UTC, so GitHub's IP ranges
+# get challenged together. Staggered off-peak runs plus a random delay give
+# this job a different runner/IP than that stampede. page_build is omitted
+# on purpose: it stacked overlapping crawls that Google then blocked.
 on:
   schedule:
-    - cron: '0 8 * * *'
+    - cron: '37 2,8,14,20 * * *'
   workflow_dispatch:
+
+concurrency:
+  group: google-scholar-crawler
+  cancel-in-progress: true
 
 permissions:
   contents: write
@@ -11,7 +19,7 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 12
     steps:
       - uses: actions/checkout@v4
 
@@ -20,6 +28,12 @@ jobs:
           python-version: '3.11'
           cache: 'pip'
           cache-dependency-path: 'google_scholar_crawler/requirements.txt'
+
+      - name: Stagger start
+        run: |
+          delay=$((15 + RANDOM % 180))
+          echo "Waiting ${delay}s to avoid synchronized Scholar crawls"
+          sleep "$delay"
 
       - name: Install dependencies
         run: |
