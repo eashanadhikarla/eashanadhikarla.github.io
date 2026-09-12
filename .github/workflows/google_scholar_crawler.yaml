@@ -48,11 +48,19 @@ jobs:
 
       - name: Push to google-scholar-stats branch
         run: |
+          if [ ! -f results/gs_data.json ] || [ ! -f results/gs_data_shieldsio.json ]; then
+            echo "No fresh Scholar payload generated; skipping push."
+            exit 0
+          fi
           cd results
           git init
           git config --local user.name "${GITHUB_ACTOR}"
           git config --local user.email "${GITHUB_ACTOR}@users.noreply.github.com"
           export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
           git add *.json
+          if git diff --cached --quiet; then
+            echo "No JSON changes to publish; skipping push."
+            exit 0
+          fi
           git commit -m "Updated Citation Data"
           git push "${remote_repo}" HEAD:google-scholar-stats --force
